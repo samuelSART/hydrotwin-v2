@@ -1,0 +1,56 @@
+name: wrf
+metadata_type: eo3
+description: Wrf model product
+
+storage:
+  crs: EPSG:4326
+  resolution:
+    latitude: 0.031250000000000
+    longitude: -0.031250000000000
+
+metadata:
+  product:
+    name: wrf
+  format: NetCDF
+
+measurements:
+- name: T2
+  dtype: float32
+  units: 'K'
+  nodata: -9999
+
+- name: PSFC
+  dtype: float32
+  units: 'Pa'
+  nodata: -9999
+
+- name: U10
+  dtype: float32
+  units: 'm s-1'
+  nodata: -9999
+
+- name: V10
+  dtype: float32
+  units: 'm s-1'
+  nodata: -9999
+
+- name: SFCEVP
+  dtype: float32
+  units: 'kg m-2'
+  nodata: -9999
+
+- name: QSFC
+  dtype: float32
+  units: 'kg kg-1'
+  nodata: -9999
+
+- name: SWDOWN
+  dtype: float32
+  units: 'W m-2'
+  nodata: -9999
+
+- name: TACC_PRECIP
+  dtype: float32
+  units: 'mm'
+  nodata: -9999
+

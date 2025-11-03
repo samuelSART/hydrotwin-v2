@@ -1,0 +1,8 @@
+{
+    "pluginsFile": "tests/e2e/plugins/index.js",
+    "viewportWidth": 1300,
+    "viewportHeight": 1260,
+    "baseUrl": "http://localhost:8080/",
+    "ignoreTestFiles": ["**/__snapshots__/*", "**/__image_snapshots__/*"],
+    "video": false
+}

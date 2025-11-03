@@ -1,0 +1,7 @@
+Id:253272
+Date=[15-03-2022 10:26]
+Sender=[Radoslaw Marcin Guzinski<rmgu@dhigroup.com>]
+Recipient=[]
+Subject=[RE: Rio Segura - DHI DnA output data]
+Attachments=[brunswick_20210817_TSEB_PT_20_ET_day_gf.tifexample_vector_data.gpkg]
+Body=[]

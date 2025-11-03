@@ -1,0 +1,19 @@
+name: crop_type
+metadata_type: eo3
+description: Crop Type product
+
+storage:
+  crs: EPSG:4326
+  resolution:
+    latitude: 0.0002024
+    longitude: -0.0002024
+    
+metadata:
+  product:
+    name: crop_type
+
+measurements:
+- name: CT
+  dtype: int16
+  units: '1'
+  nodata: -9999

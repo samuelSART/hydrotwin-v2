@@ -1,0 +1,19 @@
+name: infiltration
+metadata_type: eo3
+description: Infiltration to UZ (negative) simulation
+
+storage:
+  crs: EPSG:25830
+  resolution:
+    x: 500
+    y: -500
+
+metadata:
+  product:
+    name: infiltration
+
+measurements:
+  - name: IN
+    dtype: float32
+    units: mm/day"
+    nodata: "NaN"

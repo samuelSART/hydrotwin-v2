@@ -1,0 +1,19 @@
+name: recharge
+metadata_type: eo3
+description: Total recharge to SZ (pos.down) simulation
+
+storage:
+  crs: EPSG:25830
+  resolution:
+    x: 500
+    y: -500
+
+metadata:
+  product:
+    name: recharge
+
+measurements:
+  - name: PR
+    dtype: float32
+    units: mm/day"
+    nodata: "NaN"

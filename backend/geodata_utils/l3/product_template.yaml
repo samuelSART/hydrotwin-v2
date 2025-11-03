@@ -1,0 +1,52 @@
+id: {uid}
+
+product:
+  name: Evapotranspiration
+
+format: GeoTIFF
+
+creation_dt: {creation_date}
+crs: EPSG:4326
+
+geometry:
+  type: Polygon
+  coordinates: {polygon_coords}
+
+extent:
+  lat:
+    begin: {lat_begin}
+    end: {lat_end}
+  lon:
+    begin: {lon_begin}
+    end: {lon_end}
+
+grid_spatial:
+  projection:
+    geo_ref_points:
+      ll: {x: {lon_begin}, y: {lat_begin}}
+      lr: {x: {lon_end}, y: {lat_begin}}
+      ul: {x: {lon_begin}, y:  {lon_begin}}
+      ur: {x: {lon_end}, y: {lon_end}}
+      
+
+grids:
+  default:
+    shape: [{width}, {height}]
+    transform: {transform}
+    
+properties:
+  datetime: {datetime}
+  odc:file_format: GeoTIFF
+  proj:epsg: 4326
+
+measurements:
+  CWSI:
+    path: {CWSI}
+  ET:
+    path: {ET}
+  ETp:
+    path: {ETp}
+  WD:
+    path: {WD}
+
+

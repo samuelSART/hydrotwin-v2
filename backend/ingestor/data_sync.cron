@@ -1,0 +1,5 @@
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+*/5 * * * * python3 /usr/src/app/ingestor.py --origin ftp --path / --timezone "${TIMEZONE:-UTC}" >/proc/1/fd/1 2>/proc/1/fd/2
+0 0 * * SUN python3 /usr/src/app/saih_elements_parser.py --origin ftp --path /Historicos/ >/proc/1/fd/1 2>/proc/1/fd/2
+*/30 * * * * python3 /usr/src/app/file_watchdog.py --path /DATA/ --since 2022-01-01 >/proc/1/fd/1 2>/proc/1/fd/2

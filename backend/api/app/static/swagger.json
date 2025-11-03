@@ -1,0 +1,523 @@
+{
+	"openapi": "3.0.0",
+	"servers": [
+		{
+			"description": "HydroTwin API",
+			"url": "https://172.16.3.10:80/api"
+		}
+	],
+	"info": {
+		"description": "This swagger provides information of HydroTwin API",
+		"version": "1.0.0",
+		"title": "HydroTwin API",
+		"license": {
+			"name": "MIT",
+			"url": "https://opensource.org/licenses/MIT"
+		}
+	},
+	"tags": [
+		{
+			"name": "SAIH",
+			"description": "Everything about SAIH"
+		},
+		{
+			"name": "line1",
+			"description": "Everything about Line1"
+		},
+		{
+			"name": "line2",
+			"description": "Everything about Line2"
+		},
+		{
+			"name": "line3",
+			"description": "Everything about Line3"
+		},
+		{
+			"name": "predictions",
+			"description": "Everything about prediction visualization"
+		},
+		{
+			"name": "demand-units",
+			"description": "Everything about Demand units"
+		},
+		{
+			"name": "water-body",
+			"description": "Everything about Water bodies"
+		}
+	],
+	"paths": {
+		"/api/saih/get-variable-values": {
+			"post": {
+				"tags": ["SAIH"],
+				"summary": "Get SAIH variable values",
+				"operationId": "get-values",
+				"description": " By passing the variable code and a period of time you can retrieve its values.",
+				"requestBody": {
+					"$ref": "#/components/requestBodies/variableValueRequest"
+				},
+				"responses": {
+					"200": {
+						"description": "Return variables value in specified period of time.",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/variableValueResponse"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/line1/wrf/add-product": {
+			"get": {
+				"tags": ["line1"],
+				"summary": "Add the product WRF created by line 1",
+				"operationId": "wrf-add-product",
+				"description": "By passing in the appropriate options, you can ingest the generated NetCDF product\n",
+				"parameters": [
+					{
+						"in": "query",
+						"name": "path",
+						"description": "Path to the folder where images are stored",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					},
+					{
+						"in": "query",
+						"name": "file",
+						"description": "Filename of the product",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "product is correctly inserted in the data base"
+					},
+					"400": {
+						"description": "bad input parameter"
+					},
+					"500": {
+						"description": "error during processing"
+					}
+				}
+			}
+		},
+		"/api/line1/wrf/get-data": {
+			"post": {
+				"tags": ["line1"],
+				"summary": "Load data from the product WRF created by line 1",
+				"operationId": "wrf-load-product",
+				"description": "By passing in the appropriate options, you can load time serie data stored in the NetCDF products. In Pandas format.\n",
+				"requestBody": {
+					"$ref": "#/components/requestBodies/rasterDataQuery"
+				},
+				"responses": {
+					"200": {
+						"description": "loaded data in json formated pandas datframe"
+					},
+					"400": {
+						"description": "bad input parameter"
+					},
+					"500": {
+						"description": "error during processing"
+					}
+				}
+			}
+		},
+		"/api/line1/wrf/get-stats": {
+			"post": {
+				"tags": ["line1"],
+				"summary": "Load time series stats from the product wrf created by line 1",
+				"operationId": "wrf-load-product-stats",
+				"description": "By passing in the appropriate options, you can load time series stats stored in the NetCDF products.\n",
+				"requestBody": {
+					"$ref": "#/components/requestBodies/rasterDataQuery"
+				},
+				"responses": {
+					"200": {
+						"description": "loaded time series stats"
+					},
+					"400": {
+						"description": "bad input parameter"
+					},
+					"500": {
+						"description": "error during processing"
+					}
+				}
+			}
+		},
+		"/api/line3/evapotranspiration/add-product": {
+			"get": {
+				"tags": ["line3"],
+				"summary": "Add the product evapotranspiration created by line 3",
+				"operationId": "evapotranspiration-add-product",
+				"description": "By passing in the appropriate options, you can ingest the generated NetCDF product\n",
+				"parameters": [
+					{
+						"in": "query",
+						"name": "path",
+						"description": "Path to the folder where images are stored",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					},
+					{
+						"in": "query",
+						"name": "datetime",
+						"description": "Datetime of the rasterize data",
+						"required": true,
+						"schema": {
+							"type": "string",
+							"format": "Y-M-DTH:M:SZ",
+							"example": "2021-9-29T10:10:10Z"
+						}
+					},
+					{
+						"in": "query",
+						"name": "CWSI",
+						"description": "Filename of the raster containing CWSI data.",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					},
+					{
+						"in": "query",
+						"name": "ET",
+						"description": "Filename of the raster containing ET data.",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					},
+					{
+						"in": "query",
+						"name": "ETp",
+						"description": "Filename of the raster containing ETp data.",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					},
+					{
+						"in": "query",
+						"name": "WD",
+						"description": "Filename of the raster containing WD data.",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "product is correctly inserted into the data base"
+					},
+					"400": {
+						"description": "bad input parameter"
+					},
+					"500": {
+						"description": "error during processing"
+					}
+				}
+			}
+		},
+		"/api/line3/evapotranspiration/get-data": {
+			"post": {
+				"tags": ["line3"],
+				"summary": "Load data from the product evapotranspiration created by line 3",
+				"operationId": "evapotranspiration-load-product",
+				"description": "By passing in the appropriate options, you can load time serie data stored in the products. In Pandas format.\n",
+				"requestBody": {
+					"$ref": "#/components/requestBodies/rasterDataQuery"
+				},
+				"responses": {
+					"200": {
+						"description": "loaded data in json formated pandas datframe"
+					},
+					"400": {
+						"description": "bad input parameter"
+					},
+					"500": {
+						"description": "error during processing"
+					}
+				}
+			}
+		},
+		"/api/line3/evapotranspiration/get-stats": {
+			"post": {
+				"tags": ["line3"],
+				"summary": "Load time series stats from the product evapotranspiration created by line 3",
+				"operationId": "evapotranspiration-load-product-stats",
+				"description": "By passing in the appropriate options, you can load time series stats stored in the products.\n",
+				"requestBody": {
+					"$ref": "#/components/requestBodies/rasterDataQuery"
+				},
+				"responses": {
+					"200": {
+						"description": "loaded time series stats"
+					},
+					"400": {
+						"description": "bad input parameter"
+					},
+					"500": {
+						"description": "error during processing"
+					}
+				}
+			}
+		},
+		"/api/predictions/get-layers": {
+			"get": {
+				"tags": ["predictions"],
+				"summary": "Load predictions layers",
+				"operationId": "predictions-get-layers",
+				"description": "Load all available layers in the Open Data Cube Web Services.\n",
+				"responses": {
+					"200": {
+						"description": "list of layers with names and description"
+					},
+					"400": {
+						"description": "bad input parameter"
+					},
+					"500": {
+						"description": "error during processing"
+					}
+				}
+			}
+		},
+		"/api/predictions/get-styles": {
+			"get": {
+				"tags": ["predictions"],
+				"summary": "Load predictions styles",
+				"operationId": "predictions-get-styles",
+				"description": "Find the styles of a layer or all in the open data cube web services.\n",
+				"parameters": [
+					{
+						"in": "query",
+						"name": "layer",
+						"description": "Layer name",
+						"required": false,
+						"schema": {
+							"type": "string"
+						},
+						"example": "evapotranspiration"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "list of layers with names and description"
+					},
+					"400": {
+						"description": "bad input parameter"
+					},
+					"500": {
+						"description": "error during processing"
+					}
+				}
+			}
+		},
+		"/api/demand-unit/get-by-position": {
+			"post": {
+				"tags": ["demand-unit"],
+				"summary": "Load demand units neart to geojson geometry",
+				"operationId": "demand-unit-get-by-position",
+				"description": "By passing in the appropriate options, you can load all demand units near a geojson formated geometry.\n",
+				"requestBody": {
+					"$ref": "#/components/requestBodies/getByPosition"
+				},
+				"responses": {
+					"200": {
+						"description": "list of demand units near the geometry"
+					},
+					"400": {
+						"description": "bad input parameter"
+					},
+					"500": {
+						"description": "error during processing"
+					}
+				}
+			}
+		},
+		"/api/water-body/get-by-position": {
+			"post": {
+				"tags": ["water-body"],
+				"summary": "Load water bodies neart to geojson geometry",
+				"operationId": "water-body-get-by-position",
+				"description": "By passing in the appropriate options, you can load all water bodies near a geojson formated geometry.\n",
+				"requestBody": {
+					"$ref": "#/components/requestBodies/getByPosition"
+				},
+				"responses": {
+					"200": {
+						"description": "list of water bodies near the geometry"
+					},
+					"400": {
+						"description": "bad input parameter"
+					},
+					"500": {
+						"description": "error during processing"
+					}
+				}
+			}
+		}
+	},
+	"components": {
+		"schemas": {
+			"variableValueRequest": {
+				"required": ["start_date", "end_date", "variable"],
+				"type": "object",
+				"properties": {
+					"start_date": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"end_date": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"variable": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					},
+					"aggregation": {
+						"type": "string"
+					},
+					"window": {
+						"type": "string"
+					}
+				}
+			},
+			"variableValueResponse": {
+				"type": "array",
+				"items": {
+					"type": "object",
+					"properties": {
+						"variableCode": {
+							"type": "string"
+						},
+						"_time": {
+							"type": "number"
+						},
+						"_value": {
+							"type": "number"
+						}
+					}
+				}
+			},
+			"rasterDataQuery": {
+				"type": "object",
+				"required": ["start-datetime", "end-datetime"],
+				"properties": {
+					"start-datetime": {
+						"description": "Start date of the time series query",
+						"type": "string",
+						"format": "Y-M-D H:M:S",
+						"example": "2020-10-1 10:10:10"
+					},
+					"end-datetime": {
+						"description": "End date of the time series query",
+						"type": "string",
+						"format": "Y-M-D H:M:S",
+						"example": "2020-10-10 10:10:10"
+					},
+					"uda-code": {
+						"description": "Code of the UDA to be queried (Required if geometry is not used)",
+						"type": "string",
+						"example": "UDA01"
+					},
+					"geometry": {
+						"description": "GeoJson formated geometry (Required if uda-code is not used)",
+						"type": "object",
+						"$ref": "#/components/schemas/geometry"
+					},
+					"measurements": {
+						"description": "List of the variables to be queried",
+						"type": "array",
+						"items": {
+							"type": "string"
+						},
+						"example": ["PSFC", "QSFC"]
+					},
+					"mean": {
+						"description": "True to get mean value of each pixel inside geometry or UDA",
+						"type": "boolean",
+						"example": false
+					}
+				}
+			},
+			"getByPosition": {
+				"type": "object",
+				"required": ["geometry"],
+				"properties": {
+					"geometry": {
+						"description": "GeoJson formated geometry",
+						"type": "object",
+						"$ref": "#/components/schemas/geometry"
+					},
+					"distance": {
+						"description": "Maximun distance in meters, between geometry and the element. Default is 100 meters",
+						"type": "integer",
+						"example": 2000
+					}
+				}
+			},
+			"geometry": {
+				"type": "object",
+				"required": ["coordinates", "type"],
+				"properties": {
+					"type": {
+						"description": "GeoJson geometry type",
+						"type": "string",
+						"example": "Point"
+					},
+					"coordinates": {
+						"description": "GeoJson geometry coordinates bades on type",
+						"type": "array",
+						"items": {
+							"type": "number"
+						},
+						"example": [-1.234375, 38.734375]
+					}
+				}
+			}
+		},
+		"requestBodies": {
+			"variableValueRequest": {
+				"content": {
+					"application/json": {
+						"schema": {
+							"$ref": "#/components/schemas/variableValueRequest"
+						}
+					}
+				}
+			},
+			"rasterDataQuery": {
+				"content": {
+					"application/json": {
+						"schema": {
+							"$ref": "#/components/schemas/rasterDataQuery"
+						}
+					}
+				}
+			},
+			"getByPosition": {
+				"content": {
+					"application/json": {
+						"schema": {
+							"$ref": "#/components/schemas/getByPosition"
+						}
+					}
+				}
+			}
+		}
+	}
+}

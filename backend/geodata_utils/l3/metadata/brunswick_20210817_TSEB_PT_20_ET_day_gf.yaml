@@ -1,0 +1,48 @@
+id: 8b4c2036-80bd-478c-9582-aa367242e990
+
+product:
+  name: line3
+
+format: GeoTIFF
+
+
+crs: EPSG:4326
+
+geometry:
+  type: Polygon
+  coordinates: [[[-66.24450860437234, 45.93350161781861], [-66.24450860437234, 46.94616825350531], [-67.70951593127886, 46.94616825350531], [-67.70951593127886, 45.93350161781861], [-66.24450860437234, 45.93350161781861]]]
+
+extent:
+  lat:
+    begin: -67.70951593127886
+    end: -66.24450860437234
+  lon:
+    begin: 45.93350161781861
+    end: 46.94616825350531
+
+
+grids:
+  default:
+    shape: [3304, 2284]
+    transform: [0.0002217356329508877, 0.0, -67.70951593127886, 0.0, -0.0002217356329508877, 46.94616825350531, 0.0, 0.0, 1.0]
+
+    
+properties:
+  created: '2022-03-15T10:26:00Z'
+  data_coverage: 100
+  datetime: '2022-03-15T10:26:00Z'
+  eo:cloud_cover: 0
+  eo:constellation: sentinel-2
+  eo:gsd: 10 
+  eo:instrument: MSI
+  eo:off_nadir: 0
+  eo:platform: sentinel-2a
+  odc:file_format: GeoTIFF
+  odc:processing_datetime: '2022-03-15T10:26:00Z'
+  proj:epsg: 4326
+
+measurements:
+  B01:
+    path: /GeoData/l3/brunswick_20210817_TSEB_PT_20_ET_day_gf.tif
+
+

@@ -1,0 +1,45 @@
+id: {uid}
+
+product:
+  name: exchange
+
+format: GeoTIFF
+
+creation_dt: {creation_date}
+crs: EPSG:25830
+
+geometry:
+  type: Polygon
+  coordinates: {polygon}
+
+grids:
+  default:
+    shape: {shape}
+    transform: {transform}
+
+extent:
+  y:
+    begin: {lat_min}
+    end: {lat_max}
+  x:
+    begin: {lon_min}
+    end: {lon_max}
+
+grid_spatial:
+  projection:
+    geo_ref_points:
+      ll: {{ x: {lon_min}, y: {lat_min}}}
+      lr: {{ x: {lon_max}, y: {lat_min}}}
+      ul: {{ x: {lon_min}, y: {lat_max}}}
+      ur: {{ x: {lon_max}, y: {lat_max}}}
+    spatial_reference: EPSG:25830
+
+properties:
+  datetime: {datetime}
+  odc:file_format: GeoTIFF
+  proj:epsg: 25830
+
+measurements:
+  R:
+    path: {path}
+    band: 1

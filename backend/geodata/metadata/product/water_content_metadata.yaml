@@ -1,0 +1,20 @@
+name: water_content
+metadata_type: eo3
+description: Average water content in the rootzone simulation
+
+storage:
+  crs: EPSG:25830
+  resolution:
+    x: 500
+    y: -500
+
+metadata:
+  product:
+    name: water_content
+
+measurements:
+  - name: VWC
+    dtype: float32
+    units: "1"
+    nodata: "NaN"
+ 

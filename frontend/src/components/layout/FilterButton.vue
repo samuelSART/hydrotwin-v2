@@ -1,0 +1,14 @@
+<template>
+    <v-btn
+        fab
+        small
+        color="secondary"
+        fixed
+        right
+        top
+        class="mt-15"
+        @click.stop="$emit('click')"
+    >
+        <v-icon>mdi-tune</v-icon>
+    </v-btn>
+</template>

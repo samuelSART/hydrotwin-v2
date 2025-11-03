@@ -1,0 +1,2634 @@
+{
+    "data": [
+        {
+            "ACUIFERO": "ALMIREZ",
+            "COD_CHS": "PA12180",
+            "COD_MASA_DEM": "070.010",
+            "CodMasa": "070.010",
+            "MSBT_Nombre": "PLIEGUES JURÁSICOS DEL MUNDO",
+            "Z": "476.36000000",
+            "location": {
+                "coordinates": [-1.7895875025409949, 38.335725119955924],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "EL MOLAR",
+            "COD_CHS": "PA12182",
+            "COD_MASA_DEM": "070.021",
+            "CodMasa": "070.021",
+            "MSBT_Nombre": "EL MOLAR",
+            "Z": "421.37000000",
+            "location": {
+                "coordinates": [-1.5290458282723507, 38.38077685912402],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BURETE",
+            "COD_CHS": "PA12183",
+            "COD_MASA_DEM": "070.039",
+            "CodMasa": "070.039",
+            "MSBT_Nombre": "BULLAS",
+            "Z": "771.05000000",
+            "location": {
+                "coordinates": [-1.7733555707430038, 38.03617204671336],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BULLAS",
+            "COD_CHS": "PA12184",
+            "COD_MASA_DEM": "070.039",
+            "CodMasa": "070.039",
+            "MSBT_Nombre": "BULLAS",
+            "Z": "778.97000000",
+            "location": {
+                "coordinates": [-1.7072760366796627, 37.98824808156944],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ESPUÑA-MULA",
+            "COD_CHS": "PA12185",
+            "COD_MASA_DEM": "070.040",
+            "CodMasa": "070.040",
+            "MSBT_Nombre": "SIERRA ESPUÑA",
+            "Z": "512.10000000",
+            "location": {
+                "coordinates": [-1.5481513683312091, 37.933317598214245],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "LA MAJADA-LEYVA",
+            "COD_CHS": "PA12194",
+            "COD_MASA_DEM": "070.058",
+            "CodMasa": "070.058",
+            "MSBT_Nombre": "MAZARRÓN",
+            "Z": "158.38000000",
+            "location": {
+                "coordinates": [-1.3956067481397334, 37.59953792647543],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ESPUÑA-MULA",
+            "COD_CHS": "PA12195",
+            "COD_MASA_DEM": "070.040",
+            "CodMasa": "070.040",
+            "MSBT_Nombre": "SIERRA ESPUÑA",
+            "Z": "511.48000000",
+            "location": {
+                "coordinates": [-1.4800147131022063, 37.930104732453195],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "LA NAVETA",
+            "COD_CHS": "PA12196",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "332.37000000",
+            "location": {
+                "coordinates": [-1.07544856080856, 37.91200708843105],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BAJO GUADALENTIN",
+            "COD_CHS": "PA12197",
+            "COD_MASA_DEM": "070.050",
+            "CodMasa": "070.050",
+            "MSBT_Nombre": "BAJO GUADALENTÍN",
+            "Z": "159.36000000",
+            "location": {
+                "coordinates": [-1.4058199979713077, 37.81934563189086],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "QUIBAS",
+            "COD_CHS": "PA12198",
+            "COD_MASA_DEM": "070.029",
+            "CodMasa": "070.029",
+            "MSBT_Nombre": "QUIBAS",
+            "Z": "499.81000000",
+            "location": {
+                "coordinates": [-1.079834832732236, 38.30269022222838],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA12199",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "40.11000000",
+            "location": {
+                "coordinates": [-1.0951601199960024, 37.98600823355662],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA12200",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "40.19000000",
+            "location": {
+                "coordinates": [-1.0951601199960024, 37.98600823355662],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA12201",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "40.15000000",
+            "location": {
+                "coordinates": [-1.0951601199960024, 37.98600823355662],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALTO GUADALENTIN",
+            "COD_CHS": "PA12202",
+            "COD_MASA_DEM": "070.057",
+            "CodMasa": "070.057",
+            "MSBT_Nombre": "ALTO GUADALENTÍN",
+            "Z": "318.47000000",
+            "location": {
+                "coordinates": [-1.745347322531454, 37.50227114539108],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALTO GUADALENTIN",
+            "COD_CHS": "PA12203",
+            "COD_MASA_DEM": "070.057",
+            "CodMasa": "070.057",
+            "MSBT_Nombre": "ALTO GUADALENTÍN",
+            "Z": "318.81000000",
+            "location": {
+                "coordinates": [-1.7231404304992355, 37.63349555479721],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "QUIBAS",
+            "COD_CHS": "PA12204",
+            "COD_MASA_DEM": "070.029",
+            "CodMasa": "070.029",
+            "MSBT_Nombre": "QUIBAS",
+            "Z": "539.85000000",
+            "location": {
+                "coordinates": [-1.0233981314448741, 38.35077265199546],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12206",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "118.95000000",
+            "location": {
+                "coordinates": [-0.9349214291475916, 37.84752397024276],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12207",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "119.13000000",
+            "location": {
+                "coordinates": [-0.9349550032332152, 37.84754258297244],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SINCLINAL DE CALASPARRA",
+            "COD_CHS": "PA12208",
+            "COD_MASA_DEM": "070.022",
+            "CodMasa": "070.022",
+            "MSBT_Nombre": "SINCLINAL DE CALASPARRA",
+            "Z": "346.22000000",
+            "location": {
+                "coordinates": [-1.4758240239437574, 38.33594842384489],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BUITRE",
+            "COD_CHS": "PA12209",
+            "COD_MASA_DEM": "070.010",
+            "CodMasa": "070.010",
+            "MSBT_Nombre": "PLIEGUES JURÁSICOS DEL MUNDO",
+            "Z": "673.66000000",
+            "location": {
+                "coordinates": [-2.0306570161003887, 38.44889418073045],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "REVOLCADORES-SERRATA",
+            "COD_CHS": "PA12210",
+            "COD_MASA_DEM": "070.032",
+            "CodMasa": "070.032",
+            "MSBT_Nombre": "CARAVACA",
+            "Z": "944.79000000",
+            "location": {
+                "coordinates": [-2.0168954977041014, 38.087219017316976],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "REVOLCADORES-SERRATA",
+            "COD_CHS": "PA12211",
+            "COD_MASA_DEM": "070.032",
+            "CodMasa": "070.032",
+            "MSBT_Nombre": "CARAVACA",
+            "Z": "987.79000000",
+            "location": {
+                "coordinates": [-2.059618807917244, 38.067236472178074],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALTO GUADALENTIN",
+            "COD_CHS": "PA12212",
+            "COD_MASA_DEM": "070.057",
+            "CodMasa": "070.057",
+            "MSBT_Nombre": "ALTO GUADALENTÍN",
+            "Z": "305.38000000",
+            "location": {
+                "coordinates": [-1.6606436199745265, 37.66216190586292],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALTO GUADALENTIN",
+            "COD_CHS": "PA12213",
+            "COD_MASA_DEM": "070.057",
+            "CodMasa": "070.057",
+            "MSBT_Nombre": "ALTO GUADALENTÍN",
+            "Z": "287.69000000",
+            "location": {
+                "coordinates": [-1.6284062234168457, 37.62503251370523],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ASCOY-SOPALMO",
+            "COD_CHS": "PA12215",
+            "COD_MASA_DEM": "070.025",
+            "CodMasa": "070.025",
+            "MSBT_Nombre": "ASCOY-SOPALMO",
+            "Z": "329.32000000",
+            "location": {
+                "coordinates": [-1.3771803104640978, 38.28554699291688],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "LOS VAQUEROS",
+            "COD_CHS": "PA12216",
+            "COD_MASA_DEM": "070.058",
+            "CodMasa": "070.058",
+            "MSBT_Nombre": "MAZARRÓN",
+            "Z": "172.24000000",
+            "location": {
+                "coordinates": [-1.4308030850295506, 37.568710248329836],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12218",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "54.22000000",
+            "location": {
+                "coordinates": [-0.8058142911782372, 37.873428932706254],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SINCLINAL DE LA HIGUERA",
+            "COD_CHS": "PA12219",
+            "COD_MASA_DEM": "070.002",
+            "CodMasa": "070.002",
+            "MSBT_Nombre": "SINCLINAL DE LA HIGUERA",
+            "Z": "878.17000000",
+            "location": {
+                "coordinates": [-1.352478183416386, 38.87738614831172],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "UMBRIA",
+            "COD_CHS": "PA12220",
+            "COD_MASA_DEM": "070.004",
+            "CodMasa": "070.004",
+            "MSBT_Nombre": "BOQUERÓN",
+            "Z": "806.25000000",
+            "location": {
+                "coordinates": [-1.8640159730873087, 38.65827668204858],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CABEZALLERA",
+            "COD_CHS": "PA12221",
+            "COD_MASA_DEM": "070.010",
+            "CodMasa": "070.010",
+            "MSBT_Nombre": "PLIEGUES JURÁSICOS DEL MUNDO",
+            "Z": "1128.37000000",
+            "location": {
+                "coordinates": [-2.281800771836729, 38.488160214048385],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ASCOY-SOPALMO",
+            "COD_CHS": "PA12222",
+            "COD_MASA_DEM": "070.025",
+            "CodMasa": "070.025",
+            "MSBT_Nombre": "ASCOY-SOPALMO",
+            "Z": "418.60000000",
+            "location": {
+                "coordinates": [-1.3328167155569695, 38.341562311477986],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12223",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "36.61000000",
+            "location": {
+                "coordinates": [-0.9562068841046636, 37.714818878492004],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CABO ROIG",
+            "COD_CHS": "PA12225",
+            "COD_MASA_DEM": "070.053",
+            "CodMasa": "070.053",
+            "MSBT_Nombre": "CABO ROIG",
+            "Z": "34.00000000",
+            "location": {
+                "coordinates": [-0.7182394455418519, 37.946457726665166],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CABO ROIG",
+            "COD_CHS": "PA12226",
+            "COD_MASA_DEM": "070.053",
+            "CodMasa": "070.053",
+            "MSBT_Nombre": "CABO ROIG",
+            "Z": "31.32000000",
+            "location": {
+                "coordinates": [-0.7406302775708423, 37.916864487540295],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "LOS MOLARES-LORENTE",
+            "COD_CHS": "PA12227",
+            "COD_MASA_DEM": "070.058",
+            "CodMasa": "070.058",
+            "MSBT_Nombre": "MAZARRÓN",
+            "Z": "64.39000000",
+            "location": {
+                "coordinates": [-1.2389050027336952, 37.59090386989837],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "AGRA-CABRAS",
+            "COD_CHS": "PA12228",
+            "COD_MASA_DEM": "070.011",
+            "CodMasa": "070.011",
+            "MSBT_Nombre": "CUCHILLOS-CABRAS",
+            "Z": "566.79000000",
+            "location": {
+                "coordinates": [-1.5298564115503714, 38.505624196744186],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CANDIL",
+            "COD_CHS": "PA12229",
+            "COD_MASA_DEM": "070.011",
+            "CodMasa": "070.011",
+            "MSBT_Nombre": "CUCHILLOS-CABRAS",
+            "Z": "472.91000000",
+            "location": {
+                "coordinates": [-1.5852983116192019, 38.429780954189305],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA12230",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "14.67000000",
+            "location": {
+                "coordinates": [-0.8021550825028173, 38.09421860340703],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALTO GUADALENTIN",
+            "COD_CHS": "PA12231",
+            "COD_MASA_DEM": "070.057",
+            "CodMasa": "070.057",
+            "MSBT_Nombre": "ALTO GUADALENTÍN",
+            "Z": "304.75000000",
+            "location": {
+                "coordinates": [-1.6606424702903755, 37.6621627940818],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "AGRA-CABRAS",
+            "COD_CHS": "PA12232",
+            "COD_MASA_DEM": "070.011",
+            "CodMasa": "070.011",
+            "MSBT_Nombre": "CUCHILLOS-CABRAS",
+            "Z": "615.05000000",
+            "location": {
+                "coordinates": [-1.3848356320184263, 38.5264124641723],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALEDO",
+            "COD_CHS": "PA12233",
+            "COD_MASA_DEM": "070.049",
+            "CodMasa": "070.049",
+            "MSBT_Nombre": "ALEDO",
+            "Z": "651.40000000",
+            "location": {
+                "coordinates": [-1.608693926323986, 37.80545130301594],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAJAL",
+            "COD_CHS": "PA12234",
+            "COD_MASA_DEM": "070.040",
+            "CodMasa": "070.040",
+            "MSBT_Nombre": "SIERRA ESPUÑA",
+            "Z": "371.04000000",
+            "location": {
+                "coordinates": [-1.4538655469545105, 38.08900738487732],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SERRAL-SALINAS",
+            "COD_CHS": "PA12235",
+            "COD_MASA_DEM": "070.027",
+            "CodMasa": "070.027",
+            "MSBT_Nombre": "SERRAL-SALINAS",
+            "Z": "643.92000000",
+            "location": {
+                "coordinates": [-1.0696644237586994, 38.457397224852585],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CINGLA-CUCHILLO",
+            "COD_CHS": "PA12236",
+            "COD_MASA_DEM": "070.012",
+            "CodMasa": "070.012",
+            "MSBT_Nombre": "CINGLA",
+            "Z": "708.49000000",
+            "location": {
+                "coordinates": [-1.2409004991679449, 38.62635904762338],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CARRASCOY",
+            "COD_CHS": "PA12237",
+            "COD_MASA_DEM": "070.055",
+            "CodMasa": "070.055",
+            "MSBT_Nombre": "TRIÁSICO DE CARRASCOY",
+            "Z": "238.64000000",
+            "location": {
+                "coordinates": [-1.344023292690575, 37.826639663311944],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CABEZO DE LOS PAJAROS",
+            "COD_CHS": "PA12238",
+            "COD_MASA_DEM": "070.058",
+            "CodMasa": "070.058",
+            "MSBT_Nombre": "MAZARRÓN",
+            "Z": "19.13000000",
+            "location": {
+                "coordinates": [-1.3012239712169325, 37.57429743573534],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12239",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "181.00000000",
+            "location": {
+                "coordinates": [-1.0320556337074327, 37.876116026175175],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12240",
+            "COD_MASA_DEM": "070.054",
+            "CodMasa": "070.054",
+            "MSBT_Nombre": "TRIÁSICO DE LOS VICTORIA",
+            "Z": "146.00000000",
+            "location": {
+                "coordinates": [-1.113473646462238, 37.76579175770264],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA12241",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "36.00000000",
+            "location": {
+                "coordinates": [-1.0786380326674792, 38.00042837662831],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA12242",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "22.00000000",
+            "location": {
+                "coordinates": [-0.8807283295879076, 38.07254907231925],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA12243",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "22.00000000",
+            "location": {
+                "coordinates": [-0.880739722814696, 38.07254927792501],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA12244",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "22.00000000",
+            "location": {
+                "coordinates": [-0.8807283295879076, 38.07254907231925],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "COPE-CALA BLANCA",
+            "COD_CHS": "PA12245",
+            "COD_MASA_DEM": "070.061",
+            "CodMasa": "070.061",
+            "MSBT_Nombre": "ÁGUILAS",
+            "Z": "52.00000000",
+            "location": {
+                "coordinates": [-1.4963686638210445, 37.45790382525285],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CRESTA DEL GALLO",
+            "COD_CHS": "PA12248",
+            "COD_MASA_DEM": "070.051",
+            "CodMasa": "070.051",
+            "MSBT_Nombre": "CRESTA DEL GALLO",
+            "Z": "80.00000000",
+            "location": {
+                "coordinates": [-1.0440010170877523, 37.984347784124125],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SANTA-YÉCHAR",
+            "COD_CHS": "PA12249",
+            "COD_MASA_DEM": "070.048",
+            "CodMasa": "070.048",
+            "MSBT_Nombre": "SANTA-YÉCHAR",
+            "Z": "340.10700000",
+            "location": {
+                "coordinates": [-1.489288079608723, 37.82223091223689],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CRESTA DEL GALLO",
+            "COD_CHS": "PA12250",
+            "COD_MASA_DEM": "070.012",
+            "CodMasa": "070.012",
+            "MSBT_Nombre": "CINGLA",
+            "Z": "603.72400000",
+            "location": {
+                "coordinates": [-1.140725822929743, 38.62004204478345],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CUBETA DE PULPI",
+            "COD_CHS": "PA12251",
+            "COD_MASA_DEM": "070.061",
+            "CodMasa": "070.061",
+            "MSBT_Nombre": "ÁGUILAS",
+            "Z": "231.00000000",
+            "location": {
+                "coordinates": [-1.7351950406660832, 37.447543536724595],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "JUMILLA-VILLENA",
+            "COD_CHS": "PA12252",
+            "COD_MASA_DEM": "070.023",
+            "CodMasa": "070.023",
+            "MSBT_Nombre": "JUMILLA-YECLA",
+            "Z": "560.00000000",
+            "location": {
+                "coordinates": [-1.2129356210271725, 38.50197973104199],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "REVOLCADORES-SERRATA",
+            "COD_CHS": "PA12253",
+            "COD_MASA_DEM": "070.032",
+            "CodMasa": "070.032",
+            "MSBT_Nombre": "CARAVACA",
+            "Z": "941.00000000",
+            "location": {
+                "coordinates": [-1.9818279093533049, 38.02243517092866],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BAJO GUADALENTIN",
+            "COD_CHS": "PA12254",
+            "COD_MASA_DEM": "070.050",
+            "CodMasa": "070.050",
+            "MSBT_Nombre": "BAJO GUADALENTIN",
+            "Z": "99.00000000",
+            "location": {
+                "coordinates": [-1.2418014977182357, 37.91359244783615],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "LOS VAQUEROS",
+            "COD_CHS": "PA12255",
+            "COD_MASA_DEM": "070.058",
+            "CodMasa": "070.058",
+            "MSBT_Nombre": "MAZARRÓN",
+            "Z": "33.15000000",
+            "location": {
+                "coordinates": [-1.3756602836366791, 37.55781598300839],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CINGLA-CUCHILLO",
+            "COD_CHS": "PA12256",
+            "COD_MASA_DEM": "070.012",
+            "CodMasa": "070.012",
+            "MSBT_Nombre": "CINGLA",
+            "Z": "700.00000000",
+            "location": {
+                "coordinates": [-1.2351299201365393, 38.63214715403992],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ASCOY-SOPALMO",
+            "COD_CHS": "PA12257",
+            "COD_MASA_DEM": "070.025",
+            "CodMasa": "070.025",
+            "MSBT_Nombre": "ASCOY-SOPALMO",
+            "Z": "278.00000000",
+            "location": {
+                "coordinates": [-1.398793821721016, 38.283780376275985],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CARRASCOY",
+            "COD_CHS": "PA12258",
+            "COD_MASA_DEM": "070.055",
+            "CodMasa": "070.055",
+            "MSBT_Nombre": "TRIÁSICO DE CARRASCOY",
+            "Z": "280.54700000",
+            "location": {
+                "coordinates": [-1.3182738366074058, 37.77971784584057],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "TOBARRA-TEDERA-PINILLA",
+            "COD_CHS": "PA12259",
+            "COD_MASA_DEM": "070.005",
+            "CodMasa": "070.005",
+            "MSBT_Nombre": "TOBARRA-TEDERA-PINILLA",
+            "Z": "911.70000000",
+            "location": {
+                "coordinates": [-1.6047325058954403, 38.75076105223376],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CORRAL RUBIO",
+            "COD_CHS": "PA12260",
+            "COD_MASA_DEM": "070.001",
+            "CodMasa": "070.001",
+            "MSBT_Nombre": "CORRAL RUBIO",
+            "Z": "905.00000000",
+            "location": {
+                "coordinates": [-1.5203758735176855, 38.86523549179334],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "MINGOGIL-VILLARONES",
+            "COD_CHS": "PA12262",
+            "COD_MASA_DEM": "070.010",
+            "CodMasa": "070.010",
+            "MSBT_Nombre": "PLIEGUES JURÁSICOS DEL MUNDO",
+            "Z": "413.00000000",
+            "location": {
+                "coordinates": [-1.707062569867007, 38.44000579694476],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CINGLA-CUCHILLO",
+            "COD_CHS": "PA12263",
+            "COD_MASA_DEM": "070.012",
+            "CodMasa": "070.012",
+            "MSBT_Nombre": "CINGLA",
+            "Z": "619.00000000",
+            "location": {
+                "coordinates": [-1.4741632371605229, 38.54199858423437],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "EL MOLAR",
+            "COD_CHS": "PA12264",
+            "COD_MASA_DEM": "070.021",
+            "CodMasa": "070.021",
+            "MSBT_Nombre": "EL MOLAR",
+            "Z": "430.00000000",
+            "location": {
+                "coordinates": [-1.496629242892069, 38.4079011887946],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BAJO GUADALENTIN",
+            "COD_CHS": "PA12265",
+            "COD_MASA_DEM": "070.050",
+            "CodMasa": "070.050",
+            "MSBT_Nombre": "BAJO GUADALENTÍN",
+            "Z": "203.00000000",
+            "location": {
+                "coordinates": [-1.4396515472468507, 37.83399330395939],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BAJO GUADALENTIN",
+            "COD_CHS": "PA12266",
+            "COD_MASA_DEM": "070.050",
+            "CodMasa": "070.050",
+            "MSBT_Nombre": "BAJO GUADALENTÍN",
+            "Z": "193.00000000",
+            "location": {
+                "coordinates": [-1.4505691078954364, 37.76999247156798],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALTO GUADALENTIN",
+            "COD_CHS": "PA12267",
+            "COD_MASA_DEM": "070.057",
+            "CodMasa": "070.057",
+            "MSBT_Nombre": "ALTO GUADALENTÍN",
+            "Z": "295.00000000",
+            "location": {
+                "coordinates": [-1.681894091852782, 37.605530198551754],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ASCOY-SOPALMO",
+            "COD_CHS": "PA12268",
+            "COD_MASA_DEM": "070.025",
+            "CodMasa": "070.025",
+            "MSBT_Nombre": "ASCOY-SOPALMO",
+            "Z": "449.00000000",
+            "location": {
+                "coordinates": [-1.215595695689852, 38.4004435730542],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12270",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "168.00000000",
+            "location": {
+                "coordinates": [-0.9297636787031357, 37.889308977928934],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12271",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "163.00000000",
+            "location": {
+                "coordinates": [-1.0503923355442317, 37.83691072302851],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALTO GUADALENTIN",
+            "COD_CHS": "PA12272",
+            "COD_MASA_DEM": "070.057",
+            "CodMasa": "070.057",
+            "MSBT_Nombre": "ALTO GUADALENTÍN",
+            "Z": "330.00000000",
+            "location": {
+                "coordinates": [-1.7375926087259828, 37.609816630529],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "MINGOGIL-VILLARONES",
+            "COD_CHS": "PA12273",
+            "COD_MASA_DEM": "070.010",
+            "CodMasa": "070.010",
+            "MSBT_Nombre": "PLIEGUES JURÁSICOS DEL MUNDO",
+            "Z": "484.00000000",
+            "location": {
+                "coordinates": [-1.8105609230415882, 38.45757550177469],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "GALLEGO",
+            "COD_CHS": "PA12274",
+            "COD_MASA_DEM": "070.010",
+            "CodMasa": "070.010",
+            "MSBT_Nombre": "PLIEGUES JURÁSICOS DEL MUNDO",
+            "Z": "534.60000000",
+            "location": {
+                "coordinates": [-2.0328382099229176, 38.42651172034647],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CUJON",
+            "COD_CHS": "PA12275",
+            "COD_MASA_DEM": "070.015",
+            "CodMasa": "070.015",
+            "MSBT_Nombre": "SEGURA-MADERA-TUS",
+            "Z": "1292.00000000",
+            "location": {
+                "coordinates": [-2.318624473645661, 38.475321861794214],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "MARIA",
+            "COD_CHS": "PA12276",
+            "COD_MASA_DEM": "070.044",
+            "CodMasa": "070.044",
+            "MSBT_Nombre": "VELEZ BLANCO-MARIA",
+            "Z": "1102.00000000",
+            "location": {
+                "coordinates": [-2.121572890194652, 37.702305700359055],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "QUIPAR",
+            "COD_CHS": "PA12277",
+            "COD_MASA_DEM": "070.032",
+            "CodMasa": "070.032",
+            "MSBT_Nombre": "CARAVACA",
+            "Z": "625.00000000",
+            "location": {
+                "coordinates": [-1.820603243527718, 38.08780567773183],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CINGLA-CUCHILLO",
+            "COD_CHS": "PA12278",
+            "COD_MASA_DEM": "070.012",
+            "CodMasa": "070.012",
+            "MSBT_Nombre": "CINGLA",
+            "Z": "612.00000000",
+            "location": {
+                "coordinates": [-1.1378521120386655, 38.622238933043164],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12279",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "25.00000000",
+            "location": {
+                "coordinates": [-0.8736348401047141, 37.66789330913166],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "RICOTE",
+            "COD_CHS": "PA12280",
+            "COD_MASA_DEM": "070.034",
+            "CodMasa": "070.034",
+            "MSBT_Nombre": "ORO-RICOTE",
+            "Z": "589.00000000",
+            "location": {
+                "coordinates": [-1.4968714930057614, 38.112200336870224],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALCADOZO",
+            "COD_CHS": "PA12281",
+            "COD_MASA_DEM": "070.003",
+            "CodMasa": "070.003",
+            "MSBT_Nombre": "ALCADOZO",
+            "Z": "903.00000000",
+            "location": {
+                "coordinates": [-2.0102805587897943, 38.59453350675315],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALCADOZO",
+            "COD_CHS": "PA12282",
+            "COD_MASA_DEM": "070.003",
+            "CodMasa": "070.003",
+            "MSBT_Nombre": "ALCADOZO",
+            "Z": "916.00000000",
+            "location": {
+                "coordinates": [-1.988836866600122, 38.636569535999364],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA10137",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "205.00000000",
+            "location": {
+                "coordinates": [-1.0010239440370667, 37.88683041748583],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA10176",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "87.00000000",
+            "location": {
+                "coordinates": [-0.8576790467595624, 37.8580559844351],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA10281",
+            "COD_MASA_DEM": "070.054",
+            "CodMasa": "070.054",
+            "MSBT_Nombre": "TRIÁSICO DE LOS VICTORIA",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.1499955435721856, 37.77848333818131],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA10363",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": null,
+            "location": {
+                "coordinates": [-0.972587955787031, 37.791738455148085],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA10364",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": null,
+            "location": {
+                "coordinates": [-0.9724295389165374, 37.791717703136065],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA10372",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "108.00000000",
+            "location": {
+                "coordinates": [-0.9770356815244475, 37.81393889583269],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA10473",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "22.00000000",
+            "location": {
+                "coordinates": [-0.8838015972648107, 37.75211946744263],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA10945",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "30.00000000",
+            "location": {
+                "coordinates": [-0.9013758127700391, 37.663082596090874],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CABO ROIG",
+            "COD_CHS": "PA11593",
+            "COD_MASA_DEM": "070.053",
+            "CodMasa": "070.053",
+            "MSBT_Nombre": "CABO ROIG",
+            "Z": "32.03000000",
+            "location": {
+                "coordinates": [-0.737153292290245, 37.92119516000198],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA11747",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "6.00000000",
+            "location": {
+                "coordinates": [-0.7782075650012297, 37.841415742109305],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA11794",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "10.00000000",
+            "location": {
+                "coordinates": [-0.7774631577317588, 37.85863161894455],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12048",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "25.00000000",
+            "location": {
+                "coordinates": [-0.8220197804950872, 37.81532635842928],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12058",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "25.00000000",
+            "location": {
+                "coordinates": [-0.8231714420963934, 37.8159514382271],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12059",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "24.00000000",
+            "location": {
+                "coordinates": [-0.823102792406165, 37.81596819155969],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ORCE-MAIMON",
+            "COD_CHS": "PA12162",
+            "COD_MASA_DEM": "070.044",
+            "CodMasa": "070.044",
+            "MSBT_Nombre": "VELEZ BLANCO-MARIA",
+            "Z": "1260.00000000",
+            "location": {
+                "coordinates": [-2.27544557126628, 37.63312179304316],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "PERICAY-LUCHENA",
+            "COD_CHS": "PA12163",
+            "COD_MASA_DEM": "070.043",
+            "CodMasa": "070.043",
+            "MSBT_Nombre": "VALDEINFIERNO",
+            "Z": "714.00000000",
+            "location": {
+                "coordinates": [-1.9709464195142306, 37.801853462865765],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CORRAL RUBIO",
+            "COD_CHS": "PA12165",
+            "COD_MASA_DEM": "070.001",
+            "CodMasa": "070.001",
+            "MSBT_Nombre": "CORRAL RUBIO",
+            "Z": "901.00000000",
+            "location": {
+                "coordinates": [-1.5254653764669572, 38.82421065126985],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALEDO",
+            "COD_CHS": "PA12167",
+            "COD_MASA_DEM": "070.049",
+            "CodMasa": "070.049",
+            "MSBT_Nombre": "ALEDO",
+            "Z": "605.86000000",
+            "location": {
+                "coordinates": [-1.5933083735820088, 37.80514244584148],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CINGLA-CUCHILLO",
+            "COD_CHS": "PA12168",
+            "COD_MASA_DEM": "070.012",
+            "CodMasa": "070.012",
+            "MSBT_Nombre": "CINGLA",
+            "Z": "638.81000000",
+            "location": {
+                "coordinates": [-1.37758888919658, 38.5517869467451],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ESPUÑA-MULA",
+            "COD_CHS": "PA12169",
+            "COD_MASA_DEM": "070.040",
+            "CodMasa": "070.040",
+            "MSBT_Nombre": "SIERRA ESPUÑA",
+            "Z": "446.82000000",
+            "location": {
+                "coordinates": [-1.4724713990503069, 37.93393631837586],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA12170",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "40.00000000",
+            "location": {
+                "coordinates": [-1.1060809024805498, 38.019573083900084],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "TERCIARIO DE TORREVIEJA",
+            "COD_CHS": "PA12171",
+            "COD_MASA_DEM": "070.042",
+            "CodMasa": "070.042",
+            "MSBT_Nombre": "TERCIARIO DE TORREVIEJA",
+            "Z": "41.00000000",
+            "location": {
+                "coordinates": [-0.7469998148235075, 38.04525228515465],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "POZA",
+            "COD_CHS": "PA12172",
+            "COD_MASA_DEM": "070.010",
+            "CodMasa": "070.010",
+            "MSBT_Nombre": "PLIEGUES JURÁSICOS DEL MUNDO",
+            "Z": "684.36000000",
+            "location": {
+                "coordinates": [-2.0386326907236856, 38.451510306220335],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "TALAVE",
+            "COD_CHS": "PA12173",
+            "COD_MASA_DEM": "070.010",
+            "CodMasa": "070.010",
+            "MSBT_Nombre": "PLIEGUES JURÁSICOS DEL MUNDO",
+            "Z": "516.79000000",
+            "location": {
+                "coordinates": [-1.872186067038578, 38.51240410922465],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SIMA",
+            "COD_CHS": "PA12174",
+            "COD_MASA_DEM": "070.032",
+            "CodMasa": "070.032",
+            "MSBT_Nombre": "CARAVACA",
+            "Z": "786.30000000",
+            "location": {
+                "coordinates": [-1.9216721206563867, 38.02856845584844],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "TOBARRA-TEDERA-PINILLA",
+            "COD_CHS": "PA12175",
+            "COD_MASA_DEM": "070.005",
+            "CodMasa": "070.005",
+            "MSBT_Nombre": "TOBARRA-TEDERA-PINILLA",
+            "Z": "861.33000000",
+            "location": {
+                "coordinates": [-1.6004645392579273, 38.71599220937293],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "TOBARRA-TEDERA-PINILLA",
+            "COD_CHS": "PA12176",
+            "COD_MASA_DEM": "070.005",
+            "CodMasa": "070.005",
+            "MSBT_Nombre": "TOBARRA-TEDERA-PINILLA",
+            "Z": "648.74000000",
+            "location": {
+                "coordinates": [-1.7045504700312506, 38.55690769121772],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "REVOLCADORES-SERRATA",
+            "COD_CHS": "PA12177",
+            "COD_MASA_DEM": "070.032",
+            "CodMasa": "070.032",
+            "MSBT_Nombre": "CARAVACA",
+            "Z": "1001.57000000",
+            "location": {
+                "coordinates": [-2.1112791458034783, 38.000079339405154],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "MINGOGIL-VILLARONES",
+            "COD_CHS": "PA12178",
+            "COD_MASA_DEM": "070.010",
+            "CodMasa": "070.010",
+            "MSBT_Nombre": "PLIEGUES JURÁSICOS DEL MUNDO",
+            "Z": "585.17000000",
+            "location": {
+                "coordinates": [-1.831641238814457, 38.43214533291687],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ANTICLINAL DE SOCOVOS",
+            "COD_CHS": "PA1748",
+            "COD_MASA_DEM": "070.020",
+            "CodMasa": "070.020",
+            "MSBT_Nombre": "ANTICLINAL DE SOCOVOS",
+            "Z": "800.00000000",
+            "location": {
+                "coordinates": [-2.11018675686169, 38.352071140700765],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ANTICLINAL DE SOCOVOS",
+            "COD_CHS": "PA1812",
+            "COD_MASA_DEM": "070.020",
+            "CodMasa": "070.020",
+            "MSBT_Nombre": "ANTICLINAL DE SOCOVOS",
+            "Z": "782.00000000",
+            "location": {
+                "coordinates": [-2.031368111056844, 38.34515580389968],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ANTICLINAL DE SOCOVOS",
+            "COD_CHS": "PA1911",
+            "COD_MASA_DEM": "070.020",
+            "CodMasa": "070.020",
+            "MSBT_Nombre": "ANTICLINAL DE SOCOVOS",
+            "Z": "755.00000000",
+            "location": {
+                "coordinates": [-1.986920420282893, 38.300053853251235],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ANTICLINAL DE SOCOVOS",
+            "COD_CHS": "PA2060",
+            "COD_MASA_DEM": "070.020",
+            "CodMasa": "070.020",
+            "MSBT_Nombre": "ANTICLINAL DE SOCOVOS",
+            "Z": "730.00000000",
+            "location": {
+                "coordinates": [-1.9745160013521632, 38.22095454990511],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "GAVILAN",
+            "COD_CHS": "PA2095",
+            "COD_MASA_DEM": "070.032",
+            "CodMasa": "070.032",
+            "MSBT_Nombre": "CARAVACA",
+            "Z": "808.00000000",
+            "location": {
+                "coordinates": [-1.9311515279856268, 38.08805664433745],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BUHOS",
+            "COD_CHS": "PA2617",
+            "COD_MASA_DEM": "070.004",
+            "CodMasa": "070.004",
+            "MSBT_Nombre": "BOQUERÓN",
+            "Z": "802.00000000",
+            "location": {
+                "coordinates": [-1.6917021305561497, 38.69179072587072],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BUHOS",
+            "COD_CHS": "PA2732",
+            "COD_MASA_DEM": "070.004",
+            "CodMasa": "070.004",
+            "MSBT_Nombre": "BOQUERÓN",
+            "Z": "684.00000000",
+            "location": {
+                "coordinates": [-1.7614086070481494, 38.59146945089472],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "TOBARRA-TEDERA-PINILLA",
+            "COD_CHS": "PA2748",
+            "COD_MASA_DEM": "070.005",
+            "CodMasa": "070.005",
+            "MSBT_Nombre": "TOBARRA-TEDERA-PINILLA",
+            "Z": "689.23000000",
+            "location": {
+                "coordinates": [-1.67997054308157, 38.63380653556809],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "EL BOQUERON",
+            "COD_CHS": "PA2845",
+            "COD_MASA_DEM": "070.004",
+            "CodMasa": "070.004",
+            "MSBT_Nombre": "BOQUERÓN",
+            "Z": "645.00000000",
+            "location": {
+                "coordinates": [-1.783059544278066, 38.55297409974363],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "PINO",
+            "COD_CHS": "PA2898",
+            "COD_MASA_DEM": "070.006",
+            "CodMasa": "070.006",
+            "MSBT_Nombre": "PINO",
+            "Z": "504.00000000",
+            "location": {
+                "coordinates": [-1.6369954937624727, 38.52433021262851],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CONEJEROS-ALBATANA",
+            "COD_CHS": "PA2970",
+            "COD_MASA_DEM": "070.007",
+            "CodMasa": "070.007",
+            "MSBT_Nombre": "CONEJEROS-ALBATANA",
+            "Z": "598.00000000",
+            "location": {
+                "coordinates": [-1.5450833547678815, 38.569497567082365],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "MINGOGIL-VILLARONES",
+            "COD_CHS": "PA3036",
+            "COD_MASA_DEM": "070.010",
+            "CodMasa": "070.010",
+            "MSBT_Nombre": "PLIEGUES JURÁSICOS DEL MUNDO",
+            "Z": "413.00000000",
+            "location": {
+                "coordinates": [-1.706942656102551, 38.43868444600225],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "EL MOLAR",
+            "COD_CHS": "PA3080",
+            "COD_MASA_DEM": "070.021",
+            "CodMasa": "070.021",
+            "MSBT_Nombre": "EL MOLAR",
+            "Z": "375.11000000",
+            "location": {
+                "coordinates": [-1.5355819699789295, 38.347326107091874],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CANDIL",
+            "COD_CHS": "PA3081",
+            "COD_MASA_DEM": "070.011",
+            "CodMasa": "070.011",
+            "MSBT_Nombre": "CUCHILLOS-CABRAS",
+            "Z": "528.25000000",
+            "location": {
+                "coordinates": [-1.5745320990692793, 38.43954522040895],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CANDIL",
+            "COD_CHS": "PA3090",
+            "COD_MASA_DEM": "070.011",
+            "CodMasa": "070.011",
+            "MSBT_Nombre": "CUCHILLOS-CABRAS",
+            "Z": "465.00000000",
+            "location": {
+                "coordinates": [-1.596280697382041, 38.47668312970185],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "AGRA-CABRAS",
+            "COD_CHS": "PA3104",
+            "COD_MASA_DEM": "070.011",
+            "CodMasa": "070.011",
+            "MSBT_Nombre": "CUCHILLOS-CABRAS",
+            "Z": "499.00000000",
+            "location": {
+                "coordinates": [-1.5935466166337273, 38.49112284542749],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "EL MOLAR",
+            "COD_CHS": "PA3154",
+            "COD_MASA_DEM": "070.021",
+            "CodMasa": "070.021",
+            "MSBT_Nombre": "EL MOLAR",
+            "Z": "356.31000000",
+            "location": {
+                "coordinates": [-1.6457539639362202, 38.340756593044794],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "EL MOLAR",
+            "COD_CHS": "PA3155",
+            "COD_MASA_DEM": "070.021",
+            "CodMasa": "070.021",
+            "MSBT_Nombre": "EL MOLAR",
+            "Z": "381.00000000",
+            "location": {
+                "coordinates": [-1.6389579624077728, 38.38714252663945],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "EL MOLAR",
+            "COD_CHS": "PA3224",
+            "COD_MASA_DEM": "070.021",
+            "CodMasa": "070.021",
+            "MSBT_Nombre": "EL MOLAR",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.6622635802904364, 38.31845266658274],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ANTICLINAL DE SOCOVOS",
+            "COD_CHS": "PA3258",
+            "COD_MASA_DEM": "070.020",
+            "CodMasa": "070.020",
+            "MSBT_Nombre": "ANTICLINAL DE SOCOVOS",
+            "Z": "362.10000000",
+            "location": {
+                "coordinates": [-1.761557362634684, 38.24756531271142],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SINCLINAL DE CALASPARRA",
+            "COD_CHS": "PA3260",
+            "COD_MASA_DEM": "070.022",
+            "CodMasa": "070.022",
+            "MSBT_Nombre": "SINCLINAL DE CALASPARRA",
+            "Z": "290.69000000",
+            "location": {
+                "coordinates": [-1.6095140495179774, 38.24027345594999],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SINCLINAL DE CALASPARRA",
+            "COD_CHS": "PA3263",
+            "COD_MASA_DEM": "070.022",
+            "CodMasa": "070.022",
+            "MSBT_Nombre": "SINCLINAL DE CALASPARRA",
+            "Z": "237.69000000",
+            "location": {
+                "coordinates": [-1.5609128737290088, 38.24108402322865],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "QUIPAR",
+            "COD_CHS": "PA3375",
+            "COD_MASA_DEM": "070.032",
+            "CodMasa": "070.032",
+            "MSBT_Nombre": "CARAVACA",
+            "Z": "589.00000000",
+            "location": {
+                "coordinates": [-1.8030859110040924, 38.061289710795904],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BAJO GUADALENTIN",
+            "COD_CHS": "PA3644",
+            "COD_MASA_DEM": "070.050",
+            "CodMasa": "070.050",
+            "MSBT_Nombre": "BAJO GUADALENTÍN",
+            "Z": "261.47000000",
+            "location": {
+                "coordinates": [-1.5785181482519217, 37.69908503232919],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BAJO GUADALENTIN",
+            "COD_CHS": "PA3655",
+            "COD_MASA_DEM": "070.050",
+            "CodMasa": "070.050",
+            "MSBT_Nombre": "BAJO GUADALENTÍN",
+            "Z": "248.56000000",
+            "location": {
+                "coordinates": [-1.5236648144340257, 37.73166747569737],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALTO GUADALENTIN",
+            "COD_CHS": "PA3887",
+            "COD_MASA_DEM": "070.057",
+            "CodMasa": "070.057",
+            "MSBT_Nombre": "ALTO GUADALENTÍN",
+            "Z": "293.30000000",
+            "location": {
+                "coordinates": [-1.6483702215243174, 37.65266181199499],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ENMEDIO",
+            "COD_CHS": "PA3943",
+            "COD_MASA_DEM": "070.059",
+            "CodMasa": "070.059",
+            "MSBT_Nombre": "ENMEDIO-CABEZO DE JARA",
+            "Z": "425.23000000",
+            "location": {
+                "coordinates": [-1.797571562800992, 37.53308945402138],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALTO GUADALENTIN",
+            "COD_CHS": "PA4035",
+            "COD_MASA_DEM": "070.057",
+            "CodMasa": "070.057",
+            "MSBT_Nombre": "ALTO GUADALENTÍN",
+            "Z": "362.00000000",
+            "location": {
+                "coordinates": [-1.7523542622494312, 37.56990670786462],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CUBETA DE PULPI",
+            "COD_CHS": "PA4124",
+            "COD_MASA_DEM": "070.061",
+            "CodMasa": "070.061",
+            "MSBT_Nombre": "ÁGUILAS",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.727198394989586, 37.46178847098126],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SINCLINAL DE LA HIGUERA",
+            "COD_CHS": "PA4478",
+            "COD_MASA_DEM": "070.002",
+            "CodMasa": "070.002",
+            "MSBT_Nombre": "SINCLINAL DE LA HIGUERA",
+            "Z": "839.42000000",
+            "location": {
+                "coordinates": [-1.3874057959839492, 38.782476717588274],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ONTUR",
+            "COD_CHS": "PA4580",
+            "COD_MASA_DEM": "070.008",
+            "CodMasa": "070.008",
+            "MSBT_Nombre": "ONTUR",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.3110897759333906, 38.79622111690799],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ONTUR",
+            "COD_CHS": "PA4581",
+            "COD_MASA_DEM": "070.008",
+            "CodMasa": "070.008",
+            "MSBT_Nombre": "ONTUR",
+            "Z": "810.00000000",
+            "location": {
+                "coordinates": [-1.332910982607813, 38.76897061907099],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CONEJEROS-ALBATANA",
+            "COD_CHS": "PA4620",
+            "COD_MASA_DEM": "070.007",
+            "CodMasa": "070.007",
+            "MSBT_Nombre": "CONEJEROS-ALBATANA",
+            "Z": "747.00000000",
+            "location": {
+                "coordinates": [-1.5030112446605912, 38.672919476381246],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "FUENTE ALAMO",
+            "COD_CHS": "PA4686",
+            "COD_MASA_DEM": "070.008",
+            "CodMasa": "070.008",
+            "MSBT_Nombre": "ONTUR",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.4297558390903424, 38.694357662426974],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "FUENTE ALAMO",
+            "COD_CHS": "PA4689",
+            "COD_MASA_DEM": "070.008",
+            "CodMasa": "070.008",
+            "MSBT_Nombre": "ONTUR",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.429687067353792, 38.694347727627616],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "AGUILAS-CALA REONA",
+            "COD_CHS": "PA4945",
+            "COD_MASA_DEM": "070.061",
+            "CodMasa": "070.061",
+            "MSBT_Nombre": "ÁGUILAS",
+            "Z": "39.04000000",
+            "location": {
+                "coordinates": [-1.6138821197305713, 37.409030359566735],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SINCLINAL DE CALASPARRA",
+            "COD_CHS": "PA5241",
+            "COD_MASA_DEM": "070.022",
+            "CodMasa": "070.022",
+            "MSBT_Nombre": "SINCLINAL DE CALASPARRA",
+            "Z": "342.45000000",
+            "location": {
+                "coordinates": [-1.4757805922402605, 38.33419958453489],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CINGLA-CUCHILLO",
+            "COD_CHS": "PA5306",
+            "COD_MASA_DEM": "070.012",
+            "CodMasa": "070.012",
+            "MSBT_Nombre": "CINGLA",
+            "Z": "660.94000000",
+            "location": {
+                "coordinates": [-1.3067908822170498, 38.540826103675],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ASCOY-SOPALMO",
+            "COD_CHS": "PA5308",
+            "COD_MASA_DEM": "070.025",
+            "CodMasa": "070.025",
+            "MSBT_Nombre": "ASCOY-SOPALMO",
+            "Z": "352.12000000",
+            "location": {
+                "coordinates": [-1.305136570532176, 38.337713900125365],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGA ALTA DEL SEGURA",
+            "COD_CHS": "PA5787",
+            "COD_MASA_DEM": "070.041",
+            "CodMasa": "070.041",
+            "MSBT_Nombre": "VEGA ALTA DEL SEGURA",
+            "Z": "76.32000000",
+            "location": {
+                "coordinates": [-1.2377098767542098, 38.03476840308578],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGA ALTA DEL SEGURA",
+            "COD_CHS": "PA5897",
+            "COD_MASA_DEM": "070.041",
+            "CodMasa": "070.041",
+            "MSBT_Nombre": "VEGA ALTA DEL SEGURA",
+            "Z": "74.68000000",
+            "location": {
+                "coordinates": [-1.24119018447877, 38.065487694372756],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BAJO GUADALENTIN",
+            "COD_CHS": "PA6309",
+            "COD_MASA_DEM": "070.050",
+            "CodMasa": "070.050",
+            "MSBT_Nombre": "BAJO GUADALENTÍN",
+            "Z": "100.14000000",
+            "location": {
+                "coordinates": [-1.2422222297406635, 37.91264346385082],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SANTA-YECHAR",
+            "COD_CHS": "PA6384",
+            "COD_MASA_DEM": "070.048",
+            "CodMasa": "070.048",
+            "MSBT_Nombre": "SANTA-YÉCHAR",
+            "Z": "345.00000000",
+            "location": {
+                "coordinates": [-1.4900259232988013, 37.82393471613306],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "LOS VAQUEROS",
+            "COD_CHS": "PA6957",
+            "COD_MASA_DEM": "070.058",
+            "CodMasa": "070.058",
+            "MSBT_Nombre": "MAZARRÓN",
+            "Z": "33.06000000",
+            "location": {
+                "coordinates": [-1.39021724137648, 37.532653737250925],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "JUMILLA-VILLENA",
+            "COD_CHS": "PA7583",
+            "COD_MASA_DEM": "070.023",
+            "CodMasa": "070.023",
+            "MSBT_Nombre": "JUMILLA-YECLA",
+            "Z": "608.00000000",
+            "location": {
+                "coordinates": [-1.1321104715790817, 38.5633885430563],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SERRAL-SALINAS",
+            "COD_CHS": "PA7750",
+            "COD_MASA_DEM": "070.027",
+            "CodMasa": "070.027",
+            "MSBT_Nombre": "SERRAL-SALINAS",
+            "Z": "639.67000000",
+            "location": {
+                "coordinates": [-1.0679383975027161, 38.45808963724558],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SOLSIA",
+            "COD_CHS": "PA8114",
+            "COD_MASA_DEM": "070.028",
+            "CodMasa": "070.028",
+            "MSBT_Nombre": "BAÑOS DE FORTUNA",
+            "Z": "598.90000000",
+            "location": {
+                "coordinates": [-1.0916395747491163, 38.356625585762536],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA8492",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "16.96000000",
+            "location": {
+                "coordinates": [-0.8983415036541844, 38.091600129093166],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA8949",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "27.00000000",
+            "location": {
+                "coordinates": [-1.0535428956664616, 38.04844346149415],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA9386",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "27.13000000",
+            "location": {
+                "coordinates": [-0.987433561636366, 38.066027458583065],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "LA NAVETA",
+            "COD_CHS": "PA9980",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "342.43000000",
+            "location": {
+                "coordinates": [-1.1435868081192184, 37.89286149745422],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALEDO",
+            "COD_CHS": "PAI1T0030",
+            "COD_MASA_DEM": "070.049",
+            "CodMasa": "070.049",
+            "MSBT_Nombre": "ALEDO",
+            "Z": "734.21000000",
+            "location": {
+                "coordinates": [-1.6498592123910603, 37.831615940684074],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BAJO GUADALENTIN",
+            "COD_CHS": "PAI1T0224",
+            "COD_MASA_DEM": "070.050",
+            "CodMasa": "070.050",
+            "MSBT_Nombre": "BAJO GUADALENTÍN",
+            "Z": "247.42000000",
+            "location": {
+                "coordinates": [-1.5232076219562534, 37.731832988643525],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BAJO GUADALENTIN",
+            "COD_CHS": "PAI1Y0558",
+            "COD_MASA_DEM": "070.050",
+            "CodMasa": "070.050",
+            "MSBT_Nombre": "BAJO GUADALENTÍN",
+            "Z": "146.97000000",
+            "location": {
+                "coordinates": [-1.3327525156071793, 37.883626246080006],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "JUMILLA-VILLENA",
+            "COD_CHS": "PAI2T0004",
+            "COD_MASA_DEM": "070.023",
+            "CodMasa": "070.023",
+            "MSBT_Nombre": "JUMILLA-YECLA",
+            "Z": "541.82000000",
+            "location": {
+                "coordinates": [-1.266032669517591, 38.47457358647404],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ASCOY-SOPALMO",
+            "COD_CHS": "PAI2T0095",
+            "COD_MASA_DEM": "070.025",
+            "CodMasa": "070.025",
+            "MSBT_Nombre": "ASCOY-SOPALMO",
+            "Z": "241.00000000",
+            "location": {
+                "coordinates": [-1.4141328813388747, 38.248248362357444],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALCADOZO",
+            "COD_CHS": "PAI3943",
+            "COD_MASA_DEM": "070.003",
+            "CodMasa": "070.003",
+            "MSBT_Nombre": "ALCADOZO",
+            "Z": "923.00000000",
+            "location": {
+                "coordinates": [-2.1028032020135097, 38.59691091521378],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SIERRA DE LA OLIVA",
+            "COD_CHS": "PAI3T0045",
+            "COD_MASA_DEM": "070.009",
+            "CodMasa": "070.009",
+            "MSBT_Nombre": "SIERRA DE LA OLIVA",
+            "Z": "783.00000000",
+            "location": {
+                "coordinates": [-1.2247645910303402, 38.74620210864973],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PAPS0309",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "43.00000000",
+            "location": {
+                "coordinates": [-1.1367978359318673, 37.97527566874615],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PAPS0312",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "44.00000000",
+            "location": {
+                "coordinates": [-1.1213598652349415, 37.97574193846313],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PAPS0313",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "44.00000000",
+            "location": {
+                "coordinates": [-1.121394234991582, 37.975733475946946],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PAPS0314",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "45.00000000",
+            "location": {
+                "coordinates": [-1.1115799458327422, 37.98508362790254],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAJAL",
+            "COD_CHS": "PATP001",
+            "COD_MASA_DEM": "070.040",
+            "CodMasa": "070.040",
+            "MSBT_Nombre": "SIERRA ESPUÑA",
+            "Z": "259.00000000",
+            "location": {
+                "coordinates": [-1.4149225519407753, 38.05431510227711],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PATP002",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "10.00000000",
+            "location": {
+                "coordinates": [-0.7907105175644342, 38.11794628510134],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SINCLINAL DE CALASPARRA",
+            "COD_CHS": "PATP003",
+            "COD_MASA_DEM": "070.022",
+            "CodMasa": "070.022",
+            "MSBT_Nombre": "SINCLINAL DE CALASPARRA",
+            "Z": "254.74000000",
+            "location": {
+                "coordinates": [-1.6433769291346847, 38.25468365898193],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "DETRITICO DE CHIRIVEL",
+            "COD_CHS": "PATP004",
+            "COD_MASA_DEM": "070.045",
+            "CodMasa": "070.045",
+            "MSBT_Nombre": "DETRÍTICO DE CHIRIVEL-MALÁGUIDE",
+            "Z": "1047.00000000",
+            "location": {
+                "coordinates": [-2.270153977879069, 37.59242055841199],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA9615",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "46.31000000",
+            "location": {
+                "coordinates": [-1.1453175955841914, 37.95612506277348],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ESPUÑA-MULA",
+            "COD_CHS": "PA3458",
+            "COD_MASA_DEM": "070.040",
+            "CodMasa": "070.040",
+            "MSBT_Nombre": "SIERRA ESPUÑA",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.540540439720418, 37.936125353163035],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "DON GONZALO-LA UMBRIA",
+            "COD_CHS": "PA3494",
+            "COD_MASA_DEM": "070.039",
+            "CodMasa": "070.039",
+            "MSBT_Nombre": "BULLAS",
+            "Z": "799.00000000",
+            "location": {
+                "coordinates": [-1.818941574926735, 37.876692924371476],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "AGUILAS-CALA REONA",
+            "COD_CHS": "PA4213",
+            "COD_MASA_DEM": "070.061",
+            "CodMasa": "070.061",
+            "MSBT_Nombre": "ÁGUILAS",
+            "Z": "28.28000000",
+            "location": {
+                "coordinates": [-1.6064054306968365, 37.4070316446784],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12283",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "30.00000000",
+            "location": {
+                "coordinates": [-0.8982275755869841, 37.668575381095145],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ENMEDIO",
+            "COD_CHS": "PA12284",
+            "COD_MASA_DEM": "070.059",
+            "CodMasa": "070.059",
+            "MSBT_Nombre": "ENMEDIO-CABEZO DE JARA",
+            "Z": "415.00000000",
+            "location": {
+                "coordinates": [-1.798070678709489, 37.53432409564973],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA12285",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "43.50000000",
+            "location": {
+                "coordinates": [-1.1235180417031623, 37.98315356898569],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA12286",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "43.50000000",
+            "location": {
+                "coordinates": [-1.1234952794205881, 37.983153205722296],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PA12287",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": "41.40000000",
+            "location": {
+                "coordinates": [-1.1350882895922583, 37.989808086120874],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BULLAS",
+            "COD_CHS": "PA12288",
+            "COD_MASA_DEM": "070.039",
+            "CodMasa": "070.039",
+            "MSBT_Nombre": "BULLAS",
+            "Z": "708.00000000",
+            "location": {
+                "coordinates": [-1.6912075187919742, 38.02813535208623],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CUBETA DETRITICA DEL SALTADOR",
+            "COD_CHS": "PAR2237",
+            "COD_MASA_DEM": "070.060",
+            "CodMasa": "070.060",
+            "MSBT_Nombre": "LAS NORIAS",
+            "Z": "443.00000000",
+            "location": {
+                "coordinates": [-1.8520987322676346, 37.47771810025335],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "LA NAVETA",
+            "COD_CHS": "PA10070",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.0771586063265488, 37.91013047634149],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA10143",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": null,
+            "location": {
+                "coordinates": [-0.932476358455846, 37.887824345576114],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA11900",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": null,
+            "location": {
+                "coordinates": [-0.7738183631711351, 37.86870910292818],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA12217",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": "169.93000000",
+            "location": {
+                "coordinates": [-0.9324715710554413, 37.887995482175896],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "JUMILLA-VILLENA",
+            "COD_CHS": "PA12246",
+            "COD_MASA_DEM": "070.023",
+            "CodMasa": "070.023",
+            "MSBT_Nombre": "JUMILLA-YECLA",
+            "Z": "559.36000000",
+            "location": {
+                "coordinates": [-1.2171356016947827, 38.484505706377426],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "REVOLCADORES-SERRATA",
+            "COD_CHS": "PA2101",
+            "COD_MASA_DEM": "070.032",
+            "CodMasa": "070.032",
+            "MSBT_Nombre": "CARAVACA",
+            "Z": null,
+            "location": {
+                "coordinates": [-2.137161667658533, 38.04333070258106],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "REVOLCADORES-SERRATA",
+            "COD_CHS": "PA2113",
+            "COD_MASA_DEM": "070.032",
+            "CodMasa": "070.032",
+            "MSBT_Nombre": "CARAVACA",
+            "Z": "904.51000000",
+            "location": {
+                "coordinates": [-2.036698249065992, 38.06202641567081],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "REVOLCADORES-SERRATA",
+            "COD_CHS": "PA2145",
+            "COD_MASA_DEM": "070.032",
+            "CodMasa": "070.032",
+            "MSBT_Nombre": "CARAVACA",
+            "Z": "943.00000000",
+            "location": {
+                "coordinates": [-1.9818362479605292, 38.02240469577544],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "MINGOGIL-VILLARONES",
+            "COD_CHS": "PA2994",
+            "COD_MASA_DEM": "070.010",
+            "CodMasa": "070.010",
+            "MSBT_Nombre": "PLIEGUES JURÁSICOS DEL MUNDO",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.8303274175416815, 38.435840194711695],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "QUIPAR",
+            "COD_CHS": "PA3296",
+            "COD_MASA_DEM": "070.032",
+            "CodMasa": "070.032",
+            "MSBT_Nombre": "CARAVACA",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.8212060124030487, 38.08865878151769],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BURETE",
+            "COD_CHS": "PA3376",
+            "COD_MASA_DEM": "070.039",
+            "CodMasa": "070.039",
+            "MSBT_Nombre": "BULLAS",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.7739947472004938, 38.0382835555291],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "BULLAS",
+            "COD_CHS": "PA3392",
+            "COD_MASA_DEM": "070.039",
+            "CodMasa": "070.039",
+            "MSBT_Nombre": "BULLAS",
+            "Z": "698.00000000",
+            "location": {
+                "coordinates": [-1.694825221861828, 38.02715718415192],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "DON GONZALO-LA UMBRIA",
+            "COD_CHS": "PA3502",
+            "COD_MASA_DEM": "070.039",
+            "CodMasa": "070.039",
+            "MSBT_Nombre": "BULLAS",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.8159564054724875, 37.878489649099386],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "ALTO GUADALENTIN",
+            "COD_CHS": "PA3852",
+            "COD_MASA_DEM": "070.057",
+            "CodMasa": "070.057",
+            "MSBT_Nombre": "ALTO GUADALENTÍN",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.629291642671627, 37.62359662726677],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "JUMILLA-VILLENA",
+            "COD_CHS": "PA5191",
+            "COD_MASA_DEM": "070.023",
+            "CodMasa": "070.023",
+            "MSBT_Nombre": "JUMILLA-YECLA",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.2238886959528081, 38.471406955531926],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "LOS VAQUEROS",
+            "COD_CHS": "PA6956",
+            "COD_MASA_DEM": "070.058",
+            "CodMasa": "070.058",
+            "MSBT_Nombre": "MAZARRÓN",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.3888751213401707, 37.53333411146514],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "JUMILLA-VILLENA",
+            "COD_CHS": "PA7576",
+            "COD_MASA_DEM": "070.023",
+            "CodMasa": "070.023",
+            "MSBT_Nombre": "JUMILLA-YECLA",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.1363522756677744, 38.56074261863688],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "LA NAVETA",
+            "COD_CHS": "PA9981",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.1426283616524973, 37.892554681567944],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "EL MOLAR",
+            "COD_CHS": "PAI4799",
+            "COD_MASA_DEM": "070.011",
+            "CodMasa": "070.021",
+            "MSBT_Nombre": "EL MOLAR",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.5412428446559814, 38.42242347373993],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA10784",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": null,
+            "location": {
+                "coordinates": [-0.9243737636622614, 37.70751928065621],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SINCLINAL DE CALASPARRA",
+            "COD_CHS": "PA12166",
+            "COD_MASA_DEM": "070.022",
+            "CodMasa": "070.022",
+            "MSBT_Nombre": "SINCLINAL DE CALASPARRA",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.6503252913175126, 38.270386232012996],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "REVOLCADORES-SERRATA",
+            "COD_CHS": "PA2075",
+            "COD_MASA_DEM": "070.032",
+            "CodMasa": "070.032",
+            "MSBT_Nombre": "CARAVACA",
+            "Z": null,
+            "location": {
+                "coordinates": [-2.0576846157220494, 38.12059732112523],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "EL MOLAR",
+            "COD_CHS": "PA3179",
+            "COD_MASA_DEM": "070.021",
+            "CodMasa": "071.021",
+            "MSBT_Nombre": "EL MOLAR",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.5723663781134452, 38.33388867634816],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "SINCLINAL DE CALASPARRA",
+            "COD_CHS": "PA3264",
+            "COD_MASA_DEM": "070.022",
+            "CodMasa": "070.022",
+            "MSBT_Nombre": "SINCLINAL DE CALASPARRA",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.5571164816424818, 38.24664818015061],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAJAL",
+            "COD_CHS": "PA5599",
+            "COD_MASA_DEM": "070.040",
+            "CodMasa": "070.040",
+            "MSBT_Nombre": "SIERRA ESPUÑA",
+            "Z": null,
+            "location": {
+                "coordinates": [-1.4525986995206925, 38.08971764134217],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "VEGAS MEDIA Y BAJA DEL SEGURA",
+            "COD_CHS": "PATE002",
+            "COD_MASA_DEM": "070.036",
+            "CodMasa": "070.036",
+            "MSBT_Nombre": "VEGA MEDIA Y BAJA DEL SEGURA",
+            "Z": null,
+            "location": {
+                "coordinates": [-0.7907124765223474, 38.11794585237837],
+                "type": "Point"
+            }
+        },
+        {
+            "ACUIFERO": "CAMPO DE CARTAGENA",
+            "COD_CHS": "PA10940",
+            "COD_MASA_DEM": "070.052",
+            "CodMasa": "070.052",
+            "MSBT_Nombre": "CAMPO DE CARTAGENA",
+            "Z": null,
+            "location": {
+                "coordinates": [-0.911048024893758, 37.65893522136172],
+                "type": "Point"
+            }
+        }
+    ],
+    "ok": true,
+    "status": 200
+}

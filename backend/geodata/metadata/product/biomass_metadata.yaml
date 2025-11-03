@@ -1,0 +1,19 @@
+name: biomass
+metadata_type: eo3
+description: Biomass product
+
+storage:
+  crs: EPSG:4326
+  resolution:
+    latitude: 0.0002024
+    longitude: -0.0002024
+    
+metadata:
+  product:
+    name: biomass
+
+measurements:
+- name: BM
+  dtype: float32
+  units: '1'
+  nodata: 'NaN'

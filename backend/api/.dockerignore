@@ -1,0 +1,23 @@
+# Python stuff
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*$py.class
+env/
+venv/
+
+# Docker stuff
+docker-compose*
+Dockerfile
+.dockerignore
+
+# Secrets
+.env*
+
+# Other stuff
+.gitignore
+README.md
+setup.cfg
+datacube.conf
+tests/
+tools/

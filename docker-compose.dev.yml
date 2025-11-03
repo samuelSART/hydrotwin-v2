@@ -1,0 +1,204 @@
+version: "3.8"
+
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: ${COMPOSE_PROJECT_NAME:-hydrotwin}-dev_nginx
+    environment:
+      - DEBUG=${DEBUG:-True}
+      - ENVIRONMENT=${ENVIRONMENT:-development}
+      - DNS_RESOLVER=127.0.0.11
+      - SSL_ENABLED=${SSL_ENABLED:-False}
+      - CERT_DOMAIN
+      - CERT_EMAIL
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ${PWD}/frontend/nginx/nginx-dev.conf.template:/tmp/nginx.conf.template:ro
+      - ${PWD}/frontend/nginx/nginx_ssl-dev.conf.template:/tmp/nginx_ssl.conf.template:ro
+      - ${PWD}/frontend/nginx/nginxconfig.io/:/etc/nginx/nginxconfig.io/
+      - ${PWD}/frontend/nginx/run.sh:/run.sh
+    command: >
+      /bin/sh -c "apk add --no-cache openssl && mkdir -p /etc/nginx/templates/ && 
+      ln -sf /tmp/nginx.conf.template /etc/nginx/templates/nginx.conf.template && 
+      ln -sf /tmp/nginx_ssl.conf.template /etc/nginx/templates/nginx_ssl.conf.template && 
+      exec /run.sh"
+    secrets:
+      - ssl_cert
+      - ssl_key
+      - ssl_chain
+      - web_conf
+
+  frontend:
+    image: node:12-alpine
+    container_name: ${COMPOSE_PROJECT_NAME:-hydrotwin}-dev_frontend
+    environment:
+      DEBUG: ${DEBUG:-True}
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+      VUE_APP_API_URL: ${API_URL:-http://localhost:5000/api}
+      VUE_APP_WMS_URL: ${OWS_URL:-http://localhost:8000}/wms
+      VUE_APP_MAPBOX_TOKEN: ${MAPBOX_TOKEN}
+      VUE_APP_AEMET_KEY: ${AEMET_KEY}
+      VUE_APP_NO_CAS_AUTH: 1
+    ports:
+      - 8080:8080
+    volumes:
+      - ${PWD}/frontend/:/app
+    working_dir: /app
+    command: sh -c 'npm install && npm run serve'
+
+  api:
+    image: ${IMAGE_REPO_URI:-}${COMPOSE_PROJECT_NAME:-hydrotwin}/api:${API_VERSION:-${VERSION:-latest}}
+    container_name: ${COMPOSE_PROJECT_NAME:-hydrotwin}-dev_api
+    environment:
+      DEBUG: ${DEBUG:-True}
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+      TIMEOUT: ${TIMEOUT:-30}
+      API_PORT: ${API_PORT:-5000}
+      SECRET_KEY: ${SECRET_KEY:-s3cr3tK3y}
+      RDB_HOST: ${RDB_HOST:-hydrotwin-dev_rdb}
+      RDB_PORT: ${RDB_PORT:-5432}
+      CHS_DB_NAME: ${CHS_DB_NAME:-hydrotwin}
+      ODC_DB_NAME: ${ODC_DB_NAME:-opendatacube}
+      CHS_DB_PASSWORD: ${CHS_DB_PASSWORD:-chs-db_p4ss}
+      ODC_DB_PASSWORD: ${ODC_DB_PASSWORD:-odc-db_p4ss}
+      CORP_DB_HOST: ${CORP_DB_HOST:-}
+      CORP_DB_USER: ${CORP_DB_USER:-}
+      CORP_DB_PASSWORD: ${CORP_DB_PASSWORD:-}
+      PIEZOMETRY_CORP_DB_NAME: ${PIEZOMETRY_CORP_DB_NAME:-}
+      COUNTERS_CORP_DB_NAME: ${COUNTERS_CORP_DB_NAME:-}
+      DROUGHTINDICES_CORP_DB_NAME: ${DROUGHTINDICES_CORP_DB_NAME:-}
+      INFLUXDB_V2_URL: ${INFLUXDB_V2_URL:-http://tdb:8086/}
+      INFLUXDB_V2_TOKEN: ${INFLUXDB_V2_TOKEN:-1nfluxdb_4dm1n_t0k3n}
+      INFLUXDB_V2_ORG: ${INFLUXDB_V2_ORG:-CHS}
+      SAIH_BUCKET: ${SAIH_BUCKET:-SAIH}
+      SIMUL_BUCKET: ${SIMUL_BUCKET:-SIMUL}
+      OWS_URL: ${OWS_URL:-http://ows:8000}
+      CAS_AUTH_SERVER: ${CAS_AUTH_SERVER:-}
+      CAS_SERVICE_URL: ${CAS_SERVICE_URL:-}
+    ports:
+      - ${API_PORT:-5000}:${API_PORT:-5000}
+    volumes:
+      - ${PWD}/backend/api/:/usr/src/app
+      - ${DATA_FOLDER:-./backend/geodata}:/geodata
+    working_dir: /usr/src/app
+    command: sh -c 'pip install -r requirements/dev.txt && exec python api.py'
+
+  ows:
+    image: ${IMAGE_REPO_URI:-}${COMPOSE_PROJECT_NAME:-hydrotwin}/ows:${OWS_VERSION:-${VERSION:-latest}}
+    container_name: ${COMPOSE_PROJECT_NAME:-hydrotwin}-dev_ows
+    environment:
+      DB_HOSTNAME: ${RDB_HOST:-rdb}
+      DB_PORT: ${RDB_PORT:-5432}
+      DB_USERNAME: ${ODC_DB_NAME:-opendatacube}
+      DB_PASSWORD: ${ODC_DB_PASSWORD:-odc-db_p4ss}
+      DB_DATABASE: ${ODC_DB_NAME:-opendatacube}
+      FLASK_ENV: ${ENVIRONMENT:-development}
+    ports: [8000:8000]
+    depends_on:
+      rdb:
+        condition: service_healthy
+    volumes:
+      - ${PWD}/backend/ows/ogc.py:/code/datacube_ows/ogc.py
+      - ${PWD}/backend/ows/ows_cfg.py:/code/datacube_ows/ows_cfg.py
+      - ${PWD}/backend/ows/gunicorn_config.py:/code/datacube_ows/gunicorn_config.py
+      - ${DATA_FOLDER:-./backend/geodata}:/geodata
+
+  odc_explorer:
+    image: opendatacube/explorer
+    container_name: ${COMPOSE_PROJECT_NAME:-hydrotwin}-dev_odc-explorer
+    environment:
+      DB_HOSTNAME: ${RDB_HOST:-rdb}
+      DB_USERNAME: ${DB_ADMIN:-admin}
+      DB_PASSWORD: ${DB_ADMIN_PASS:-4dm1n_p4ss}
+      DB_DATABASE: ${ODC_DB_NAME:-opendatacube}
+      DB_PORT: ${RDB_PORT:-5432}
+    ports: [8088:8080]
+    entrypoint: bash -c 'cubedash-gen --init --all && cubedash-run -h 0.0.0.0 -p 8080'
+
+  ingestor:
+    image: ${IMAGE_REPO_URI:-}${COMPOSE_PROJECT_NAME:-hydrotwin}/ingestor:${INGESTOR_VERSION:-${VERSION:-latest}}
+    container_name: ${COMPOSE_PROJECT_NAME:-hydrotwin}-dev_ingestor
+    environment:
+      - DEBUG=${DEBUG:-True}
+      - TIMEOUT
+      - FTP_HOST
+      - FTP_USER
+      - FTP_PASS
+      - INFLUXDB_V2_URL=${INFLUXDB_V2_URL:-http://tdb:8086/}
+      - INFLUXDB_V2_TOKEN=${INFLUXDB_V2_TOKEN:-1nfluxdb_4dm1n_t0k3n}
+      - INFLUXDB_V2_ORG=${INFLUXDB_V2_ORG:-CHS}
+      - INFLUXDB_V2_BUCKET=${SAIH_BUCKET:-SAIH}
+      - API_URL=${API_URL:-http://api:5000/api}
+    volumes:
+      - ${PWD}/backend/ingestor/:/usr/src/app
+      - ${DATA_FOLDER:-./backend/geodata}:/DATA
+    command: sh -c 'pip install -r requirements.txt honcho && exec honcho start -f Procfile.dev'
+
+  rdb:
+    image: ${IMAGE_REPO_URI:-}${COMPOSE_PROJECT_NAME:-hydrotwin}/rdb:${RDB_VERSION:-${VERSION:-latest}}
+    container_name: ${COMPOSE_PROJECT_NAME:-hydrotwin}-dev_rdb
+    environment:
+      POSTGRES_USER: ${DB_ADMIN:-admin}
+      POSTGRES_PASSWORD: ${DB_ADMIN_PASS:-4dm1n_p4ss}
+      CHS_DB_NAME: ${CHS_DB_NAME:-hydrotwin}
+      ODC_DB_NAME: ${ODC_DB_NAME:-opendatacube}
+      CHS_DB_PASSWORD: ${CHS_DB_PASSWORD:-chs-db_p4ss}
+      ODC_DB_PASSWORD: ${ODC_DB_PASSWORD:-odc-db_p4ss}
+    ports:
+      - 5432:5432
+    volumes:
+      - rdb_data:/var/lib/postgresql/data
+      - ${PWD}/backend/database/docker-entrypoint-initdb.d/:/docker-entrypoint-initdb.d/:ro
+
+  tdb:
+    image: influxdb:2.2-alpine
+    container_name: ${COMPOSE_PROJECT_NAME:-hydrotwin}-dev_tdb
+    environment:
+      DOCKER_INFLUXDB_INIT_MODE: setup
+      DOCKER_INFLUXDB_INIT_USERNAME: ${DB_ADMIN:-admin}
+      DOCKER_INFLUXDB_INIT_PASSWORD: ${DB_ADMIN_PASS:-4dm1n_p4ss}
+      DOCKER_INFLUXDB_INIT_ORG: ${INFLUXDB_V2_ORG:-CHS}
+      DOCKER_INFLUXDB_INIT_BUCKET: ${SAIH_BUCKET:-SAIH}
+      DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: 1nfluxdb_4dm1n_t0k3n
+    ports:
+      - 8086:8086
+    volumes:
+      - tdb_data:/var/lib/influxdb2
+
+  db-admin:
+    image: dbgate/dbgate:alpine
+    container_name: ${COMPOSE_PROJECT_NAME:-hydrotwin}-dev_db-admin
+    environment:
+      CONNECTIONS: rdb,corp-db
+      LABEL_rdb: ${COMPOSE_PROJECT_NAME:-hydrotwin}-dev_rdb
+      SERVER_rdb: ${RDB_HOST:-rdb}
+      USER_rdb: ${DB_ADMIN:-admin}
+      PASSWORD_rdb: ${DB_ADMIN_PASS:-4dm1n_p4ss}
+      PORT_rdb: ${RDB_PORT:-5432}
+      ENGINE_rdb: postgres@dbgate-plugin-postgres
+      LABEL_corp-db: corp-db
+      SERVER_corp-db: ${CORP_DB_HOST}
+      USER_corp-db: ${CORP_DB_USER}
+      PASSWORD_corp-db: ${CORP_DB_PASSWORD}
+      ENGINE_corp-db: mssql@dbgate-plugin-mssql
+      READONLY_corp-db: True
+    depends_on: [rdb]
+    ports: [3000:3000]
+
+secrets:
+  ssl_cert:
+    file: ${SSL_CERT:-/dev/null}
+  ssl_key:
+    file: ${SSL_KEY:-/dev/null}
+  ssl_chain:
+    file: ${SSL_CHAIN:-/dev/null}
+  web_conf:
+    file: ${WEB_CONFIG:-/dev/null}
+
+volumes:
+  rdb_data:
+    name: ${COMPOSE_PROJECT_NAME:-hydrotwin}-dev_rdb_data
+  tdb_data:
+    name: ${COMPOSE_PROJECT_NAME:-hydrotwin}-dev_tdb_data

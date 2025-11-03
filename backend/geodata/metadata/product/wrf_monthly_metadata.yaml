@@ -1,0 +1,56 @@
+name: wrf_monthly
+metadata_type: eo3
+description: Wrf daily data
+
+storage:
+  crs: EPSG:4326
+  resolution:
+    latitude: 0.031250000000000
+    longitude: -0.031250000000000
+
+metadata:
+  product:
+    name: wrf_monthly
+  format: GTiff
+
+measurements:
+- name: d2m
+  dtype: float32
+  units: 'K'
+  nodata: 'NaN'
+
+- name: e
+  dtype: float32
+  units: 'm'
+  nodata: 'NaN'
+
+- name: msl
+  dtype: float32
+  units: 'Pa'
+  nodata: 'NaN'
+
+- name: ssrd
+  dtype: float32
+  units: 'J m**-2'
+  nodata: 'NaN'
+
+- name: t2m
+  dtype: float32
+  units: 'kg m-2'
+  nodata: 'NaN'
+
+- name: tp
+  dtype: float32
+  units: 'mm'
+  nodata: 'NaN'
+
+- name: u10
+  dtype: float32
+  units: 'm s**-1'
+  nodata: 'NaN'
+
+- name: v10
+  dtype: float32
+  units: 'm s**-1'
+  nodata: 'NaN'
+

@@ -1,0 +1,81 @@
+id: {uid}
+
+product:
+  name: wrf
+format: NetCDF
+
+creation_dt: {creation_date}
+crs: EPSG:4326
+
+geometry:
+  type: Polygon
+  coordinates: {polygon}
+
+
+grids:
+  default:
+    shape: {shape}
+    transform: {transform}
+
+extent:
+  lat:
+    begin: {lat_min}
+    end: {lat_max}
+  lon:
+    begin: {lon_min}
+    end: {lon_max}
+
+grid_spatial:
+  projection:
+    geo_ref_points:
+      ll: {{x: {lon_min}, y: {lat_min}}}
+      lr: {{x: {lon_max}, y: {lat_min}}}
+      ul: {{x: {lon_min}, y:  {lat_max}}}
+      ur: {{x: {lon_max}, y: {lat_max}}}
+    spatial_reference: EPSG:4326
+
+    
+properties:
+  datetime: {datetime}
+  odc:file_format: NetCDF
+  proj:epsg: 4326
+
+measurements:
+  T2:
+    path: {path}
+    layer: T2
+
+  PSFC:
+    path: {path}
+    layer: PSFC
+  
+  U10:
+    path: {path}
+    layer: U10
+  
+  V10:
+    path: {path}
+    layer: V10
+  
+  SFCEVP:
+    path: {path}
+    layer: SFCEVP
+  
+  QSFC:
+    path: {path}
+    layer: QSFC
+  
+  SWDOWN:
+    path: {path}
+    layer: SWDOWN
+  
+  TACC_PRECIP:
+    path: {path}
+    layer: TACC_PRECIP
+  
+  
+accessories: {{}}
+
+lineage: {{}}
+
+

@@ -1,0 +1,72 @@
+# Logging config
+log_format logs '[$time_local] Status: $status | From: $remote_addr | Host: $http_host | Request: $request | Referer: $http_referer';
+access_log /dev/stdout logs;
+error_log /dev/stderr warn;
+
+map $http_user_agent $log_ip {
+	default 1;
+	"HealthChecker" 0;
+	"ELB-HealthChecker/1.0" 0;
+	"ELB-HealthChecker/2.0" 0;
+}
+
+server {
+	listen 80 default;
+	listen [::]:80;
+	server_name _;
+	
+	# Allow access to the ACME Challenge for Let's Encrypt
+	location ~ ^/.well-known/acme-challenge/ {
+		root /usr/share/nginx/;
+	}
+
+	location /health {
+		access_log /dev/stdout logs if=$log_ip;
+		return 200 'Healthcheck OK!';
+		add_header Content-Type text/plain;
+	}
+	
+	location / {
+		return 301 https://$host$request_uri;
+	}
+}
+
+server {
+	listen 443 ssl http2;
+	listen [::]:443 ssl http2;
+
+	# SSL
+	ssl_certificate /etc/nginx/certs/ssl_cert;
+	ssl_certificate_key /etc/nginx/certs/ssl_key;
+	
+	# additional config
+	include nginxconfig.io/general.conf;
+	include nginxconfig.io/security.conf;
+	include nginxconfig.io/proxy.conf;
+	
+	location / {
+		resolver ${DNS_RESOLVER} valid=10s;
+		set $upstream_frontend frontend.${SRVC_NAMESPACE};
+		proxy_pass http://$upstream_frontend:8080;
+		add_header Content-Security-Policy "default-src 'self' http: https: data: blob: 'unsafe-inline' 'unsafe-eval'" always;
+	}
+
+	location /api {
+		resolver ${DNS_RESOLVER} valid=10s;
+		set $upstream_api api.${SRVC_NAMESPACE};
+		proxy_pass http://$upstream_api:5000;
+	}
+
+	location /wms {
+		resolver ${DNS_RESOLVER} valid=10s;
+		set $upstream_wms ows.${SRVC_NAMESPACE};
+		proxy_pass http://$upstream_wms:8000;
+	}
+
+	location /db-admin {
+		resolver ${DNS_RESOLVER} valid=10s;
+		set $upstream_dbadmin db-admin.${SRVC_NAMESPACE};
+		proxy_pass http://$upstream_dbadmin:3000;
+		add_header Content-Security-Policy "default-src 'self' http: https: data: blob: 'unsafe-inline' 'unsafe-eval'" always;
+	}
+}

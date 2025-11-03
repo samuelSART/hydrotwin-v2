@@ -1,0 +1,19 @@
+name: evapotranspiration_monthly
+metadata_type: eo3
+description: Evapotranspiration monthly product
+
+storage:
+  crs: EPSG:4326
+  resolution:
+    latitude: 0.000186171
+    longitude: -0.000186171
+    
+metadata:
+  product:
+    name: evapotranspiration_monthly
+
+measurements:
+- name: ET
+  dtype: float32
+  units: '1'
+  nodata: 'NaN'

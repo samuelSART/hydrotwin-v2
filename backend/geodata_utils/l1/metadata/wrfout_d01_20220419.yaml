@@ -1,0 +1,59 @@
+id: 8b4c2033-80bd-458c-9582-aa367242e990
+
+product:
+  name: line1
+  
+format: NetCDF
+
+creation_dt: 2022-05-12T16:38:00Z
+crs: EPSG:4326
+
+geometry:
+  type: Polygon
+  coordinates: [[[12.823914, 48.90126], 
+  [-15.615906, 48.90126], 
+  [-15.615906, 29.295551],
+  [12.823914, 29.295551], 
+  [12.823914, 48.90126]]]
+extent:
+  lat:
+    begin: 29.295551
+    end: 48.90126
+  lon:
+    begin: -15.615906
+    end: 12.823914
+
+grid_spatial:
+  projection:
+    geo_ref_points:
+      ll: {x: -15.615906, y: 29.295551}
+      lr: {x: 12.823914, y: 29.295551}
+      ul: {x: -15.615906, y: 48.90126}
+      ur: {x: 12.823914, y: 48.90126}
+
+grids:
+  default:
+    shape: [99, 99]
+    transform: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0]
+    
+properties:
+  created: 2022-05-12T16:38:00Z
+  data_coverage: 100
+  dtr:start_datetime: 2022-04-19T00:00:00Z
+  dtr:end_datetime:   2022-04-25T00:00:00Z
+  odc:file_format: NETCDF
+  proj:epsg: 4326
+
+measurements:
+  T2:
+    path: file:///GeoData/l1/wrfout_d01_20220419.nc#part=0
+    layer: "/T2"
+  U10:
+    path: file:///GeoData/l1/wrfout_d01_20220419.nc#part=0
+    layer: "/U10"
+  V10:
+    path: file:///GeoData/l1/wrfout_d01_20220419.nc#part=0
+    layer: "/V10"
+  TACC_PRECIP:
+    path: file:///GeoData/l1/wrfout_d01_20220419.nc#part=0
+    layer: "/TACC_PRECIP"

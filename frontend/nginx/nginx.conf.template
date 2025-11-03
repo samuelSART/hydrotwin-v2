@@ -1,0 +1,54 @@
+# Logging config
+log_format logs '[$time_local] Status: $status | From: $remote_addr | Host: $http_host | Request: $request | Referer: $http_referer';
+access_log /dev/stdout logs;
+error_log /dev/stderr warn;
+
+map $http_user_agent $log_ip {
+	default 1;
+	"HealthChecker" 0;
+	"ELB-HealthChecker/1.0" 0;
+	"ELB-HealthChecker/2.0" 0;
+}
+
+server {
+	listen 80 default;
+	listen [::]:80;
+	server_name _;
+
+	# additional config
+	include nginxconfig.io/general.conf;
+	include nginxconfig.io/security.conf;
+	include nginxconfig.io/proxy.conf;
+	
+	location / {
+		root /usr/share/nginx/html/;
+		index index.html;
+		try_files $uri $uri/ /index.html =404;
+		access_log /dev/stdout logs if=$log_ip;
+	}
+
+	location /health {
+		access_log /dev/stdout logs if=$log_ip;
+		return 200 'Healthcheck OK!';
+		add_header Content-Type text/plain;
+	}
+
+	location /api {
+		resolver ${DNS_RESOLVER} valid=10s;
+		set $upstream_api api.${SRVC_NAMESPACE};
+		proxy_pass http://$upstream_api:5000;
+	}
+
+	location /wms {
+		resolver ${DNS_RESOLVER} valid=10s;
+		set $upstream_wms ows.${SRVC_NAMESPACE};
+		proxy_pass http://$upstream_wms:8000;
+	}
+
+	location /db-admin {
+		resolver ${DNS_RESOLVER} valid=10s;
+		set $upstream_dbadmin db-admin.${SRVC_NAMESPACE};
+		proxy_pass http://$upstream_dbadmin:3000;
+		add_header Content-Security-Policy "default-src 'self' http: https: data: blob: 'unsafe-inline' 'unsafe-eval'" always;
+	}
+}

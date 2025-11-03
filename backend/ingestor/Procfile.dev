@@ -1,0 +1,3 @@
+file_watchdog: python file_watchdog.py -p /DATA
+saih_elements_parser: python saih_elements_parser.py -p /Historicos/
+ingestor: python ingestor.py

@@ -1,0 +1,83 @@
+
+id: {uid}
+
+product:
+  name: wrf_monthly
+  
+format: GTiff
+
+creation_dt: {creation_date}
+crs: EPSG:4326
+
+geometry:
+  type: Polygon
+  coordinates: {polygon}
+
+
+grids:
+  default:
+    shape: {shape}
+    transform: {transform}
+
+extent:
+  lat:
+    begin: {lat_min}
+    end: {lat_max}
+  lon:
+    begin: {lon_min}
+    end: {lon_max}
+
+grid_spatial:
+  projection:
+    geo_ref_points:
+      ll: {{x: {lon_min}, y: {lat_min}}}
+      lr: {{x: {lon_max}, y: {lat_min}}}
+      ul: {{x: {lon_min}, y:  {lat_max}}}
+      ur: {{x: {lon_max}, y: {lat_max}}}
+    spatial_reference: EPSG:4326
+
+
+properties:
+  datetime: {datetime}
+  odc:file_format: GTiff
+  proj:epsg: 4326
+
+measurements:
+  d2m:
+    path: {path}
+    band: 1
+
+  e:
+    path: {path}
+    band: 2
+  
+  msl:
+    path: {path}
+    band: 3
+  
+  ssrd:
+    path: {path}
+    band: 4
+  
+  t2m:
+    path: {path}
+    band: 5
+  
+  tp:
+    path: {path}
+    band: 6
+  
+  u10:
+    path: {path}
+    band: 7
+  
+  v10:
+    path: {path}
+    band: 8
+  
+  
+accessories: {{}}
+
+lineage: {{}}
+
+

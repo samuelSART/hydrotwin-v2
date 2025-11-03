@@ -1,0 +1,19 @@
+name: exchange
+metadata_type: eo3
+description: Exchange between UZ and SZ (pos.up) simulation
+
+storage:
+  crs: EPSG:25830
+  resolution:
+    x: 500
+    y: -500
+
+metadata:
+  product:
+    name: exchange
+
+measurements:
+  - name: R
+    dtype: float32
+    units: mm/day"
+    nodata: "NaN"

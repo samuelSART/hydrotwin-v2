@@ -1,0 +1,168 @@
+services:
+  frontend:
+    build:
+      context: frontend/
+      args: [ "version=${FRONTEND_VERSION:-${VERSION:-latest}}" ]
+    image: ${IMAGE_REPO_URI:-}${COMPOSE_PROJECT_NAME:-hydrotwin}/frontend:${FRONTEND_VERSION:-${VERSION:-latest}}
+    environment:
+      - DEBUG
+      - ENVIRONMENT
+      - SSL_ENABLED
+      - CERT_DOMAIN
+      - CERT_EMAIL
+      - MAPBOX_TOKEN
+      - AEMET_KEY
+    ports:
+      - 80:80
+      - 443:443
+    secrets:
+      - ssl_cert
+      - ssl_key
+      - ssl_chain
+      - web_conf
+    restart: always
+    volumes:
+      - web_certs:/etc/letsencrypt/
+  api:
+    build:
+      context: backend/api/
+      args: [ "version=${API_VERSION:-${VERSION:-latest}}" ]
+    image: ${IMAGE_REPO_URI:-}${COMPOSE_PROJECT_NAME:-hydrotwin}/api:${API_VERSION:-${VERSION:-latest}}
+    environment:
+      - DEBUG
+      - ENVIRONMENT
+      - TIMEOUT
+      - SECRET_KEY
+      - RDB_HOST=${RDB_HOST:-rdb}
+      - RDB_PORT=${RDB_PORT:-5432}
+      - CHS_DB_NAME=${CHS_DB_NAME:-hydrotwin}
+      - ODC_DB_NAME=${ODC_DB_NAME:-opendatacube}
+      - CHS_DB_PASSWORD=${CHS_DB_PASSWORD:-chs-db_p4ss}
+      - ODC_DB_PASSWORD=${ODC_DB_PASSWORD:-odc-db_p4ss}
+      - CORP_DB_HOST=${CORP_DB_HOST:?}
+      - CORP_DB_USER=${CORP_DB_USER:?}
+      - CORP_DB_PASSWORD=${CORP_DB_PASSWORD:?}
+      - PIEZOMETRY_CORP_DB_NAME=${PIEZOMETRY_CORP_DB_NAME:?}
+      - COUNTERS_CORP_DB_NAME=${COUNTERS_CORP_DB_NAME:?}
+      - DROUGHTINDICES_CORP_DB_NAME=${DROUGHTINDICES_CORP_DB_NAME:?}
+      - INFLUXDB_V2_URL=${INFLUXDB_V2_URL:-http://tdb:8086/}
+      - INFLUXDB_V2_TOKEN=${INFLUXDB_V2_TOKEN}
+      - INFLUXDB_V2_ORG=${INFLUXDB_V2_ORG:-CHS}
+      - SAIH_BUCKET=${SAIH_BUCKET:-SAIH}
+      - SIMUL_BUCKET=${SIMUL_BUCKET:-SIMUL}
+      - OWS_URL=${OWS_URL:-http://ows:8000}
+      - CAS_AUTH_SERVER=${CAS_AUTH_SERVER:?CAS authentication server not set!}
+      - CAS_SERVICE_URL=${CAS_SERVICE_URL:?CAS service url not set!}
+    depends_on:
+      rdb:
+        condition: service_healthy
+    restart: always
+    volumes:
+      - datalake:/geodata
+  ows:
+    build:
+      context: backend/ows/
+      args: [ "version=${OWS_VERSION:-${VERSION:-latest}}" ]
+    image: ${IMAGE_REPO_URI:-}${COMPOSE_PROJECT_NAME:-hydrotwin}/ows:${OWS_VERSION:-${VERSION:-latest}}
+    environment:
+      DB_HOSTNAME: ${RDB_HOST:-rdb}
+      DB_PORT: ${RDB_PORT:-5432}
+      DB_USERNAME: ${ODC_DB_NAME:-opendatacube}
+      DB_PASSWORD: ${ODC_DB_PASSWORD:-odc-db_p4ss}
+      DB_DATABASE: ${ODC_DB_NAME:-opendatacube}
+    depends_on:
+      rdb:
+        condition: service_healthy
+    restart: always
+    volumes:
+      - datalake:/geodata
+  ingestor:
+    build:
+      context: backend/ingestor/
+      labels: [ "version=${INGESTOR_VERSION:-${VERSION:-latest}}" ]
+    image: ${IMAGE_REPO_URI:-}${COMPOSE_PROJECT_NAME:-hydrotwin}/ingestor:${INGESTOR_VERSION:-${VERSION:-latest}}
+    environment:
+      - DEBUG
+      - TIMEOUT
+      - FTP_HOST
+      - FTP_USER
+      - FTP_PASS
+      - INFLUXDB_V2_URL=${INFLUXDB_V2_URL:-http://tdb:8086/}
+      - INFLUXDB_V2_TOKEN=${INFLUXDB_V2_TOKEN}
+      - INFLUXDB_V2_ORG=${INFLUXDB_V2_ORG:-CHS}
+      - INFLUXDB_V2_BUCKET=${SAIH_BUCKET:-SAIH}
+      - API_URL=${API_URL:-http://api:5000/api}
+    restart: always
+    volumes:
+      - datalake:/DATA
+  rdb:
+    build:
+      context: backend/database/
+      labels: [ "version=${RDB_VERSION:-${VERSION:-latest}}" ]
+    image: ${IMAGE_REPO_URI:-}${COMPOSE_PROJECT_NAME:-hydrotwin}/rdb:${RDB_VERSION:-${VERSION:-latest}}
+    environment:
+      POSTGRES_USER: ${DB_ADMIN:-admin}
+      POSTGRES_PASSWORD: ${DB_ADMIN_PASS:-4dm1n_p4ss}
+      CHS_DB_NAME: ${CHS_DB_NAME:-hydrotwin}
+      ODC_DB_NAME: ${ODC_DB_NAME:-opendatacube}
+      CHS_DB_PASSWORD: ${CHS_DB_PASSWORD:-chs-db_p4ss}
+      ODC_DB_PASSWORD: ${ODC_DB_PASSWORD:-odc-db_p4ss}
+    volumes:
+      - ${RDB_DATA_PATH:-rdb_data}:/var/lib/postgresql/data
+  tdb:
+    image: influxdb:2.2-alpine
+    environment:
+      DOCKER_INFLUXDB_INIT_MODE: setup
+      DOCKER_INFLUXDB_INIT_USERNAME: ${DB_ADMIN:-admin}
+      DOCKER_INFLUXDB_INIT_PASSWORD: ${DB_ADMIN_PASS:-4dm1n_p4ss}
+      DOCKER_INFLUXDB_INIT_ORG: ${INFLUXDB_V2_ORG:-CHS}
+      DOCKER_INFLUXDB_INIT_BUCKET: ${SAIH_BUCKET:-SAIH}
+    volumes:
+      - ${TDB_DATA_PATH:-tdb_data}:/var/lib/influxdb2
+      - ${TDB_CONFIG_PATH:-tdb_config}:/etc/influxdb2
+  db-admin:
+    image: dbgate/dbgate:alpine
+    environment:
+      LOGIN: ${DB_ADMIN:-admin}
+      PASSWORD: ${DB_ADMIN_PASS:-4dm1n_p4ss}
+      WEB_ROOT: /db-admin
+      CONNECTIONS: rdb
+      LABEL_rdb: ${COMPOSE_PROJECT_NAME:-hydrotwin}_rdb
+      SERVER_rdb: ${RDB_HOST:-rdb}
+      PORT_rdb: ${RDB_PORT:-5432}
+      USER_rdb: ${DB_ADMIN:-admin}
+      PASSWORD_rdb: ${DB_ADMIN_PASS:-4dm1n_p4ss}
+      ENGINE_rdb: postgres@dbgate-plugin-postgres
+
+secrets:
+  ssl_cert:
+    file: ${SSL_CERT:-/dev/null}
+  ssl_key:
+    file: ${SSL_KEY:-/dev/null}
+  ssl_chain:
+    file: ${SSL_CHAIN:-/dev/null}
+  web_conf:
+    file: ${WEB_CONFIG:-/dev/null}
+
+volumes:
+  web_certs:
+    name: ${COMPOSE_PROJECT_NAME:-hydrotwin}_web_certs
+  rdb_data:
+    name: ${COMPOSE_PROJECT_NAME:-hydrotwin}_rdb_data
+  tdb_data:
+    name: ${COMPOSE_PROJECT_NAME:-hydrotwin}_tdb_data
+  tdb_config:
+    name: ${COMPOSE_PROJECT_NAME:-hydrotwin}_tdb_config
+  datalake:
+    name: ${COMPOSE_PROJECT_NAME:-hydrotwin}_datalake
+    # Local folder mount point, replica of CHS datalake:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: ${DATA_FOLDER}
+    # NFS mount point, for CHS datalake access:
+    # driver_opts:
+    #   type: "nfs"
+    #   o: "addr=10.31.224.45,nfsvers=4"
+    #   device: ":/mnt/proyecto/compartido/"

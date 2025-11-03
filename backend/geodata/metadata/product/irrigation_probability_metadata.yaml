@@ -1,0 +1,19 @@
+name: irrigation_probability
+metadata_type: eo3
+description: Irrigation probability product
+
+storage:
+  crs: EPSG:4326
+  resolution:
+    latitude: 0.0002024
+    longitude: -0.0002024
+    
+metadata:
+  product:
+    name: irrigation_probability
+
+measurements:
+- name: IRp
+  dtype: float32
+  units: '1'
+  nodata: 'NaN'

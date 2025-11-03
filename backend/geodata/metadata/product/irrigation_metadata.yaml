@@ -1,0 +1,19 @@
+name: irrigation
+metadata_type: eo3
+description: Irrigation product
+
+storage:
+  crs: EPSG:4326
+  resolution:
+    latitude: 0.0002024
+    longitude: -0.0002024
+    
+metadata:
+  product:
+    name: irrigation
+
+measurements:
+- name: IR
+  dtype: float32
+  units: '1'
+  nodata: 'NaN'

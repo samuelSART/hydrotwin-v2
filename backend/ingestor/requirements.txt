@@ -1,0 +1,8 @@
+influxdb-client[ciso]==1.28.0
+pandas==2.2.2
+paramiko==3.4.0
+psutil==6.0.0
+python-dotenv==0.20.0
+requests==2.27.1
+retry2==0.9.3
+watchdog==2.1.9

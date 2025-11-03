@@ -1,0 +1,32 @@
+name: line1
+metadata_type: eo3
+description: line1 product
+
+storage:
+  crs: "EPSG:4326"
+  resolution:
+    longitude: 0.08332825
+    latitude: -0.08333588
+    
+metadata:
+  product:
+    name: line1
+  format: NetCDF
+  
+measurements:
+  - name: T2
+    dtype: float32
+    units: '1'
+    nodata: -999
+  - name: U10
+    dtype: float32
+    units: '1'
+    nodata: -999
+  - name: V10
+    dtype: float32
+    units: '1'
+    nodata: -999
+  - name: TACC_PRECIP
+    dtype: float32
+    units: '1'
+    nodata: -999

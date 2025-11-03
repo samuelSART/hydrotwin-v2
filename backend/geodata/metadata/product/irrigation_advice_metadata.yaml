@@ -1,0 +1,19 @@
+name: irrigation_advice
+metadata_type: eo3
+description: Irrigation advice product
+
+storage:
+  crs: EPSG:4326
+  resolution:
+    latitude: 0.0002024
+    longitude: -0.0002024
+    
+metadata:
+  product:
+    name: irrigation_advice
+
+measurements:
+- name: IR_AD
+  dtype: float32
+  units: '1'
+  nodata: -1

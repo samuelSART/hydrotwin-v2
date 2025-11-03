@@ -1,0 +1,19 @@
+name: evapotranspiration
+metadata_type: eo3
+description: Evapotranspiration product
+
+storage:
+  crs: EPSG:4326
+  resolution:
+    latitude: 0.000186171
+    longitude: -0.000186171
+    
+metadata:
+  product:
+    name: evapotranspiration
+
+measurements:
+- name: ET
+  dtype: float32
+  units: '1'
+  nodata: 'NaN'

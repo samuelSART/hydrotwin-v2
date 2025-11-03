@@ -1,0 +1,267 @@
+01P01	Centro de Recepción Final(Murcia)	Murcia	Murcia	P	Pluviómetro Aislado	\N	0101000020E66400000000000060452441000000C0290B5041
+06Z03	Sondeo SM-3 Red Piezométrica Mar Menor	Cartagena	Murcia	Z	Pozo Sondeo	\N	0101000020E6640000F6285CCF1E0D2541D122DBA9D5CF4F41
+01A01	Aforo en rio Segura(Contraparada)	Molina de Segura	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000FCA9F1521C0B2441A245B6C3BC0D5041
+01A02	Aforo en Beniscornia	Murcia	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000DCD781538A2C24411B2FDD18200B5041
+01A03	Rio Segura - Murcia Autovia	Murcia	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000E240244100000040A60A5041
+01A04	Aforo río Segura La Fica	Murcia	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000C4512441000000800A0B5041
+01A05	Aforo río Chícamo, Macisvenda	Abanilla	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000EC9724410000000068295041
+01C01	Aforo en depuradora Campotejar	Molina de Segura	Murcia	I	Impulsión	\N	0101000020E664000000000000FA0A244100000080B0185041
+01C02	Aforo C.P.M.I. y derivación a Santomera	Fortuna	Murcia	C	Punto de Control en Canal	\N	0101000020E6640000448B6C67606F2441DBF97E7A7D1B5041
+01C03	Acueducto La Matanza (Trasvase)	Fortuna	Murcia	C	Punto de Control en Canal	\N	0101000020E6640000F2D24DE25D962441DF4F8DD782195041
+01C04	Aforo Canal de Abanilla	Fortuna	Murcia	C	Punto de Control en Canal	\N	0101000020E6640000333333B3E4682441FED47891901A5041
+01C05	Toma Regantes de Pliego	Mula	Murcia	C	Punto de Control en Canal	\N	0101000020E66400003108AC9C3C6023413BDF4FE539035041
+01C06	Embalse de Algeciras (Cas)	Alhama de Murcia	Murcia	E	Embalse	\N	0101000020E66400000000000028982341000000C00B005041
+01E01	Embalse de La Cierva	Mula	Murcia	E	Embalse	\N	0101000020E6640000A245B6F3114F2341AC1C5A04E9125041
+01E02	Embalse de Santomera	Santomera	Murcia	E	Embalse	\N	0101000020E664000000000000D65F2441000000402B175041
+01E03	Embalse de Pliego	Pliego	Murcia	E	Embalse	\N	0101000020E6640000000000008035234100000080B00A5041
+01E04	Embalse de Doña Ana	Mula	Murcia	E	Embalse	\N	0101000020E6640000000000009422234100000080C40E5041
+01E05	Embalse de Algeciras	Alhama de Murcia	Murcia	E	Embalse	\N	0101000020E66400000000000028982341000000C00B005041
+01E06	Embalse de José Bautista	Librilla	Murcia	E	Embalse	\N	0101000020E6640000000000008AC623410000000046FE4F41
+01E07	Embalse de los Rodeos	Alguazas	Murcia	E	Embalse	\N	0101000020E66400000000000084D423410000008093115041
+01I01	Impulsión de Yechar	Campos del Río	Murcia	I	Impulsión	\N	0101000020E6640000A69BC4E0349B23412DB29D5FDB135041
+01L01	Aforo en cabecera canal de Crevillente	Fortuna	Murcia	C	Punto de Control en Canal	\N	0101000020E664000000000000386B244100000000B61C5041
+01M01	Estación Meteorológica Majal Blanco (AMETSE)	Murcia	Murcia	M	Estación Meteorológica	\N	0101000020E664000000000000C0102441000000806BFF4F41
+01M02	Estación Meteorológica Relojero (AMETSE)	Murcia	Murcia	M	Estación Meteorológica	\N	0101000020E664000000000000E04D24410000008080035041
+01M03	Estación Meteorológica Bullas (AMETSE)	Bullas	Murcia	M	Estación Meteorológica	\N	0101000020E664000000000000D0D52241000000807B115041
+01M04	Estación Meteorológica La Selva (AMETSE)	Mula	Murcia	M	Estación Meteorológica	\N	0101000020E66400000000000076C1224100000000AF035041
+01M05	Estación Meteorológica Collado Bermejo (AMETSE)	Totana	Murcia	M	Estación Meteorológica	\N	0101000020E6640000B81E856B541A23411F85EBF1CFF84F41
+01O01	By Pass en CPMI a Contraparada	Molina de Segura	Murcia	I	Impulsión	\N	0101000020E664000000000000220A2441000000403B195041
+01O02	Marco de control en rio Pliego	Mula	Murcia	A	Punto de Control en Cauce	\N	0101000020E66400000000000070482341000000C0410E5041
+01O03	Marco de control en rio Mula	Albudeite	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000BEA3234100000080C00F5041
+01O04	Marco de control en Rambla Salada	Murcia	Murcia	A	Punto de Control en Cauce	\N	0101000020E66400000000000004E8234100000080AE0B5041
+01O05	Marco de control El Reguerón - El Palmar	Murcia	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000D2312441000000C0C7065041
+01O06	Río Guadalentín Paretón de Totana	Totana	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000706723410000008003DD4F41
+01P02	Pluviómetro en Caserío Gebas	Alhama de Murcia	Murcia	P	Pluviómetro Aislado	\N	0101000020E664000000000000246A23410000004051015041
+01P03	Pluviómetro en Pinar Hermoso	Mula	Murcia	P	Pluviómetro Aislado	\N	0101000020E66400000000000042DB224100000080EB0B5041
+01P04	Pluviómetro en Baños de Fortuna	Abanilla	Murcia	P	Pluviómetro Aislado	\N	0101000020E664000000000000E0502441000000C015255041
+01Q01	SAICA - Segura en Contraparada	Molina de Segura	Murcia	Q	Calidad de Aguas	\N	0101000020E66400001D5A643B120B2441E5D022FBBA0D5041
+01Q02	SAICA - Segura en San Antón	Murcia	Murcia	Q	Calidad de Aguas	\N	0101000020E6640000C3F5285CC07524415C8FC2D5C50C5041
+01R01	Azud de Contraparada	Murcia	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000700B2441000000000F0C5041
+01R02	Aforo Azud de Abanilla	Abanilla	Murcia	C	Punto de Control en Canal	\N	0101000020E6640000A8C64BF7D77D2441DF4F8D37F51F5041
+01U01	Impulsión de Alhama	Alhama de Murcia	Murcia	I	Impulsión	\N	0101000020E6640000000000006E93234100000000E2FD4F41
+01X01	Acequia de Churra (Sica)	Murcia	Murcia	X	Acequia	\N	0101000020E6640000000000004A0B2441000000006C0C5041
+01X02	Aporte Nº 1 JJHH Murcia-Acq.Barreras-Toma (Sica)	Murcia	Murcia	X	Acequia	\N	0101000020E6640000000000009C0B244100000040090C5041
+01X03	Aporte Nº 2 JJHH Murcia-Acq.Aljufía-Toma (Sica)	Murcia	Murcia	X	Acequia	\N	0101000020E664000000000000F618244100000080360B5041
+02A01	Aforo en rio Segura(Almadenes)	Cieza	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000601D234100000000FF255041
+02A02	Aforo en rio Segura(Ojós)	Ojós	Murcia	A	Punto de Control en Cauce	\N	0101000020E66400000000000088B2234100000000B41C5041
+02A03	Aforo río Segura en Menjú	Cieza	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000DC7D2341000000004F245041
+02A04	Aforo en río Segura (Blanca)	Blanca	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000C74B37A916982341CEAACF15CB1F5041
+02A05	Aforo río Argos (Ab. Emb. Argos)	Calasparra	Murcia	A	Punto de Control en Cauce	\N	0101000020E66400000000000020C72241000000C0F7255041
+02C01	Aforo en cabecera CPMI	Ulea	Murcia	C	Punto de Control en Canal	\N	0101000020E664000000000000F2CC2341000000C0241C5041
+02C02	Aforo en CPMD	Ricote	Murcia	C	Punto de Control en Canal	\N	0101000020E66400000000000074A5234100000080D51C5041
+02C03	Salida del Mayés (Trasvase)	Ojós	Murcia	C	Punto de Control en Canal	\N	0101000020E664000000000000289A2341000000C052185041
+02E01	Embalse de Mayés	Ojós	Murcia	E	Embalse	\N	0101000020E664000000000000289A2341000000C052185041
+02E02	Embalse de Argos	Cehegín	Murcia	E	Embalse	\N	0101000020E664000000000000ACA4224100000040811E5041
+02E03	Embalse de Alfonso XIII	Calasparra	Murcia	E	Embalse	\N	0101000020E664000000000000520023410000004047245041
+02E04	Embalse de Moro	Cieza	Murcia	E	Embalse	\N	0101000020E664000000000000B89E2341000000007D255041
+02E05	Embalse del Judío	Cieza	Murcia	E	Embalse	\N	0101000020E6640000000000009470234100000000CA2A5041
+02E06	Embalse del Cárcabo	Cieza	Murcia	E	Embalse	\N	0101000020E66400000000000058312341000000C01D245041
+02E07	Embalse de La Risca	Moratalla	Murcia	E	Embalse	\N	0101000020E66400000000000056C02141000000C078205041
+02E08	Embalse de Moratalla	Moratalla	Murcia	E	Embalse	\N	0101000020E6640000000000004E992241000000C04E265041
+02I01	Impulsión de Ulea a ETAP Sierra de la Espada	Molina de Segura	Murcia	I	Impulsión	\N	0101000020E6640000000000005AB42341000000C0441B5041
+02M01	Estación Meteorológica El Carche (AMETSE)	Jumilla	Murcia	M	Estación Meteorológica	\N	0101000020E664000000000000C022244100000000F83C5041
+02M02	Estación Meteorológica Las Puntillas - Jumilla	Jumilla	Murcia	M	Estación Meteorológica	\N	0101000020E6640000000000000488234100000000F1455041
+02M03	Estación Meteorológica Caravaca	Caravaca de la Cruz	Murcia	M	Estación Meteorológica	\N	0101000020E6640000666666E6905222418FC2F5A853175041
+02O01	Marco de control en rio Moratalla	Moratalla	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000F49F2241000000C0E1265041
+02O03	Marco de control en rambla del Tinajón	Ulea	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000000000006EDF234100000040E91B5041
+02P01	Pluviómetro en Jumilla	Jumilla	Murcia	P	Pluviómetro Aislado	\N	0101000020E66400000000000064BC234100000000F53D5041
+02P02	Pluviómetro en la Zarza	Abanilla	Murcia	P	Pluviómetro Aislado	\N	0101000020E664000000000000C643244100000000322F5041
+02P03	Pluviómetro en Las Caras	Ricote	Murcia	P	Pluviómetro Aislado	\N	0101000020E664000000000000EA3A234100000040BE1D5041
+02P04	Pluviómetro en Tarragoya	Caravaca de la Cruz	Murcia	P	Pluviómetro Aislado	\N	0101000020E6640000000000002EDE21410000008097055041
+02P05	Pluviómetro en Las Casas de Navarro	Caravaca de la Cruz	Murcia	P	Pluviómetro Aislado	\N	0101000020E6640000000000003AD521410000008073175041
+02P06	Pluviómetro en La Venta del Olivo	Cieza	Murcia	P	Pluviómetro Aislado	\N	0101000020E6640000000000006A4F2341000000C0D92E5041
+02P07	Pluviómetro en Campo de San Juan	Moratalla	Murcia	P	Pluviómetro Aislado	\N	0101000020E664000000000000EEAC2141000000C0131F5041
+02P08	Pluviómetro en Casas de los Agüeros	Jumilla	Murcia	P	Pluviómetro Aislado	\N	0101000020E66400000000000078B8234100000000574B5041
+02Q01	SAICA - Segura en Baños de Archena	Archena	Murcia	Q	Calidad de Aguas	\N	0101000020E66400009A999999BACB2341713D0A17881A5041
+02Q02	SAICA - Segura en Azud de Ojos	Blanca	Murcia	Q	Calidad de Aguas	\N	0101000020E66400003D0AD7A336AA23415C8FC295271E5041
+02Q03	SAICA - Segura en Cieza	Cieza	Murcia	Q	Calidad de Aguas	\N	0101000020E66400007B14AE473373234108AC1CB21F265041
+02R01	Aforo en rio Segura(Cieza)	Cieza	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000000000004E7323410000000022265041
+02R02	Aforo en rio Segura(Archena)	Archena	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000A8CB2341000000C08C1A5041
+02S01	Embalse de Ojós	Blanca	Murcia	E	Embalse	\N	0101000020E6640000000000007EAA2341000000C02F1E5041
+02X08	Acequia de Ojós Villanueva	Ojós	Murcia	X	Acequia	\N	0101000020E664000000000000B4B0234100000080031C5041
+02X10	Acequia de Archena - Toma (Sica)	Ulea	Murcia	X	Acequia	\N	0101000020E6640000000000008ABC234100000040621B5041
+02X13	Acequia Mayor de Alguazas - Toma (Sica)	Archena	Murcia	X	Acequia	\N	0101000020E664000000000000C6D2234100000040AD185041
+02X14	Acequia Mayor de Molina - Toma Efectiva (Sica)	Archena	Murcia	X	Acequia	\N	0101000020E66400000000000048D32341000000804D185041
+02X15	Acequia de Blanca Cola	Blanca	Murcia	X	Acequia	\N	0101000020E664000000000000DC9D234100000080EB1F5041
+02X16	Acequia Noria D.García	Abarán	Murcia	X	Acequia	\N	0101000020E664000000000000AE8323410000000096235041
+02X17	Acequia del Esparragal - Toma (Sica)	Calasparra	Murcia	X	Acequia	\N	0101000020E6640000000000006ADA224100000040D3275041
+02X18	Acequia del Horno (Sica)	Cieza	Murcia	X	Acequia	\N	0101000020E6640000FCA9F112BA37234104560E65F4255041
+02X19	Acequia de Blanca (Sica)	Abarán	Murcia	X	Acequia	\N	0101000020E66400000C022B8710862341AE47E1F2B4225041
+02X20	Acequia de Abarán (Sica)	Abarán	Murcia	X	Acequia	\N	0101000020E66400006891ED3C09862341A245B64BB3225041
+02X21	Cola acequia de la Muralla (Sica)	Caravaca de la Cruz	Murcia	X	Acequia	\N	0101000020E664000000000000C0FB2141000000C0A3105041
+02X22	Manantial La Muralla (Sica)	Caravaca de la Cruz	Murcia	X	Acequia	\N	0101000020E66400000000000002ED214100000080E7135041
+03A01	Aforo en impulsión de Calasparra	Calasparra	Murcia	I	Impulsión	\N	0101000020E6640000FED478A9A0BB22413BDF4F2552285041
+03A02	Aforo en río Segura en Bayo	Calasparra	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000000000002AC1224100000000F92A5041
+03A03	Aforo en Calasparra	Calasparra	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000E17A142E67BA2241C976BECF2C275041
+03A04	Aforo río Mundo (Azaraque)	Hellín	Albacete	A	Punto de Control en Cauce	\N	0101000020E6640000000000002CD42241000000C00E385041
+03A05	Aforo río Mundo (Liétor)	Liétor	Albacete	A	Punto de Control en Cauce	\N	0101000020E664000000000000B80322410000008084465041
+03A06	Aforo en cabecera del río Mundo, Riópar	Riópar	Albacete	A	Punto de Control en Cauce	\N	0101000020E664000021B0722819F52041D9CEF7E3DF3F5041
+03A07	Aforo en el río Bogarra, Bogarra	Bogarra	Albacete	A	Punto de Control en Cauce	\N	0101000020E6640000713D0AD7775B2141A01A2FBD5B4A5041
+03C01	Final Canal de Hellín, entrada ETAP (Sica)	Hellín	Albacete	C	Punto de Control en Canal	\N	0101000020E66400000000000034A72241000000404B425041
+03E02	Embalse de Talave	Liétor	Albacete	E	Embalse	\N	0101000020E6640000000000008646224100000080E5425041
+03E03	Embalse de Camarillas	Hellín	Albacete	E	Embalse	\N	0101000020E664000000000000A0DC2241000000C00B315041
+03E04	Embalse de los Charcos	Tobarra	Albacete	E	Embalse	\N	0101000020E6640000000000001EB62241000000004F525041
+03E05	Embalse del Bayco	Ontur	Albacete	E	Embalse	\N	0101000020E664000000000000663F2341000000C09E515041
+03E06	Embalse del Boquerón	Hellín	Albacete	E	Embalse	\N	0101000020E664000091ED7C7F258D22413108ACA48D445041
+03L01	Aforo en la cola del A.T.S.	Liétor	Albacete	C	Punto de Control en Canal	\N	0101000020E664000000000000A22022410000004020485041
+03M01	Marco de Control Rambla de Minateda	Hellín	Albacete	A	Punto de Control en Cauce	\N	0101000020E664000000000000ECE22241000000C089375041
+03M03	Estación Meteorológica Paterna Madera	Paterna del Madera	Albacete	M	Estación Meteorológica	\N	0101000020E6640000000000009CFD204100000000FE4B5041
+03P01	Pluviómetro en Tobarra	Tobarra	Albacete	P	Pluviómetro Aislado	\N	0101000020E6640000000000002EBC224100000000FB4C5041
+03P02	Pluviómetro en Minateda	Hellín	Albacete	P	Pluviómetro Aislado	\N	0101000020E664000000000000EA0B234100000040173F5041
+03P03	Pluviómetro ( Serratilla )	Calasparra	Murcia	P	Pluviómetro Aislado	\N	0101000020E664000000000000D0B322410000008069295041
+03Q01	SAICA - Mundo en Azaraque	Hellín	Albacete	Q	Calidad de Aguas	\N	0101000020E6640000A4703D0ABBE022410AD7A3202F375041
+03R02	Aforo rio Mundo(aguas abajo de Talave)	Hellín	Albacete	A	Punto de Control en Cauce	\N	0101000020E664000000000000084F2241000000803A425041
+03R03	Río Mundo - Azud de Lietor	Liétor	Albacete	A	Punto de Control en Cauce	\N	0101000020E664000000000000F80F224100000000C5455041
+03R04	Aforo río Mundo (Aguas Abajo Camarillas)	Hellín	Albacete	A	Punto de Control en Cauce	\N	0101000020E66400000000000078D3224100000000DF2E5041
+03X05	Acequia de Berberín	Calasparra	Murcia	X	Acequia	\N	0101000020E664000004560EADEDB822415839B43089275041
+03X06	Acequia de Tavizna - Toma (Sica)	Hellín	Albacete	X	Acequia	\N	0101000020E664000000000000748D2241000000C08F3D5041
+03X07	Acequia de Tavizna - Cola efectiva (Sica)	Hellín	Albacete	X	Acequia	\N	0101000020E664000000000000FE9E2241000000C06A3A5041
+03X08	Acequia de Rotas (Sica)	Calasparra	Murcia	X	Acequia	\N	0101000020E6640000DF4F8D17B1BB2241E17A14AE5E285041
+03Z01	B.E.S. Sinclinal de Calasparra	Calasparra	Murcia	Z	Pozo Sondeo	\N	0101000020E664000000000000BAF022410000008091265041
+04A01	Aforo rio Taibilla(confluen. con Segura)	Letur	Albacete	A	Punto de Control en Cauce	\N	0101000020E6640000273108EC3E8621414E62105039365041
+04A02	Aforo rio Segura(aguas abajo de Cenajo)	Hellín	Albacete	A	Punto de Control en Cauce	\N	0101000020E664000000000000D489224100000080D4335041
+04A03	Aforo rio Segura(aguas abajo Fuensanta)	Yeste	Albacete	A	Punto de Control en Cauce	\N	0101000020E664000000000000E85D21410000004077365041
+04A04	Aforo río Segura (El Gallego)	Elche de la Sierra	Albacete	A	Punto de Control en Cauce	\N	0101000020E66400000000000092E3214100000080FB375041
+04A05	Marco de Control en Las Juntas, Río Segura	Santiago de la Espa	Jaén	A	Punto de Control en Cauce	\N	0101000020E6640000000000005EB72041000000C005235041
+04A06	Marco de Control La Graya, Río Segura	Yeste	Albacete	A	Punto de Control en Cauce	\N	0101000020E664000017D9CEB74F002141BC7493B8BC2C5041
+04A07	Aforo río Tus, Balneario de Tus	Yeste	Albacete	A	Punto de Control en Cauce	\N	0101000020E664000000000000CACE20410000000076335041
+04C01	Balsón del túnel Talave-Cenajo	Liétor	Albacete	C	Punto de Control en Canal	\N	0101000020E664000000000000A846224100000000B73A5041
+04C02	Salida del túnel Talave-Cenajo, Aguas Calientes	Férez	Albacete	C	Punto de Control en Canal	\N	0101000020E664000023DBF97E4E382241E7FBA909D4385041
+04E04	Embalse de Anchuricas	Santiago de la Espa	Jaén	E	Embalse	\N	0101000020E6640000BC7493D88182204183C0CAA18E215041
+04E05	Embalse de La Vieja o La Novia	Santiago de la Espa	Jaén	E	Embalse	\N	0101000020E66400006210587939B520417B14AE37881E5041
+04E06	Embalse del Taibilla	Nerpio	Albacete	E	Embalse	\N	0101000020E6640000000000009A3B2141000000406A205041
+04L01	Aforo en cabecera canal alto de Taibilla	Nerpio	Albacete	C	Punto de Control en Canal	\N	0101000020E664000000000000203321410000008084245041
+04M03	Estación Meteorológica Arguellite	Yeste	Albacete	M	Estación Meteorológica	\N	0101000020E66400000AD7A3F0ABC62041EC51B8CE8F2F5041
+04M04	Estación Meteorológica Nerpio	Nerpio	Albacete	M	Estación Meteorológica	\N	0101000020E6640000000000001C202141000000007B1B5041
+04M05	Estación Meteorológica Santiago de la Espada	Santiago de la Espa	Jaén	M	Estación Meteorológica	\N	0101000020E66400000000000062742041000000802D175041
+04N01	Pluvionivómetro en Férez	Férez	Albacete	P	Pluviómetro Aislado	\N	0101000020E6640000000000007AF02141000000408A315041
+04N02	Pluvionivómetro en Don Domingo	Santiago de la Espa	Jaén	P	Pluviómetro Aislado	\N	0101000020E6640000000000000E31204100000000720E5041
+04Q01	SAICA - Segura en El Cenajo	Hellín	Albacete	Q	Calidad de Aguas	\N	0101000020E6640000F6285C0FD7892241666666E6D0335041
+04S02	Embalse de Fuensanta	Yeste	Albacete	E	Embalse	\N	0101000020E664000000000000745F21410000000001365041
+04S03	Embalse de Cenajo	Moratalla	Murcia	E	Embalse	\N	0101000020E664000000000000E68522410000008069335041
+05A01	Marco Control río Guadalentín Salabosque	Murcia	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000DE3B24410000004027075041
+05A02	Marco de Control en la Escarihuela, Rbla Charcon	Lorca	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000C0B5224100000000F2A84F41
+05A03	Marco de Control en Pulpí, Rbla Charcones	Pulpí	Almería	A	Punto de Control en Cauce	\N	0101000020E66400000000000076A7224100000080C5994F41
+05A04	Marco de Control en Rambla del Pinar	Cuevas del Almanzor	Almería	A	Punto de Control en Cauce	\N	0101000020E664000000000000D49922410000008039904F41
+05A05	Marco de Control en Rambla de Guazamara	Cuevas del Almanzor	Almería	A	Punto de Control en Cauce	\N	0101000020E664000000000000508D224100000080918A4F41
+05A06	Marco de Control en Rambla las Gachas	Cuevas del Almanzor	Almería	A	Punto de Control en Cauce	\N	0101000020E66400000C022B47639122418FC2F5A8E8864F41
+05A07	Marco de Control en Rambla Canalejas (Los Lobos)	Cuevas del Almanzor	Almería	A	Punto de Control en Cauce	\N	0101000020E664000000000000D499224100000000A7824F41
+05A08	Marco de Control en el río Almanzora	Cuevas del Almanzor	Almería	A	Punto de Control en Cauce	\N	0101000020E664000000000000C49022410000000018744F41
+05A09	Marco de Control en Chirivel, Rambla de Chirivel	Chirivel	Almería	A	Punto de Control en Cauce	\N	0101000020E6640000000000003A3B214100000080F5BE4F41
+05A10	Marco de Control en Rambla Chirivel, Vélez Rubio	Vélez Rubio	Almería	A	Punto de Control en Cauce	\N	0101000020E66400000000000098CA21410000000056CA4F41
+05A11	Marco de Control Rio Chico, Vélez Rubio	Vélez Rubio	Almería	A	Punto de Control en Cauce	\N	0101000020E6640000000000001EBD214100000080B4CC4F41
+05A12	Marco Control en Barranco la Fuente, Vélez Blanc	Vélez Blanco	Almería	A	Punto de Control en Cauce	\N	0101000020E6640000000000004CB1214100000000A5D44F41
+05C01	Aforo en cola CPMD	Lorca	Murcia	C	Punto de Control en Canal	\N	0101000020E664000000000000068C22410000000036A44F41
+05C02	Aforo Canal CPMD entrada a Lorca	Lorca	Murcia	C	Punto de Control en Canal	\N	0101000020E66400000000000076DE224100000080F5D64F41
+05E02	Embalse de Valdeinfierno	Lorca	Murcia	E	Embalse	\N	0101000020E664000000000000880922410000000005ED4F41
+05E03	Embalse de Puentes	Lorca	Murcia	E	Embalse	\N	0101000020E664000000000000A86E2241000000808FDE4F41
+05M01	Estación Meteorológica El Mojonar (AMETSE)	Chirivel	Almería	M	Estación Meteorológica	\N	0101000020E664000000000000965D214100000080C0CA4F41
+05N01	Pluvionivómetro en Maria	María	Almería	P	Pluviómetro Aislado	\N	0101000020E6640000000000001C85214100000080BCD84F41
+05O01	Marco de control en Puerto Lumbreras	Puerto Lumbreras	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000DC75224100000000A8B84F41
+05P01	Pluviómetro en Zarzadilla de Totana	Lorca	Murcia	P	Pluviómetro Aislado	\N	0101000020E664000000000000ECCC22410000000092F84F41
+05P02	Pluviómetro en Doña Inés	Lorca	Murcia	P	Pluviómetro Aislado	\N	0101000020E6640000000000006E6322410000008002015041
+05P03	Pluviómetro en la Venta del Castillo	Lorca	Murcia	P	Pluviómetro Aislado	\N	0101000020E664000000000000D8F5214100000080A6D34F41
+05P04	Pluviómetro cabecera rambla de Nogalte	Lorca	Murcia	P	Pluviómetro Aislado	\N	0101000020E66400000000000088152241000000004DC34F41
+05R01	Aforo Guadalentin(Lorca) y partidor CPMD	Lorca	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000F8C7224100000000D8D14F41
+06A01	Marco de Control en La Puebla , Rbla Albujón	Cartagena	Murcia	A	Punto de Control en Cauce	\N	0101000020E66400000000000028DE244100000000EEDD4F41
+06A02	Marco de Control en Pozo Estrecho, Rbla Albujón	Cartagena	Murcia	A	Punto de Control en Cauce	\N	0101000020E66400000000000090B12441000000805FDE4F41
+06A03	Marco de control en Rambla del Albujón	Cartagena	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000000000007481244100000080A6DD4F41
+06A04	Marco de Control en El Estrecho, Rbla Albujón	Cartagena	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000000000002E5924410000008074DE4F41
+06A05	Marco de Control en Fuente Álamo, Rbla Albujón	Fuente Álamo	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000000000009E2C244100000080DDDD4F41
+06A06	Marco de Control en Los Cegarras, Rbla de la Mur	Fuente Álamo	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000183F2441000000003AE44F41
+06A07	Marco de Control en RM332, Rbla Moreras	Mazarrón	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000000000007ECB23410000008006C04F41
+06A08	Marco de Control en Las Hermanillas, Rbla Morera	Mazarrón	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000000000007CB823410000000002CA4F41
+06A09	Marco de Control en Camposol, Rbla Moreras	Mazarrón	Murcia	A	Punto de Control en Cauce	\N	0101000020E66400000000000006B3234100000000B8D14F41
+06A10	Marco de Control en RM315, Rbla Moreras	Totana	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000928123410000008034DB4F41
+06A11	Marco de Control en Los Patojos, Rbla Benipila	Cartagena	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000169C24410000008003C84F41
+06A12	Marco de Control en Canteras, Rbla Canteras	Cartagena	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000000000003887244100000000B0C54F41
+06A13	Marco de control en Cedacero, Rbla La Azohía	Cartagena	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000044024410000008030C14F41
+06A14	Marco de control en Ramonete, Rbla Miñarros	Lorca	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000305D23410000000043B54F41
+06A15	MC. en Casas Estrechas, Rbla Cab.Negro	Cartagena	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000000000004675244100000080E1C44F41
+06A16	MC. en Loma de Escribano, Rbla Minglano Cañarete	Águilas	Murcia	A	Punto de Control en Cauce	\N	0101000020E6640000000000005EF6224100000080459D4F41
+06A17	Marco de control en Cope-Águilas, Rbla Quiñonero	Águilas	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000F822234100000080FF994F41
+06A18	Desembocadura Rambla del Albujón	Cartagena	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000070CE88D2F90225413F355EDA23DD4F41
+06A19	Marco de Control en Rambla de la Maraña - Balsic	Torre Pacheco	Murcia	A	Punto de Control en Cauce	\N	0101000020E66400002FDD2446E4C92441FA7E6A8C08EE4F41
+06B01	Elevación El Albujón	San Pedro del Pinat	Murcia	I	Impulsión	\N	0101000020E66400000E2DB21DBF032541D122DB9977DD4F41
+06B02	Elevación de Los Narejos	San Pedro del Pinat	Murcia	I	Impulsión	\N	0101000020E664000014AE4761271625410681951313E94F41
+06B03	Elevación de El Mojón	San Pedro del Pinat	Murcia	I	Impulsión	\N	0101000020E6640000105839349D3E2541AE47E15A1FF94F41
+06L01	Aforo en canal principal campo Cartagena	Pilar de la Horadad	Alicante	C	Punto de Control en Canal	\N	0101000020E6640000000000003E2B254100000000E5025041
+06M01	Marco de control en rambla de Benipila	Cartagena	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000014AE47A1B0A92441D7A3702D51C44F41
+06P01	Pluviómetro en Cartagena	Cartagena	Murcia	P	Pluviómetro Aislado	\N	0101000020E664000000000000D88C244100000080CDC34F41
+06P02	Pluviómetro en Torre Pacheco	Torre Pacheco	Murcia	P	Pluviómetro Aislado	\N	0101000020E66400000000000022A8244100000000D8E34F41
+06P03	Pluviómetro en Perín	Cartagena	Murcia	P	Pluviómetro Aislado	\N	0101000020E66400000000000058612441000000802EC84F41
+06P04	Pluviómetro en La Murta	Murcia	Murcia	P	Pluviómetro Aislado	\N	0101000020E6640000000000005810244100000000EBF34F41
+06P05	Pluviómetro de San Javier (El Mirador)	San Javier	Murcia	P	Pluviómetro Aislado	\N	0101000020E664000000000000A6F624410000000017F74F41
+06Z01	Sondeo SM-1 Red Piezométrica Mar Menor	Cartagena	Murcia	Z	Pozo Sondeo	\N	0101000020E6640000C74B3789633E2541A8C64B57FACA4F41
+06Z02	Sondeo SM-2 Red Piezométrica Mar Menor	Cartagena	Murcia	Z	Pozo Sondeo	\N	0101000020E66400008B6CE73B6B3E25418FC2F5E88ECD4F41
+06Z05	Sondeo SM-5 Red Piezométrica Mar Menor	Cartagena	Murcia	Z	Pozo Sondeo	\N	0101000020E6640000BC7493D897FD244177BE9F0A67D64F41
+06Z06	Sondeo SM-6 Red Piezométrica Mar Menor	Cartagena	Murcia	Z	Pozo Sondeo	\N	0101000020E6640000736891ED590125417B14AEB7E5DA4F41
+06Z07	Sondeo SM-7 Red Piezométrica Mar Menor	Cartagena	Murcia	Z	Pozo Sondeo	\N	0101000020E6640000986E1283CEF024411283C00AD1DB4F41
+06Z08	Sondeo SM-8 Red Piezométrica Mar Menor	Torre Pacheco	Murcia	Z	Pozo Sondeo	\N	0101000020E6640000D7A3707D78F3244100000090ADE44F41
+06Z09	Sondeo SM-9 Red Piezométrica Mar Menor	Los Alcázares	Murcia	Z	Pozo Sondeo	\N	0101000020E66400003D0AD763E4FD24411B2FDD1477E34F41
+06Z10	Sondeo SM-10 Red Piezométrica Mar Menor	Los Alcázares	Murcia	Z	Pozo Sondeo	\N	0101000020E66400006891ED3CF4FD2441CFF753F30EE74F41
+06Z11	Sondeo SM-11 Red Piezométrica Mar Menor	Los Alcázares	Murcia	Z	Pozo Sondeo	\N	0101000020E6640000E5D0225BF2032541C3F5285C76E54F41
+06Z12	Sondeo SM-12 Red Piezométrica Mar Menor	Los Alcázares	Murcia	Z	Pozo Sondeo	\N	0101000020E6640000000000009E0825410000008015EA4F41
+06Z13	Sondeo SM-13 Red Piezométrica Mar Menor	Los Alcázares	Murcia	Z	Pozo Sondeo	\N	0101000020E6640000B81E852B9E1125418195439BDEE84F41
+06Z14	Sondeo SM-14 Red Piezométrica Mar Menor	San Javier	Murcia	Z	Pozo Sondeo	\N	0101000020E66400006891EDFC14112541E9263168E9EC4F41
+06Z15	Sondeo SM-15 Red Piezométrica Mar Menor	San Javier	Murcia	Z	Pozo Sondeo	\N	0101000020E6640000CDCCCCCC1B172541A69BC4902FEB4F41
+06Z16	Sondeo SM-16 Red Piezométrica Mar Menor	San Javier	Murcia	Z	Pozo Sondeo	\N	0101000020E66400001B2FDDA47317254121B072F86CF34F41
+06Z17	Sondeo SM-17 Red Piezométrica Mar Menor	San Javier	Murcia	Z	Pozo Sondeo	\N	0101000020E6640000713D0A97D31F254185EB5178D0F04F41
+06Z18	Sondeo SM-18 Red Piezométrica Mar Menor	San Javier	Murcia	Z	Pozo Sondeo	\N	0101000020E66400004A0C022BA01F2541F4FDD478E6F44F41
+06Z19	Sondeo SM-19 Red Piezométrica Mar Menor	San Javier	Murcia	Z	Pozo Sondeo	\N	0101000020E6640000E17A142E3F2525413BDF4FBD6FF34F41
+06Z20	Sondeo SM-20 Red Piezométrica Mar Menor	San Pedro del Pinat	Murcia	Z	Pozo Sondeo	\N	0101000020E664000023DBF97E26292541F6285C9F2DF74F41
+07A01	Aforo en rio Segura(Beniel)	Murcia	Murcia	A	Punto de Control en Cauce	\N	0101000020E664000000000000C4982441000000004D125041
+07A03	Aforo en rio Segura(Jacarilla)	Jacarilla	Alicante	A	Punto de Control en Cauce	\N	0101000020E66400000000000016F524410000008022155041
+07A04	Aforo en rio Segura(azud de Rojales)	Rojales	Alicante	A	Punto de Control en Cauce	\N	0101000020E664000000000000665B2541000000404A175041
+07A05	Aforo en Las Norias	Orihuela	Alicante	A	Punto de Control en Cauce	\N	0101000020E664000000000000BE9C244100000040F5125041
+07A06	Aforo en río Segura, Orihuela	Orihuela	Alicante	A	Punto de Control en Cauce	\N	0101000020E66400000000000022C624410000000064165041
+07C02	Aforo en la cola del Azarbe de Merancho	Orihuela	Alicante	C	Punto de Control en Canal	\N	0101000020E66400000000000094982441000000409F135041
+07C03	Aforo sifón Orihue. y desagüe rio Segura	Orihuela	Alicante	T	Aforo en Tubería	\N	0101000020E664000000000000A2B02441000000006F155041
+07C04	Aforo en cabecera  Azarbe de Hurchillo	Orihuela	Alicante	C	Punto de Control en Canal	\N	0101000020E66400000000000018AD244100000000C0115041
+07C05	Aforo en la cola del Azarbe de Hurchillo	Bigastro	Alicante	C	Punto de Control en Canal	\N	0101000020E664000000000000D8E32441000000C024155041
+07C06	Aforo sifón de alim. embalse La Pedrera	Orihuela	Alicante	C	Punto de Control en Canal	\N	0101000020E66400000000000082E22441000000C03E115041
+07C07	Aforo en canal de La Pedrera	Orihuela	Alicante	C	Punto de Control en Canal	\N	0101000020E664000000000000E61625410000004020105041
+07C08	Aforo cabecera canal Campo de Cartagena	Orihuela	Alicante	C	Punto de Control en Canal	\N	0101000020E664000000000000FEF824410000008036115041
+07C10	Canal bypass embalse Crevillente	Crevillente	Alicante	C	Punto de Control en Canal	\N	0101000020E66400001904560EA92725411D5A648B03295041
+07C11	ETAP Torrealta (Trasvase)	Orihuela	Alicante	C	Punto de Control en Canal	\N	0101000020E664000000000000BEA524410000000042215041
+07C12	Desaladora Torrevieja a Canal (Trasvase)	Orihuela	Alicante	C	Punto de Control en Canal	\N	0101000020E6640000000000005C0D2541000000C0AD105041
+07E01	Embalse de La Pedrera	Orihuela	Alicante	E	Embalse	\N	0101000020E6640000000000002AF4244100000040EB105041
+07E02	Embalse de Crevillente	Crevillente	Alicante	E	Embalse	\N	0101000020E6640000000000005C2825410000004062295041
+07I01	Impulsión riegos Levante M.I.(prim.elev)	San Fulgencio	Alicante	I	Impulsión	\N	0101000020E6640000DBF97E2A2D6B2541AAF1D21D861B5041
+07I02	Impulsión en riegos Levante M.D.	Guardamar del Segur	Alicante	I	Impulsión	\N	0101000020E6640000000000007A7C254100000000B8165041
+07Q01	SAICA - Los Huertos	Orihuela	Alicante	Q	Calidad de Aguas	\N	0101000020E66400002DB29DAFE3AF2441EC51B8D653155041
+07Q02	SAICA - Sifón de Orihuela	Orihuela	Alicante	Q	Calidad de Aguas	\N	0101000020E66400006ABC7413DAB024417D3F358670155041
+07Q03	SAICA - Benejúzar	Orihuela	Alicante	Q	Calidad de Aguas	\N	0101000020E6640000E17A14EEB301254162105809D1155041
+07R01	Aforo rio Segura(Guardamar)y aforo RLMI	Guardamar del Segur	Alicante	A	Punto de Control en Cauce	\N	0101000020E66400000000000050842541000000C0CD175041
+07R02	Aforo Río Segura (Alquerías)	Murcia	Murcia	A	Punto de Control en Cauce	\N	0101000020E66400000000000036802441000000405D0E5041
+07R03	Aforo en Manzano y Ferrer	Orihuela	Alicante	A	Punto de Control en Cauce	\N	0101000020E6640000000000007AE124410000004070165041
+07R04	Aforo en Benejúzar	Orihuela	Alicante	A	Punto de Control en Cauce	\N	0101000020E664000000000000D001254100000000D6155041
+07R05	Aforo en Formentera	Benijófar	Alicante	A	Punto de Control en Cauce	\N	0101000020E6640000000000004E4C2541000000C09A165041
+07R06	Aforo en Aguas Abajo de Rojales	Rojales	Alicante	A	Punto de Control en Cauce	\N	0101000020E664000000000000E2602541000000C092175041
+07U01	ETAP de Torrealta	Orihuela	Alicante	I	Impulsión	\N	0101000020E664000000000000BEA524410000000042215041
+07U02	Aportación desaladora Torrevieja a CPCC Cartagen	Orihuela	Alicante	I	Impulsión	\N	0101000020E6640000EE7C3FB51B4325414E6210189E085041
+07U03	Aportación desaladora Torrevieja a E. Pedrera	Orihuela	Alicante	I	Impulsión	\N	0101000020E6640000DD2406C1B60F25412FDD24DEBE0C5041
+07X01	Acequia Alquibla - Aporte N1 JPA Orihuela (Sica)	Orihuela	Alicante	X	Acequia	\N	0101000020E6640000000000005C9E244100000000DD125041
+07X02	Acequia Molina - Aporte N2 JPA Orihuela (Sica)	Orihuela	Alicante	X	Acequia	\N	0101000020E664000000000000369E244100000000E3125041
+07X05	Aceq.Vieja Almoradi - Aporte N4JPAOrih. (Sica)	Orihuela	Alicante	X	Acequia	\N	0101000020E66400000000000006C224410000000071165041
+07X09	Aceq.Mayor Almoradi - Aporte N1JPAAlfeit. (Sica)	Almoradí	Alicante	X	Acequia	\N	0101000020E6640000000000000C1725410000004019175041
+07X14	Acequia de La Comuna - Toma Efectiva (Sica)	Rojales	Alicante	X	Acequia	\N	0101000020E6640000000000007C5925410000004044175041
+07X18	Acequia de Los Huertos (Sica)	Orihuela	Alicante	X	Acequia	\N	0101000020E6640000A779C769C4B024417A36AB8A6E155041
+07X19	Aforo Canal RLMI (Sica)	San Fulgencio	Alicante	X	Acequia	\N	0101000020E6640000F2B0506B5A6B254185EB5100851B5041
+07X20	Acequia de Callosa (Sica)	Orihuela	Alicante	X	Acequia	\N	0101000020E664000000000000B6D12441000000802A175041
+07X21	Acequia Escorratel (Sica)	Orihuela	Alicante	X	Acequia	\N	0101000020E66400000000000034C5244100000040B4165041
+07X22	Acequia Almoravit (Sica)	Orihuela	Alicante	X	Acequia	\N	0101000020E664000000000000D4C124410000008071165041
+07X23	Acequia de Callosa T.M. Catral (Sica)	Callosa de Segura	Alicante	X	Acequia	\N	0101000020E664000000000000700E2541000000C0AD1D5041
+07X24	Acequia Puertas de Murcia (Sica)	Orihuela	Alicante	X	Acequia	\N	0101000020E6640000000000006C952441000000007C135041
+07X25	Motor Noria de Moquita (Sica)	Orihuela	Alicante	X	Acequia	\N	0101000020E664000000000000429D2441000000C003135041
+07X26	Motor Noria de Pando (Sica)	Orihuela	Alicante	X	Acequia	\N	0101000020E6640000000000005C9C244100000040F3125041
+07X27	Salida Total EDAR Murcia Este (Saih-Mb)	Murcia	Murcia	X	Acequia	\N	0101000020E6640000000000000E732441000000C0CA0C5041
+07X28	Acequia de Callosa T.M. Callosa (Sica)	Callosa de Segura	Alicante	X	Acequia	\N	0101000020E664000000000000F2F62441000000800F1C5041
+07X29	Acequia Callosa T.M.Cox, Granja y Albatera (Sica	Callosa de Segura	Alicante	X	Acequia	\N	0101000020E664000000000000CAEA244100000000D0195041
+07X30	Contador toma EDAR sindicato riegos de COX (Sica	Callosa de Segura	Alicante	X	Acequia	\N	0101000020E6640000000000001EF12441000000403B1C5041
+07X31	Juzgado privativo Callosa Segura (toma EDAR)(Sic	Callosa de Segura	Alicante	X	Acequia	\N	0101000020E664000000000000B8F62441000000C02F1C5041
+07X33	Ret. nº1 JJHH Murcia-Azarbe Merancho (Sica)	Santomera	Murcia	X	Acequia	\N	0101000020E664000000000000EE9424410000004097135041
+07X34	Ret. nº2 JJHH Murcia-Azarbe Los Giles (Sica)	Orihuela	Alicante	X	Acequia	\N	0101000020E66400000000000054962441000000C07F135041
+\.
+
+

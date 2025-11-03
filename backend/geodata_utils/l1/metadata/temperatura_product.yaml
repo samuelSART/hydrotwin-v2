@@ -1,0 +1,20 @@
+name: temperatura
+metadata_type: eo3
+description: temperatura product
+
+storage:
+  crs: "EPSG:4326"
+  resolution:
+    longitude: 0.08332825
+    latitude: -0.08333588
+    
+metadata:
+  product:
+    name: temperatura
+  format: NetCDF
+  
+measurements:
+  - name: Temperatura
+    dtype: float32
+    units: '1'
+    nodata: 0

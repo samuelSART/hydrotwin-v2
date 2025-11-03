@@ -1,0 +1,1919 @@
+01A02D01	01A02M1	H	Humedad Relativa
+01A02D02	01A02M1	T	Temperatura (°C)
+01A03D01	01A03M1	H	Humedad Relativa
+01A03D02	01A03M1	T	Temperatura (°C)
+01C02D01	01C02M1	H	Humedad Relativa
+01C02D02	01C02M1	T	Temperatura (°C)
+01E01D01	01E01M1	H	Humedad Relativa
+01E01D02	01E01M1	T	Temperatura (°C)
+01E01L01	01E01X1	N	Nivel
+01E01L03	01E01X2	N	Nivel
+01C06L02	01E05C1	N	Nivel
+01I01D01	01I01M1	H	Humedad Relativa
+01I01D02	01I01M1	T	Temperatura (°C)
+01L01D01	01L01M1	H	Humedad Relativa
+01L01D02	01L01M1	T	Temperatura (°C)
+01O01D01	01O01M1	H	Humedad Relativa
+01O01D02	01O01M1	T	Temperatura (°C)
+01O02D01	01O02M1	H	Humedad Relativa
+01O02D02	01O02M1	T	Temperatura (°C)
+01O03D01	01O03M1	H	Humedad Relativa
+01O03D02	01O03M1	T	Temperatura (°C)
+01O04D01	01O04M1	H	Humedad Relativa
+01O04D02	01O04M1	T	Temperatura (°C)
+01O05D01	01O05M1	H	Humedad Relativa
+01O05D02	01O05M1	T	Temperatura (°C)
+01P03D01	01P03M1	H	Humedad Relativa
+01P03D02	01P03M1	T	Temperatura (°C)
+01P04D01	01P04M1	H	Humedad Relativa
+01P04D02	01P04M1	T	Temperatura (°C)
+01E06P01	01E06P1	P	Pluviómetro
+01A05D03	01A05M1	G	Presión (mbar)
+03A07Q01	03A07A1	Q	Caudal
+01A05D06	01A05M1	H	Humedad Relativa
+05E03P01	05E03P1	P	Pluviómetro
+07C02D01	07C02M1	H	Humedad Relativa
+07C02D02	07C02M1	T	Temperatura (°C)
+07C03D01	07C03M1	H	Humedad Relativa
+07C03D02	07C03M1	T	Temperatura (°C)
+07C04D01	07C04M1	H	Humedad Relativa
+07C04D02	07C04M1	T	Temperatura (°C)
+01A01U12	01A01A1	N	Nivel
+01A01Q02	01A01A1	Q	Caudal
+01A01D03	01A01M1	G	Presión (mbar)
+01A01D06	01A01M1	H	Humedad Relativa
+01A01D08	01A01M1	R	Punto de rocío (°C)
+01A01D05	01A01M1	T	Temperatura (°C)
+01A01D09	01A01M1	W	Velocidad del viento (m/s)
+01A01D04	01A01M1	Y	Dirección del viento (°)
+01A01P01	01A01P1	P	Pluviómetro
+01A02U12	01A02A1	N	Nivel
+01A02Q01	01A02A1	Q	Caudal
+01A02D03	01A02M1	G	Presión (mbar)
+01A02D06	01A02M1	H	Humedad Relativa
+01A02D08	01A02M1	R	Punto de rocío (°C)
+01A02D05	01A02M1	T	Temperatura (°C)
+01A02D09	01A02M1	W	Velocidad del viento (m/s)
+01A02D04	01A02M1	Y	Dirección del viento (°)
+01A02P01	01A02P1	P	Pluviómetro
+01A03U12	01A03A1	N	Nivel
+01A03Q01	01A03A1	Q	Caudal
+01A03D03	01A03M1	G	Presión (mbar)
+01A03D06	01A03M1	H	Humedad Relativa
+01A03D08	01A03M1	R	Punto de rocío (°C)
+01A03D05	01A03M1	T	Temperatura (°C)
+01A03D09	01A03M1	W	Velocidad del viento (m/s)
+01A03D04	01A03M1	Y	Dirección del viento (°)
+01A03P01	01A03P1	P	Pluviómetro
+01A04U21	01A04A1	N	Nivel
+01A04Q04	01A04A1	Q	Caudal
+01A04D03	01A04M1	G	Presión (mbar)
+01A04D06	01A04M1	H	Humedad Relativa
+01A04D08	01A04M1	R	Punto de rocío (°C)
+01A04D05	01A04M1	T	Temperatura (°C)
+01A04D09	01A04M1	W	Velocidad del viento (m/s)
+01A04D04	01A04M1	Y	Dirección del viento (°)
+01A04P01	01A04P1	P	Pluviómetro
+01A05U12	01A05A1	N	Nivel
+01A05Q01	01A05A1	Q	Caudal
+01A05D08	01A05M1	R	Punto de rocío (°C)
+01A05D05	01A05M1	T	Temperatura (°C)
+01A05D09	01A05M1	W	Velocidad del viento (m/s)
+01A05D04	01A05M1	Y	Dirección del viento (°)
+01A05P01	01A05P1	P	Pluviómetro
+01C01Q11	01C01C1	Q	Caudal
+01C01Q01	01C01C2	Q	Caudal
+01C01Q02	01C01C3	Q	Caudal
+01C01Q03	01C01C4	Q	Caudal
+01C01Q04	01C01C5	Q	Caudal
+01C01Q10	01C01C6	Q	Caudal
+01C02U12	01C02C1	N	Nivel
+01C02Q01	01C02C1	Q	Caudal
+01C02Q02	01C02C2	Q	Caudal
+01C02Q03	01C02C3	Q	Caudal
+01C02D03	01C02M1	G	Presión (mbar)
+01C02D06	01C02M1	H	Humedad Relativa
+01C02D08	01C02M1	R	Punto de rocío (°C)
+01C02D05	01C02M1	T	Temperatura (°C)
+01C02D09	01C02M1	W	Velocidad del viento (m/s)
+01C02D04	01C02M1	Y	Dirección del viento (°)
+01C03V01	01C03V1	N	Nivel
+01C04U12	01C04C1	N	Nivel
+01C04Q01	01C04C1	Q	Caudal
+01C05Q03	01C05C1	Q	Caudal
+01C06Q03	01C06C3	Q	Caudal
+01C06C01	01C06E1	N	Nivel
+01E01Q29	01E01A1	Q	Caudal
+01E01U12	01E01A2	N	Nivel
+01E01Q27	01E01A2	Q	Caudal
+01E01Q25	01E01C1	Q	Caudal
+01E01L02	01E01C2	N	Nivel
+01E01Q17	01E01C3	Q	Caudal
+01E01Q18	01E01C4	Q	Caudal
+01E01Q97	01E01E1	A	Aportación
+01E01Q24	01E01E1	D	Desagüe
+01E01C12	01E01E1	N	Nivel
+01E01S01	01E01E1	S	Superficie
+01E01B01	01E01E1	V	Volumen
+01E01Q20	01E01I1	Q	Caudal
+01E01D03	01E01M1	G	Presión (mbar)
+01E01D06	01E01M1	H	Humedad Relativa
+01E01D08	01E01M1	R	Punto de rocío (°C)
+01E01D05	01E01M1	T	Temperatura (°C)
+01E01D09	01E01M1	W	Velocidad del viento (m/s)
+01I01D09	01E01M1	W	Velocidad del viento (m/s)
+01E01D04	01E01M1	Y	Dirección del viento (°)
+01I01D04	01E01M1	Y	Dirección del viento (°)
+01E01P01	01E01P1	P	Pluviómetro
+01E01Q02	01E01X1	Q	Caudal
+01E01Q07	01E01X2	Q	Caudal
+01E01U01	01E01X3	N	Nivel
+01E01Q26	01E01X3	Q	Caudal
+01E02Q16	01E02A1	Q	Caudal
+01E02U12	01E02C1	N	Nivel
+01E02Q22	01E02C1	Q	Caudal
+01E02Q97	01E02E1	A	Aportación
+01E02Q22	01E02E1	D	Desagüe
+01E02C12	01E02E1	N	Nivel
+01E02S01	01E02E1	S	Superficie
+01E02B01	01E02E1	V	Volumen
+01E02D03	01E02M1	G	Presión (mbar)
+01E02D06	01E02M1	H	Humedad Relativa
+01E02D08	01E02M1	R	Punto de rocío (°C)
+01E02D05	01E02M1	T	Temperatura (°C)
+01E02D09	01E02M1	W	Velocidad del viento (m/s)
+01E02D04	01E02M1	Y	Dirección del viento (°)
+01E02P01	01E02P1	P	Pluviómetro
+01E03Q05	01E03A1	Q	Caudal
+01E03Q97	01E03E1	A	Aportación
+01E03Q05	01E03E1	D	Desagüe
+01E03C12	01E03E1	N	Nivel
+01E03S01	01E03E1	S	Superficie
+01E03B01	01E03E1	V	Volumen
+01E03D03	01E03M1	G	Presión (mbar)
+01E03D06	01E03M1	H	Humedad Relativa
+01E03D08	01E03M1	R	Punto de rocío (°C)
+01E03D05	01E03M1	T	Temperatura (°C)
+01E03D09	01E03M1	W	Velocidad del viento (m/s)
+01E03D04	01E03M1	Y	Dirección del viento (°)
+01E03P01	01E03P1	P	Pluviómetro
+01E04Q03	01E04A1	Q	Caudal
+01E04Q97	01E04E1	A	Aportación
+01E04Q03	01E04E1	D	Desagüe
+01E04C12	01E04E1	N	Nivel
+01E04S01	01E04E1	S	Superficie
+01E04B01	01E04E1	V	Volumen
+01E04D03	01E04M1	G	Presión (mbar)
+01E04D06	01E04M1	H	Humedad Relativa
+01E04D08	01E04M1	R	Punto de rocío (°C)
+01E04D05	01E04M1	T	Temperatura (°C)
+01E04D09	01E04M1	W	Velocidad del viento (m/s)
+01E04D04	01E04M1	Y	Dirección del viento (°)
+01E04P01	01E04P1	P	Pluviómetro
+01E05Q07	01E05A1	Q	Caudal
+01E05L02	01E05C1	N	Nivel
+01E05B02	01E05C1	V	Volumen
+01C06L03	01E05C2	N	Nivel
+01E05B03	01E05C2	V	Volumen
+01E05Q06	01E05C4	Q	Caudal
+01E05Q97	01E05E1	A	Aportación
+01E05Q05	01E05E1	D	Desagüe
+01E05C12	01E05E1	N	Nivel
+01E05S01	01E05E1	S	Superficie
+01E05B01	01E05E1	V	Volumen
+01E06Q05	01E06A1	Q	Caudal
+01E06Q97	01E06E1	A	Aportación
+01E06Q05	01E06E1	D	Desagüe
+01E06C12	01E06E1	N	Nivel
+01E06S01	01E06E1	S	Superficie
+01E06B01	01E06E1	V	Volumen
+01E06D03	01E06M1	G	Presión (mbar)
+01E06D06	01E06M1	H	Humedad Relativa
+01E06D08	01E06M1	R	Punto de rocío (°C)
+01E06D05	01E06M1	T	Temperatura (°C)
+01E06D09	01E06M1	W	Velocidad del viento (m/s)
+01E06D04	01E06M1	Y	Dirección del viento (°)
+01E07Q05	01E07A1	Q	Caudal
+01E07Q97	01E07E1	A	Aportación
+01E07Q05	01E07E1	D	Desagüe
+01E07C12	01E07E1	N	Nivel
+01E07S01	01E07E1	S	Superficie
+01E07B01	01E07E1	V	Volumen
+01E07D03	01E07M1	G	Presión (mbar)
+01E07D06	01E07M1	H	Humedad Relativa
+01E07D08	01E07M1	R	Punto de rocío (°C)
+01E07D05	01E07M1	T	Temperatura (°C)
+01E07D09	01E07M1	W	Velocidad del viento (m/s)
+01E07D04	01E07M1	Y	Dirección del viento (°)
+01E07P01	01E07P1	P	Pluviómetro
+01I01Q01	01I01I1	Q	Caudal
+01I01D03	01I01M1	G	Presión (mbar)
+01I01D06	01I01M1	H	Humedad Relativa
+01I01D08	01I01M1	R	Punto de rocío (°C)
+01I01D05	01I01M1	T	Temperatura (°C)
+01L01U12	01L01C1	N	Nivel
+01L01Q01	01L01C1	Q	Caudal
+01L01D03	01L01M1	G	Presión (mbar)
+01L01D06	01L01M1	H	Humedad Relativa
+01L01D08	01L01M1	R	Punto de rocío (°C)
+01L01D05	01L01M1	T	Temperatura (°C)
+01L01D09	01L01M1	W	Velocidad del viento (m/s)
+01L01D04	01L01M1	Y	Dirección del viento (°)
+01L01P01	01L01P1	P	Pluviómetro
+01M01D03	01M01M1	G	Presión (mbar)
+01M01D01	01M01M1	H	Humedad Relativa
+01M01D02	01M01M1	T	Temperatura (°C)
+01M01D09	01M01M1	W	Velocidad del viento (m/s)
+01M01D04	01M01M1	Y	Dirección del viento (°)
+01M01P01	01M01P1	P	Pluviómetro
+01M02D03	01M02M1	G	Presión (mbar)
+01M02D01	01M02M1	H	Humedad Relativa
+01M02D02	01M02M1	T	Temperatura (°C)
+01M02D09	01M02M1	W	Velocidad del viento (m/s)
+01M02D04	01M02M1	Y	Dirección del viento (°)
+01M02P01	01M02P1	P	Pluviómetro
+01M03D03	01M03M1	G	Presión (mbar)
+01M03D01	01M03M1	H	Humedad Relativa
+01M03D02	01M03M1	T	Temperatura (°C)
+01M03D09	01M03M1	W	Velocidad del viento (m/s)
+01M03D04	01M03M1	Y	Dirección del viento (°)
+01M03P01	01M03P1	P	Pluviómetro
+01M04D03	01M04M1	G	Presión (mbar)
+01M04D01	01M04M1	H	Humedad Relativa
+01M04D02	01M04M1	T	Temperatura (°C)
+01M04D09	01M04M1	W	Velocidad del viento (m/s)
+01M04D04	01M04M1	Y	Dirección del viento (°)
+01M04P01	01M04P1	P	Pluviómetro
+01M05D03	01M05M1	G	Presión (mbar)
+01M05D01	01M05M1	H	Humedad Relativa
+01M05D02	01M05M1	T	Temperatura (°C)
+01M05D09	01M05M1	W	Velocidad del viento (m/s)
+01M05D04	01M05M1	Y	Dirección del viento (°)
+01M05P01	01M05P1	P	Pluviómetro
+01O01Q01	01O01C1	Q	Caudal
+01O01Q02	01O01C2	Q	Caudal
+01O01D03	01O01M1	G	Presión (mbar)
+01O01D06	01O01M1	H	Humedad Relativa
+01O01D08	01O01M1	R	Punto de rocío (°C)
+01O01D05	01O01M1	T	Temperatura (°C)
+01O01D09	01O01M1	W	Velocidad del viento (m/s)
+01O01D04	01O01M1	Y	Dirección del viento (°)
+01O02U12	01O02A1	N	Nivel
+01O02Q01	01O02A1	Q	Caudal
+01O02D03	01O02M1	G	Presión (mbar)
+01O02D06	01O02M1	H	Humedad Relativa
+01O02D08	01O02M1	R	Punto de rocío (°C)
+01O02D05	01O02M1	T	Temperatura (°C)
+01O02D09	01O02M1	W	Velocidad del viento (m/s)
+01O02D04	01O02M1	Y	Dirección del viento (°)
+01O02P01	01O02P1	P	Pluviómetro
+01O03U12	01O03A1	N	Nivel
+01O03Q01	01O03A1	Q	Caudal
+01O03D03	01O03M1	G	Presión (mbar)
+01O03D06	01O03M1	H	Humedad Relativa
+01O03D08	01O03M1	R	Punto de rocío (°C)
+01O03D05	01O03M1	T	Temperatura (°C)
+01O03D09	01O03M1	W	Velocidad del viento (m/s)
+01O03D04	01O03M1	Y	Dirección del viento (°)
+01O03P01	01O03P1	P	Pluviómetro
+01O04U12	01O04A1	N	Nivel
+01O04Q01	01O04A1	Q	Caudal
+01O04D03	01O04M1	G	Presión (mbar)
+01O04D06	01O04M1	H	Humedad Relativa
+01O04D08	01O04M1	R	Punto de rocío (°C)
+01O04D05	01O04M1	T	Temperatura (°C)
+01O04D09	01O04M1	W	Velocidad del viento (m/s)
+01O04D04	01O04M1	Y	Dirección del viento (°)
+01O04P01	01O04P1	P	Pluviómetro
+01O05U12	01O05A1	N	Nivel
+01O05Q01	01O05A1	Q	Caudal
+01O05D03	01O05M1	G	Presión (mbar)
+01O05D06	01O05M1	H	Humedad Relativa
+01O05D08	01O05M1	R	Punto de rocío (°C)
+01O05D05	01O05M1	T	Temperatura (°C)
+01O05D09	01O05M1	W	Velocidad del viento (m/s)
+01O05D04	01O05M1	Y	Dirección del viento (°)
+01O05P01	01O05P1	P	Pluviómetro
+01O06U03	01O06A1	N	Nivel
+01O06Q02	01O06A1	Q	Caudal
+01O06U02	01O06A2	N	Nivel
+01O06Q01	01O06A2	Q	Caudal
+01O06U12	01O06A3	N	Nivel
+01O06Q03	01O06A3	Q	Caudal
+01O06D03	01O06M1	G	Presión (mbar)
+01O06D06	01O06M1	H	Humedad Relativa
+01O06D08	01O06M1	R	Punto de rocío (°C)
+01O06D05	01O06M1	T	Temperatura (°C)
+01O06D09	01O06M1	W	Velocidad del viento (m/s)
+01O06D04	01O06M1	Y	Dirección del viento (°)
+01O06P01	01O06P1	P	Pluviómetro
+01P02D03	01P02M1	G	Presión (mbar)
+01P02D06	01P02M1	H	Humedad Relativa
+01P02D08	01P02M1	R	Punto de rocío (°C)
+01P02D05	01P02M1	T	Temperatura (°C)
+01P02D09	01P02M1	W	Velocidad del viento (m/s)
+01P02D04	01P02M1	Y	Dirección del viento (°)
+01P02P01	01P02P1	P	Pluviómetro
+01P03D03	01P03M1	G	Presión (mbar)
+01P03D06	01P03M1	H	Humedad Relativa
+01P03D08	01P03M1	R	Punto de rocío (°C)
+01P03D05	01P03M1	T	Temperatura (°C)
+01P03D09	01P03M1	W	Velocidad del viento (m/s)
+01P03D04	01P03M1	Y	Dirección del viento (°)
+01P03P01	01P03P1	P	Pluviómetro
+01P04D03	01P04M1	G	Presión (mbar)
+01P04D06	01P04M1	H	Humedad Relativa
+01P04D08	01P04M1	R	Punto de rocío (°C)
+01P04D05	01P04M1	T	Temperatura (°C)
+01P04D09	01P04M1	W	Velocidad del viento (m/s)
+01P04D04	01P04M1	Y	Dirección del viento (°)
+01P04P01	01P04P1	P	Pluviómetro
+01Q01E01	01Q01Q1	1	Temperatura del Agua (°C)
+01Q01E02	01Q01Q1	2	PH (udpH)
+01Q01E03	01Q01Q1	3	Conductividad (µS/cm)
+01Q01E04	01Q01Q1	4	Oxígeno Disuelto (ppm)
+01Q01E05	01Q01Q1	5	Turbidímetro de Alto Rango (U
+01Q01E06	01Q01Q1	6	Amonio (mg/l)
+01Q01E07	01Q01Q1	7	SAC Coeficiente Espectral de
+01Q01E14	01Q01Q1	X	DBO/DQO (mg/l)
+01Q01E15	01Q01Q1	Z	COD/COT (mg/l)
+01Q02E01	01Q02Q1	1	Temperatura del Agua (°C)
+01Q02E02	01Q02Q1	2	PH (udpH)
+01Q02E03	01Q02Q1	3	Conductividad (µS/cm)
+01Q02E04	01Q02Q1	4	Oxígeno Disuelto (ppm)
+01Q02E05	01Q02Q1	5	Turbidímetro de Alto Rango (U
+01Q02E06	01Q02Q1	6	Amonio (mg/l)
+01Q02E07	01Q02Q1	7	SAC Coeficiente Espectral de
+01Q02E08	01Q02Q1	8	Nitratos (ppm)
+01Q02E09	01Q02Q1	9	Fosfatos (ppm)
+01Q02E14	01Q02Q1	X	DBO/DQO (mg/l)
+01Q02E15	01Q02Q1	Z	COD/COT (mg/l)
+01R01L01	01R01A1	N	Nivel
+01R01Q01	01R01A1	Q	Caudal
+01R01Q06	01R01A2	Q	Caudal
+01R01Q04	01R01A3	Q	Caudal
+01R01L02	01R01X1	N	Nivel
+01R01Q02	01R01X2	Q	Caudal
+01R02U12	01R02C1	N	Nivel
+01R02Q01	01R02C1	Q	Caudal
+01R02U21	01R02C2	N	Nivel
+01R02Q02	01R02C2	Q	Caudal
+01R01Q03	01R02C3	Q	Caudal
+01U01Q03	01U01I1	Q	Caudal
+01U01Q01	01U01I2	Q	Caudal
+01U01Q02	01U01I3	Q	Caudal
+01U01D01	01U01M1	H	Humedad Relativa
+01U01D02	01U01M1	T	Temperatura (°C)
+01U01P01	01U01P1	P	Pluviómetro
+01X01L01	01X01X1	N	Nivel
+01X01Q01	01X01X1	Q	Caudal
+01X02L01	01X02X1	N	Nivel
+01X02Q01	01X02X1	Q	Caudal
+01X03L01	01X03X1	N	Nivel
+01X03Q01	01X03X1	Q	Caudal
+02A01U12	02A01A1	N	Nivel
+02A01Q01	02A01A1	Q	Caudal
+02A01Q05	02A01A2	Q	Caudal
+02A01Q06	02A01A3	Q	Caudal
+02A01D03	02A01M1	G	Presión (mbar)
+02A01D06	02A01M1	H	Humedad Relativa
+02A01D08	02A01M1	R	Punto de rocío (°C)
+02A01D05	02A01M1	T	Temperatura (°C)
+02A01D09	02A01M1	W	Velocidad del viento (m/s)
+02A01D04	02A01M1	Y	Dirección del viento (°)
+02A01P01	02A01P1	P	Pluviómetro
+02A01L02	02A01X1	N	Nivel
+02A01Q02	02A01X1	Q	Caudal
+02A01L03	02A01X2	N	Nivel
+02A01Q03	02A01X2	Q	Caudal
+02A01Q04	02A01X3	Q	Caudal
+02A02U12	02A02A1	N	Nivel
+02A02Q01	02A02A1	Q	Caudal
+02A02Q05	02A02A2	Q	Caudal
+02A02D03	02A02M1	G	Presión (mbar)
+02A02D06	02A02M1	H	Humedad Relativa
+02A02D08	02A02M1	R	Punto de rocío (°C)
+02A02D05	02A02M1	T	Temperatura (°C)
+02A02D09	02A02M1	W	Velocidad del viento (m/s)
+02A02D04	02A02M1	Y	Dirección del viento (°)
+02A02P01	02A02P1	P	Pluviómetro
+02A02L02	02A02X1	N	Nivel
+02A02Q03	02A02X1	Q	Caudal
+02A03U12	02A03A1	N	Nivel
+02A03Q01	02A03A1	Q	Caudal
+02A03D03	02A03M1	G	Presión (mbar)
+02A03D06	02A03M1	H	Humedad Relativa
+02A03D08	02A03M1	R	Punto de rocío (°C)
+02A03D05	02A03M1	T	Temperatura (°C)
+02A03D09	02A03M1	W	Velocidad del viento (m/s)
+02A03D04	02A03M1	Y	Dirección del viento (°)
+02A04U12	02A04A1	N	Nivel
+02A04Q01	02A04A1	Q	Caudal
+02A04D03	02A04M1	G	Presión (mbar)
+02A04D06	02A04M1	H	Humedad Relativa
+02A04D08	02A04M1	R	Punto de rocío (°C)
+02A04D05	02A04M1	T	Temperatura (°C)
+02A04D09	02A04M1	W	Velocidad del viento (m/s)
+02A04D04	02A04M1	Y	Dirección del viento (°)
+02A04L01	02A04X1	N	Nivel
+02A04Q02	02A04X1	Q	Caudal
+02A05U12	02A05A1	N	Nivel
+02A05Q01	02A05A1	Q	Caudal
+02A05D03	02A05M1	G	Presión (mbar)
+02A05D06	02A05M1	H	Humedad Relativa
+02A05D08	02A05M1	R	Punto de rocío (°C)
+02A05D05	02A05M1	T	Temperatura (°C)
+02A05D09	02A05M1	W	Velocidad del viento (m/s)
+02A05D04	02A05M1	Y	Dirección del viento (°)
+02A05P01	02A05P1	P	Pluviómetro
+02A05L02	02A05X1	N	Nivel
+02A05Q02	02A05X1	Q	Caudal
+02C01U12	02C01C1	N	Nivel
+02C01Q01	02C01C1	Q	Caudal
+02C01D03	02C01M1	G	Presión (mbar)
+02C01D06	02C01M1	H	Humedad Relativa
+02C01D08	02C01M1	R	Punto de rocío (°C)
+02C01D05	02C01M1	T	Temperatura (°C)
+02C01D09	02C01M1	W	Velocidad del viento (m/s)
+02C01D04	02C01M1	Y	Dirección del viento (°)
+02C02U12	02C02C1	N	Nivel
+02C02Q01	02C02C1	Q	Caudal
+02C03Q01	02C03C1	Q	Caudal
+02C03B01	02C03C1	V	Volumen
+02E01Q10	02E01A1	Q	Caudal
+02E01U12	02E01C1	N	Nivel
+02E01Q12	02E01C1	Q	Caudal
+02E01U01	02E01C2	N	Nivel
+02E01Q11	02E01C2	Q	Caudal
+02E01Q97	02E01E1	A	Aportación
+02E01Q13	02E01E1	D	Desagüe
+02E01C12	02E01E1	N	Nivel
+02E01S01	02E01E1	S	Superficie
+02E01B01	02E01E1	V	Volumen
+02E01D03	02E01M1	G	Presión (mbar)
+02E01D06	02E01M1	H	Humedad Relativa
+02E01D08	02E01M1	R	Punto de rocío (°C)
+02E01D05	02E01M1	T	Temperatura (°C)
+02E01D09	02E01M1	W	Velocidad del viento (m/s)
+02E01D04	02E01M1	Y	Dirección del viento (°)
+02E01P01	02E01P1	P	Pluviómetro
+02E01V01	02E01V1	N	Nivel
+02E01Q04	02E01V1	Q	Caudal
+02E01V02	02E01V2	N	Nivel
+02E01Q08	02E01V2	Q	Caudal
+02E01V03	02E01V3	N	Nivel
+02E01Q14	02E01V3	Q	Caudal
+02E02Q21	02E02A1	Q	Caudal
+02E02U01	02E02C1	N	Nivel
+02E02Q12	02E02C1	Q	Caudal
+02E02U02	02E02C2	N	Nivel
+02E02Q13	02E02C2	Q	Caudal
+02E02U03	02E02C3	N	Nivel
+02E02Q14	02E02C3	Q	Caudal
+02E02U04	02E02C4	N	Nivel
+02E02Q28	02E02C4	Q	Caudal
+02E02U05	02E02C5	N	Nivel
+02E02Q16	02E02C5	Q	Caudal
+02E02Q15	02E02C6	Q	Caudal
+02E02Q22	02E02C7	Q	Caudal
+02E02Q97	02E02E1	A	Aportación
+02E02Q21	02E02E1	D	Desagüe
+02E02C12	02E02E1	N	Nivel
+02E02S01	02E02E1	S	Superficie
+02E02B01	02E02E1	V	Volumen
+02E02D03	02E02M1	G	Presión (mbar)
+02E02D06	02E02M1	H	Humedad Relativa
+02E02D08	02E02M1	R	Punto de rocío (°C)
+02E02D05	02E02M1	T	Temperatura (°C)
+02E02D09	02E02M1	W	Velocidad del viento (m/s)
+02E02D04	02E02M1	Y	Dirección del viento (°)
+02E02P01	02E02P1	P	Pluviómetro
+02E02Q25	02E02X1	Q	Caudal
+02E02Q23	02E02X2	Q	Caudal
+02E02Q01	02E02X3	Q	Caudal
+02E03Q08	02E03A1	Q	Caudal
+02E03U12	02E03A2	N	Nivel
+02E03Q17	02E03A2	Q	Caudal
+02E03Q97	02E03E1	A	Aportación
+02E03Q08	02E03E1	D	Desagüe
+02E03C12	02E03E1	N	Nivel
+02E03S01	02E03E1	S	Superficie
+02E03B01	02E03E1	V	Volumen
+02E03D03	02E03M1	G	Presión (mbar)
+02E03D06	02E03M1	H	Humedad Relativa
+02E03D08	02E03M1	R	Punto de rocío (°C)
+02E03D05	02E03M1	T	Temperatura (°C)
+02E03D09	02E03M1	W	Velocidad del viento (m/s)
+02E03D04	02E03M1	Y	Dirección del viento (°)
+02E03P01	02E03P1	P	Pluviómetro
+02E04Q04	02E04A1	Q	Caudal
+02E04Q97	02E04E1	A	Aportación
+02E04Q04	02E04E1	D	Desagüe
+02E04C01	02E04E1	N	Nivel
+02E04S01	02E04E1	S	Superficie
+02E04B01	02E04E1	V	Volumen
+02E04D03	02E04M1	G	Presión (mbar)
+02E04D06	02E04M1	H	Humedad Relativa
+02E04D08	02E04M1	R	Punto de rocío (°C)
+02E04D05	02E04M1	T	Temperatura (°C)
+02E04D09	02E04M1	W	Velocidad del viento (m/s)
+02E04D04	02E04M1	Y	Dirección del viento (°)
+02E04P01	02E04P1	P	Pluviómetro
+02E05Q05	02E05A1	Q	Caudal
+02E05Q97	02E05E1	A	Aportación
+02E05Q05	02E05E1	D	Desagüe
+02E05C12	02E05E1	N	Nivel
+02E05S01	02E05E1	S	Superficie
+02E05B01	02E05E1	V	Volumen
+02E05D03	02E05M1	G	Presión (mbar)
+02E05D06	02E05M1	H	Humedad Relativa
+02E05D08	02E05M1	R	Punto de rocío (°C)
+02E05D05	02E05M1	T	Temperatura (°C)
+02E05D09	02E05M1	W	Velocidad del viento (m/s)
+02E05D04	02E05M1	Y	Dirección del viento (°)
+02E05P01	02E05P1	P	Pluviómetro
+02E06Q05	02E06A1	Q	Caudal
+02E06Q97	02E06E1	A	Aportación
+02E06Q05	02E06E1	D	Desagüe
+02E06C12	02E06E1	N	Nivel
+02E06S01	02E06E1	S	Superficie
+02E06B01	02E06E1	V	Volumen
+02E06D03	02E06M1	G	Presión (mbar)
+02E06D06	02E06M1	H	Humedad Relativa
+02E06D08	02E06M1	R	Punto de rocío (°C)
+02E06D05	02E06M1	T	Temperatura (°C)
+02E06D09	02E06M1	W	Velocidad del viento (m/s)
+02E06D04	02E06M1	Y	Dirección del viento (°)
+02E06P01	02E06P1	P	Pluviómetro
+02E07Q05	02E07A1	Q	Caudal
+02E07Q97	02E07E1	A	Aportación
+02E07Q05	02E07E1	D	Desagüe
+02E07C12	02E07E1	N	Nivel
+02E07S01	02E07E1	S	Superficie
+02E07B01	02E07E1	V	Volumen
+02E07D03	02E07M1	G	Presión (mbar)
+02E07D06	02E07M1	H	Humedad Relativa
+02E07D08	02E07M1	R	Punto de rocío (°C)
+02E07D05	02E07M1	T	Temperatura (°C)
+02E07D09	02E07M1	W	Velocidad del viento (m/s)
+02E07D04	02E07M1	Y	Dirección del viento (°)
+02E08Q05	02E08A1	Q	Caudal
+02E08Q97	02E08E1	A	Aportación
+02E08Q05	02E08E1	D	Desagüe
+02E08C12	02E08E1	N	Nivel
+02E08S01	02E08E1	S	Superficie
+02E08B01	02E08E1	V	Volumen
+02E08D03	02E08M1	G	Presión (mbar)
+02E08D06	02E08M1	H	Humedad Relativa
+02E08D08	02E08M1	R	Punto de rocío (°C)
+02E08D05	02E08M1	T	Temperatura (°C)
+02E08D09	02E08M1	W	Velocidad del viento (m/s)
+02E08D04	02E08M1	Y	Dirección del viento (°)
+02I01Q99	02I01I2	Q	Caudal
+02I01D03	02I01M1	G	Presión (mbar)
+02I01D06	02I01M1	H	Humedad Relativa
+02I01D08	02I01M1	R	Punto de rocío (°C)
+02I01D05	02I01M1	T	Temperatura (°C)
+02I01D09	02I01M1	W	Velocidad del viento (m/s)
+02I01D04	02I01M1	Y	Dirección del viento (°)
+02M01D03	02M01M1	G	Presión (mbar)
+02M01D01	02M01M1	H	Humedad Relativa
+02M01D02	02M01M1	T	Temperatura (°C)
+02M01D09	02M01M1	W	Velocidad del viento (m/s)
+02M01D04	02M01M1	Y	Dirección del viento (°)
+02M01P01	02M01P1	P	Pluviómetro
+02M02D03	02M02M1	G	Presión (mbar)
+02M02D01	02M02M1	H	Humedad Relativa
+02M02D02	02M02M1	T	Temperatura (°C)
+02M02D09	02M02M1	W	Velocidad del viento (m/s)
+02M02D04	02M02M1	Y	Dirección del viento (°)
+02M02P01	02M02P1	P	Pluviómetro
+02M03D03	02M03M1	G	Presión (mbar)
+02M03D01	02M03M1	H	Humedad Relativa
+02M03D02	02M03M1	T	Temperatura (°C)
+02M03D09	02M03M1	W	Velocidad del viento (m/s)
+02M03D04	02M03M1	Y	Dirección del viento (°)
+02M03P01	02M03P1	P	Pluviómetro
+02O01U12	02O01A1	N	Nivel
+02O01Q01	02O01A1	Q	Caudal
+02O01D03	02O01M1	G	Presión (mbar)
+02O01D06	02O01M1	H	Humedad Relativa
+02O01D08	02O01M1	R	Punto de rocío (°C)
+02O01D05	02O01M1	T	Temperatura (°C)
+02O01D09	02O01M1	W	Velocidad del viento (m/s)
+02O01D04	02O01M1	Y	Dirección del viento (°)
+02O01P01	02O01P1	P	Pluviómetro
+02O03U12	02O03A1	N	Nivel
+02O03Q01	02O03A1	Q	Caudal
+02O03Q02	02O03I1	Q	Caudal
+02O03D03	02O03M1	G	Presión (mbar)
+02O03D06	02O03M1	H	Humedad Relativa
+02O03D08	02O03M1	R	Punto de rocío (°C)
+02O03D05	02O03M1	T	Temperatura (°C)
+02O03D09	02O03M1	W	Velocidad del viento (m/s)
+02O03D04	02O03M1	Y	Dirección del viento (°)
+02O03P01	02O03P1	P	Pluviómetro
+02P01D03	02P01M1	G	Presión (mbar)
+02P01D06	02P01M1	H	Humedad Relativa
+02P01D08	02P01M1	R	Punto de rocío (°C)
+02P01D05	02P01M1	T	Temperatura (°C)
+02P01D09	02P01M1	W	Velocidad del viento (m/s)
+02P01D04	02P01M1	Y	Dirección del viento (°)
+02P01P01	02P01P1	P	Pluviómetro
+02P02D03	02P02M1	G	Presión (mbar)
+02P02D06	02P02M1	H	Humedad Relativa
+02P02D08	02P02M1	R	Punto de rocío (°C)
+02P02D05	02P02M1	T	Temperatura (°C)
+02P02D09	02P02M1	W	Velocidad del viento (m/s)
+02P02D04	02P02M1	Y	Dirección del viento (°)
+02P02P01	02P02P1	P	Pluviómetro
+02P03D03	02P03M1	G	Presión (mbar)
+02P03D06	02P03M1	H	Humedad Relativa
+02P03D08	02P03M1	R	Punto de rocío (°C)
+02P03D05	02P03M1	T	Temperatura (°C)
+02P03D09	02P03M1	W	Velocidad del viento (m/s)
+02P03D04	02P03M1	Y	Dirección del viento (°)
+02P03P01	02P03P1	P	Pluviómetro
+02P04D03	02P04M1	G	Presión (mbar)
+02P04D06	02P04M1	H	Humedad Relativa
+02P04D08	02P04M1	R	Punto de rocío (°C)
+02P04D05	02P04M1	T	Temperatura (°C)
+02P04D09	02P04M1	W	Velocidad del viento (m/s)
+02P04D04	02P04M1	Y	Dirección del viento (°)
+02P04P01	02P04P1	P	Pluviómetro
+02P05D03	02P05M1	G	Presión (mbar)
+02P05D06	02P05M1	H	Humedad Relativa
+02P05D08	02P05M1	R	Punto de rocío (°C)
+02P05D05	02P05M1	T	Temperatura (°C)
+02P05D09	02P05M1	W	Velocidad del viento (m/s)
+02P05D04	02P05M1	Y	Dirección del viento (°)
+02P05P01	02P05P1	P	Pluviómetro
+02P06D03	02P06M1	G	Presión (mbar)
+02P06D06	02P06M1	H	Humedad Relativa
+02P06D08	02P06M1	R	Punto de rocío (°C)
+02P06D05	02P06M1	T	Temperatura (°C)
+02P06D09	02P06M1	W	Velocidad del viento (m/s)
+02P06D04	02P06M1	Y	Dirección del viento (°)
+02P06P01	02P06P1	P	Pluviómetro
+02P07D03	02P07M1	G	Presión (mbar)
+02P07D06	02P07M1	H	Humedad Relativa
+02P07D08	02P07M1	R	Punto de rocío (°C)
+02P07D05	02P07M1	T	Temperatura (°C)
+02P07D09	02P07M1	W	Velocidad del viento (m/s)
+02P07D04	02P07M1	Y	Dirección del viento (°)
+02P07P01	02P07P1	P	Pluviómetro
+02P08D03	02P08M1	G	Presión (mbar)
+02P08D06	02P08M1	H	Humedad Relativa
+02P08D08	02P08M1	R	Punto de rocío (°C)
+02P08D05	02P08M1	T	Temperatura (°C)
+02P08D09	02P08M1	W	Velocidad del viento (m/s)
+02P08D04	02P08M1	Y	Dirección del viento (°)
+02P08P01	02P08P1	P	Pluviómetro
+02Q01E01	02Q01Q1	1	Temperatura del Agua (°C)
+02Q01E02	02Q01Q1	2	PH (udpH)
+02Q01E03	02Q01Q1	3	Conductividad (µS/cm)
+02Q01E04	02Q01Q1	4	Oxígeno Disuelto (ppm)
+02Q01E05	02Q01Q1	5	Turbidímetro de Alto Rango (U
+02Q01E06	02Q01Q1	6	Amonio (mg/l)
+02Q02E01	02Q02Q1	1	Temperatura del Agua (°C)
+02Q02E02	02Q02Q1	2	PH (udpH)
+02Q02E03	02Q02Q1	3	Conductividad (µS/cm)
+02Q02E04	02Q02Q1	4	Oxígeno Disuelto (ppm)
+02Q02E05	02Q02Q1	5	Turbidímetro de Alto Rango (U
+02Q02E06	02Q02Q1	6	Amonio (mg/l)
+02Q02E07	02Q02Q1	7	SAC Coeficiente Espectral de
+02Q02E08	02Q02Q1	8	Nitratos (ppm)
+02Q02E09	02Q02Q1	9	Fosfatos (ppm)
+02Q02E14	02Q02Q1	X	DBO/DQO (mg/l)
+02Q02E15	02Q02Q1	Z	COD/COT (mg/l)
+02Q03E01	02Q03Q1	1	Temperatura del Agua (°C)
+02Q03E02	02Q03Q1	2	PH (udpH)
+02Q03E03	02Q03Q1	3	Conductividad (µS/cm)
+02Q03E04	02Q03Q1	4	Oxígeno Disuelto (ppm)
+02Q03E05	02Q03Q1	5	Turbidímetro de Alto Rango (U
+02Q03E06	02Q03Q1	6	Amonio (mg/l)
+02R01U12	02R01A1	N	Nivel
+02R01Q01	02R01A1	Q	Caudal
+02R01D03	02R01M1	G	Presión (mbar)
+02R01D06	02R01M1	H	Humedad Relativa
+02R01D08	02R01M1	R	Punto de rocío (°C)
+02R01D05	02R01M1	T	Temperatura (°C)
+02R01D09	02R01M1	W	Velocidad del viento (m/s)
+02R01D04	02R01M1	Y	Dirección del viento (°)
+02R01P01	02R01P1	P	Pluviómetro
+02R02U12	02R02A1	N	Nivel
+02R02Q01	02R02A1	Q	Caudal
+02R02D03	02R02M1	G	Presión (mbar)
+02R02D06	02R02M1	H	Humedad Relativa
+02R02D08	02R02M1	R	Punto de rocío (°C)
+02R02D05	02R02M1	T	Temperatura (°C)
+02R02D09	02R02M1	W	Velocidad del viento (m/s)
+02R02D04	02R02M1	Y	Dirección del viento (°)
+02S01Q22	02S01C1	Q	Caudal
+02S01Q97	02S01E1	A	Aportación
+02S01Q15	02S01E1	D	Desagüe
+02S01C12	02S01E1	N	Nivel
+02S01S01	02S01E1	S	Superficie
+02S01B01	02S01E1	V	Volumen
+02S01Q21	02S01I1	Q	Caudal
+02S01D03	02S01M1	G	Presión (mbar)
+02S01D06	02S01M1	H	Humedad Relativa
+02S01D08	02S01M1	R	Punto de rocío (°C)
+02S01D05	02S01M1	T	Temperatura (°C)
+02S01D09	02S01M1	W	Velocidad del viento (m/s)
+02S01D04	02S01M1	Y	Dirección del viento (°)
+02X08U01	02X08X1	N	Nivel
+02X08Q01	02X08X1	Q	Caudal
+02X10L01	02X10X1	N	Nivel
+02X10Q01	02X10X1	Q	Caudal
+02X13L01	02X13X1	N	Nivel
+02X13Q01	02X13X1	Q	Caudal
+02X14L01	02X14X1	N	Nivel
+02X14Q01	02X14X1	Q	Caudal
+02X15U01	02X15X1	N	Nivel
+02X15Q01	02X15X1	Q	Caudal
+02X16U01	02X16X1	N	Nivel
+02X16Q02	02X16X1	Q	Caudal
+02X17L01	02X17X1	N	Nivel
+02X17Q01	02X17X1	Q	Caudal
+02X18L01	02X18X1	N	Nivel
+02X18Q01	02X18X1	Q	Caudal
+02X19L01	02X19X1	N	Nivel
+02X19Q01	02X19X1	Q	Caudal
+02X20L01	02X20X1	N	Nivel
+02X20Q01	02X20X1	Q	Caudal
+02X21Q01	02X21X1	Q	Caudal
+02X22Q01	02X22X1	Q	Caudal
+03A01Q03	03A01I1	Q	Caudal
+03A02U01	03A02A1	N	Nivel
+03A02Q02	03A02A1	Q	Caudal
+03A02Q03	03A02A2	Q	Caudal
+03A02Q01	03A02X1	Q	Caudal
+03A03U12	03A03A1	N	Nivel
+03A03Q02	03A03A1	Q	Caudal
+03A03Q06	03A03A3	Q	Caudal
+03A03D03	03A03M1	G	Presión (mbar)
+03A03D06	03A03M1	H	Humedad Relativa
+03A03D08	03A03M1	R	Punto de rocío (°C)
+03A03D05	03A03M1	T	Temperatura (°C)
+03A03D09	03A03M1	W	Velocidad del viento (m/s)
+03A03D04	03A03M1	Y	Dirección del viento (°)
+03A03P01	03A03P1	P	Pluviómetro
+03A04U12	03A04A1	N	Nivel
+03A04Q01	03A04A1	Q	Caudal
+03A04D03	03A04M1	G	Presión (mbar)
+03A04D06	03A04M1	H	Humedad Relativa
+03A04D08	03A04M1	R	Punto de rocío (°C)
+03A04D05	03A04M1	T	Temperatura (°C)
+03A04D09	03A04M1	W	Velocidad del viento (m/s)
+03A04D04	03A04M1	Y	Dirección del viento (°)
+03A04P01	03A04P1	P	Pluviómetro
+03A05U12	03A05A1	N	Nivel
+03A05Q01	03A05A1	Q	Caudal
+03A05D03	03A05M1	G	Presión (mbar)
+03A05D06	03A05M1	H	Humedad Relativa
+03A05D08	03A05M1	R	Punto de rocío (°C)
+03A05D05	03A05M1	T	Temperatura (°C)
+03A05D09	03A05M1	W	Velocidad del viento (m/s)
+03A05D04	03A05M1	Y	Dirección del viento (°)
+03A05P01	03A05P1	P	Pluviómetro
+03A06U12	03A06A1	N	Nivel
+03A06Q01	03A06A1	Q	Caudal
+03A06D03	03A06M1	G	Presión (mbar)
+03A06D06	03A06M1	H	Humedad Relativa
+03A06D08	03A06M1	R	Punto de rocío (°C)
+03A06D05	03A06M1	T	Temperatura (°C)
+03A06D09	03A06M1	W	Velocidad del viento (m/s)
+03A06D04	03A06M1	Y	Dirección del viento (°)
+03A06P01	03A06P1	P	Pluviómetro
+03A07U12	03A07A1	N	Nivel
+03A07Q03	03A07A1	Q	Caudal
+03A07D03	03A07M1	G	Presión (mbar)
+03A07D06	03A07M1	H	Humedad Relativa
+03A07D08	03A07M1	R	Punto de rocío (°C)
+03A07D05	03A07M1	T	Temperatura (°C)
+03A07D09	03A07M1	W	Velocidad del viento (m/s)
+03A07D04	03A07M1	Y	Dirección del viento (°)
+03A07P01	03A07P1	P	Pluviómetro
+03C01L01	03C01C1	N	Nivel
+03C01Q01	03C01C1	Q	Caudal
+03E02U01	03E02C1	N	Nivel
+03E02Q10	03E02C1	Q	Caudal
+03E02Q12	03E02C2	Q	Caudal
+03E02Q50	03E02C3	Q	Caudal
+03E02Q14	03E02C4	Q	Caudal
+03E02Q97	03E02E1	A	Aportación
+03E02Q15	03E02E1	D	Desagüe
+03E02C12	03E02E1	N	Nivel
+03E02S01	03E02E1	S	Superficie
+03E02B01	03E02E1	V	Volumen
+03E02D03	03E02M1	G	Presión (mbar)
+03E02D06	03E02M1	H	Humedad Relativa
+03E02D08	03E02M1	R	Punto de rocío (°C)
+03E02D05	03E02M1	T	Temperatura (°C)
+03E02D09	03E02M1	W	Velocidad del viento (m/s)
+03E02D04	03E02M1	Y	Dirección del viento (°)
+03E02P01	03E02P1	P	Pluviómetro
+03E03Q97	03E03E1	A	Aportación
+03R04Q06	03E03E1	D	Desagüe
+03E03C12	03E03E1	N	Nivel
+03E03S01	03E03E1	S	Superficie
+03E03B01	03E03E1	V	Volumen
+03E03D03	03E03M1	G	Presión (mbar)
+03E03D06	03E03M1	H	Humedad Relativa
+03E03D08	03E03M1	R	Punto de rocío (°C)
+03E03D05	03E03M1	T	Temperatura (°C)
+03E03D09	03E03M1	W	Velocidad del viento (m/s)
+03E03D04	03E03M1	Y	Dirección del viento (°)
+03E03P01	03E03P1	P	Pluviómetro
+03E04Q03	03E04A1	Q	Caudal
+03E04Q97	03E04E1	A	Aportación
+03E04Q03	03E04E1	D	Desagüe
+03E04C12	03E04E1	N	Nivel
+03E04S01	03E04E1	S	Superficie
+03E04B01	03E04E1	V	Volumen
+03E04D03	03E04M1	G	Presión (mbar)
+03E04D06	03E04M1	H	Humedad Relativa
+03E04D08	03E04M1	R	Punto de rocío (°C)
+03E04D05	03E04M1	T	Temperatura (°C)
+03E04D09	03E04M1	W	Velocidad del viento (m/s)
+03E04D04	03E04M1	Y	Dirección del viento (°)
+03E04P01	03E04P1	P	Pluviómetro
+03E05Q05	03E05A1	Q	Caudal
+03E05Q97	03E05E1	A	Aportación
+03E05Q05	03E05E1	D	Desagüe
+03E05C12	03E05E1	N	Nivel
+03E05S01	03E05E1	S	Superficie
+03E05B01	03E05E1	V	Volumen
+03E05D03	03E05M1	G	Presión (mbar)
+03E05D06	03E05M1	H	Humedad Relativa
+03E05D08	03E05M1	R	Punto de rocío (°C)
+03E05D05	03E05M1	T	Temperatura (°C)
+03E05D09	03E05M1	W	Velocidad del viento (m/s)
+03E05D04	03E05M1	Y	Dirección del viento (°)
+03E05P01	03E05P1	P	Pluviómetro
+03E06Q03	03E06A1	Q	Caudal
+03E06Q97	03E06E1	A	Aportación
+03E06Q03	03E06E1	D	Desagüe
+03E06C12	03E06E1	N	Nivel
+03E06S01	03E06E1	S	Superficie
+03E06B01	03E06E1	V	Volumen
+03E06D03	03E06M1	G	Presión (mbar)
+03E06D06	03E06M1	H	Humedad Relativa
+03E06D08	03E06M1	R	Punto de rocío (°C)
+03E06D05	03E06M1	T	Temperatura (°C)
+03E06D09	03E06M1	W	Velocidad del viento (m/s)
+03E06D04	03E06M1	Y	Dirección del viento (°)
+03E06P01	03E06P1	P	Pluviómetro
+03L01Q02	03L01C1	Q	Caudal
+03L01U03	03L01C2	N	Nivel
+03L01Q01	03L01C2	Q	Caudal
+03L01U02	03L01C3	N	Nivel
+03L01Q04	03L01C3	Q	Caudal
+03L01U01	03L01C4	N	Nivel
+03L01Q03	03L01C4	Q	Caudal
+03L01D03	03L01M1	G	Presión (mbar)
+03L01D06	03L01M1	H	Humedad Relativa
+03L01D08	03L01M1	R	Punto de rocío (°C)
+03L01D05	03L01M1	T	Temperatura (°C)
+03L01D09	03L01M1	W	Velocidad del viento (m/s)
+03L01D04	03L01M1	Y	Dirección del viento (°)
+03L01P01	03L01P1	P	Pluviómetro
+03M01U01	03M01A1	N	Nivel
+03M01Q01	03M01A1	Q	Caudal
+03M03D03	03M03M1	G	Presión (mbar)
+03M03D01	03M03M1	H	Humedad Relativa
+03M03D02	03M03M1	T	Temperatura (°C)
+03M03D09	03M03M1	W	Velocidad del viento (m/s)
+03M03D04	03M03M1	Y	Dirección del viento (°)
+03M03P01	03M03P1	P	Pluviómetro
+03P01D01	03P01M1	H	Humedad Relativa
+03P01D02	03P01M1	T	Temperatura (°C)
+03P01P01	03P01P1	P	Pluviómetro
+03P02D03	03P02M1	G	Presión (mbar)
+03P02D06	03P02M1	H	Humedad Relativa
+03P02D08	03P02M1	R	Punto de rocío (°C)
+03P02D05	03P02M1	T	Temperatura (°C)
+03P02D09	03P02M1	W	Velocidad del viento (m/s)
+03P02D04	03P02M1	Y	Dirección del viento (°)
+03P02P01	03P02P1	P	Pluviómetro
+03P03D03	03P03M1	G	Presión (mbar)
+03P03D06	03P03M1	H	Humedad Relativa
+03P03D08	03P03M1	R	Punto de rocío (°C)
+03P03D05	03P03M1	T	Temperatura (°C)
+03P03D09	03P03M1	W	Velocidad del viento (m/s)
+03P03D04	03P03M1	Y	Dirección del viento (°)
+03P03P01	03P03P1	P	Pluviómetro
+03Q01E01	03Q01Q1	1	Temperatura del Agua (°C)
+03Q01E02	03Q01Q1	2	PH (udpH)
+03Q01E03	03Q01Q1	3	Conductividad (µS/cm)
+03Q01E04	03Q01Q1	4	Oxígeno Disuelto (ppm)
+03Q01E05	03Q01Q1	5	Turbidímetro de Alto Rango (U
+03Q01E06	03Q01Q1	6	Amonio (mg/l)
+03Q01E07	03Q01Q1	7	SAC Coeficiente Espectral de
+03Q01E14	03Q01Q1	X	DBO/DQO (mg/l)
+03Q01E15	03Q01Q1	Z	COD/COT (mg/l)
+03R02U12	03R02A1	N	Nivel
+03R02Q02	03R02A1	Q	Caudal
+03R02D03	03R02M1	G	Presión (mbar)
+03R02D06	03R02M1	H	Humedad Relativa
+03R02D08	03R02M1	R	Punto de rocío (°C)
+03R02D05	03R02M1	T	Temperatura (°C)
+03R02D09	03R02M1	W	Velocidad del viento (m/s)
+03R02D04	03R02M1	Y	Dirección del viento (°)
+03R03U12	03R03A1	N	Nivel
+03R03Q02	03R03A1	Q	Caudal
+03R03U03	03R03C1	N	Nivel
+03R03Q01	03R03C1	Q	Caudal
+03R03D03	03R03M1	G	Presión (mbar)
+03R03D06	03R03M1	H	Humedad Relativa
+03R03D08	03R03M1	R	Punto de rocío (°C)
+03R03D05	03R03M1	T	Temperatura (°C)
+03R03D09	03R03M1	W	Velocidad del viento (m/s)
+03R03D04	03R03M1	Y	Dirección del viento (°)
+03R03P01	03R03P1	P	Pluviómetro
+03R04U12	03R04A1	N	Nivel
+03R04Q10	03R04A1	Q	Caudal
+03R04Q06	03R04A2	Q	Caudal
+03R04D03	03R04M1	G	Presión (mbar)
+03R04D06	03R04M1	H	Humedad Relativa
+03R04D08	03R04M1	R	Punto de rocío (°C)
+03R04D05	03R04M1	T	Temperatura (°C)
+03R04D09	03R04M1	W	Velocidad del viento (m/s)
+03R04D04	03R04M1	Y	Dirección del viento (°)
+03R04L02	03R04X1	N	Nivel
+03R04Q05	03R04X1	Q	Caudal
+03X05L01	03X05X1	N	Nivel
+03X05Q01	03X05X1	Q	Caudal
+03X06L01	03X06X1	N	Nivel
+03X06Q01	03X06X1	Q	Caudal
+03X07L01	03X07X1	N	Nivel
+03X07Q01	03X07X1	Q	Caudal
+03X08L01	03X08X1	N	Nivel
+03X08Q01	03X08X1	Q	Caudal
+03Z01Q10	03Z01S1	Q	Caudal
+04A01Q01	04A01A1	Q	Caudal
+04A01U12	04A01A2	N	Nivel
+04A01Q03	04A01A2	Q	Caudal
+04A01U01	04A01A3	N	Nivel
+04A01Q02	04A01A3	Q	Caudal
+04A01D03	04A01M1	G	Presión (mbar)
+04A01D06	04A01M1	H	Humedad Relativa
+04A01D08	04A01M1	R	Punto de rocío (°C)
+04A01D05	04A01M1	T	Temperatura (°C)
+04A01D09	04A01M1	W	Velocidad del viento (m/s)
+04A01D04	04A01M1	Y	Dirección del viento (°)
+04A01P01	04A01P1	P	Pluviómetro
+04A02U12	04A02A1	N	Nivel
+04A02Q01	04A02A1	Q	Caudal
+04A02Q03	04A02A2	Q	Caudal
+04A02U02	04A02C1	N	Nivel
+04A02Q02	04A02C1	Q	Caudal
+04A02D03	04A02M1	G	Presión (mbar)
+04A02D06	04A02M1	H	Humedad Relativa
+04A02D08	04A02M1	R	Punto de rocío (°C)
+04A02D05	04A02M1	T	Temperatura (°C)
+04A02D09	04A02M1	W	Velocidad del viento (m/s)
+04A02D04	04A02M1	Y	Dirección del viento (°)
+04A02P01	04A02P1	P	Pluviómetro
+04A02L03	04A02X1	N	Nivel
+04A02Q04	04A02X1	Q	Caudal
+04A03U12	04A03A1	N	Nivel
+04A03Q01	04A03A1	Q	Caudal
+04A03Q02	04A03A2	Q	Caudal
+04A03D03	04A03M1	G	Presión (mbar)
+04A03D06	04A03M1	H	Humedad Relativa
+04A03D08	04A03M1	R	Punto de rocío (°C)
+04A03D05	04A03M1	T	Temperatura (°C)
+04A03D09	04A03M1	W	Velocidad del viento (m/s)
+04A03D04	04A03M1	Y	Dirección del viento (°)
+04A03P01	04A03P1	P	Pluviómetro
+04A04U12	04A04A1	N	Nivel
+04A04Q01	04A04A1	Q	Caudal
+04A04D03	04A04M1	G	Presión (mbar)
+04A04D06	04A04M1	H	Humedad Relativa
+04A04D08	04A04M1	R	Punto de rocío (°C)
+04A04D05	04A04M1	T	Temperatura (°C)
+04A04D09	04A04M1	W	Velocidad del viento (m/s)
+04A04D04	04A04M1	Y	Dirección del viento (°)
+04A04P01	04A04P1	P	Pluviómetro
+04A05U12	04A05A1	N	Nivel
+04A05Q01	04A05A1	Q	Caudal
+04A05D03	04A05M1	G	Presión (mbar)
+04A05D06	04A05M1	H	Humedad Relativa
+04A05D08	04A05M1	R	Punto de rocío (°C)
+04A05D05	04A05M1	T	Temperatura (°C)
+04A05D09	04A05M1	W	Velocidad del viento (m/s)
+04A05D04	04A05M1	Y	Dirección del viento (°)
+04A05P01	04A05P1	P	Pluviómetro
+04A06U12	04A06A1	N	Nivel
+04A06Q01	04A06A1	Q	Caudal
+04A06D03	04A06M1	G	Presión (mbar)
+04A06D06	04A06M1	H	Humedad Relativa
+04A06D08	04A06M1	R	Punto de rocío (°C)
+04A06D05	04A06M1	T	Temperatura (°C)
+04A06D09	04A06M1	W	Velocidad del viento (m/s)
+04A06D04	04A06M1	Y	Dirección del viento (°)
+04A06P01	04A06P1	P	Pluviómetro
+04A07U12	04A07A1	N	Nivel
+04A07Q01	04A07A1	Q	Caudal
+04A07D03	04A07M1	G	Presión (mbar)
+04A07D06	04A07M1	H	Humedad Relativa
+04A07D08	04A07M1	R	Punto de rocío (°C)
+04A07D05	04A07M1	T	Temperatura (°C)
+04A07D09	04A07M1	W	Velocidad del viento (m/s)
+04A07D04	04A07M1	Y	Dirección del viento (°)
+04A07P01	04A07P1	P	Pluviómetro
+04C01U01	04C01C1	N	Nivel
+04C01U02	04C01C2	N	Nivel
+04C01Q01	04C01C2	Q	Caudal
+04C02Q01	04C02C1	Q	Caudal
+04E04Q04	04E04A1	Q	Caudal
+04E04Q07	04E04A2	Q	Caudal
+04E04Q97	04E04E1	A	Aportación
+04E04Q05	04E04E1	D	Desagüe
+04E04C01	04E04E1	N	Nivel
+04E04S01	04E04E1	S	Superficie
+04E04B01	04E04E1	V	Volumen
+04E05Q04	04E05A1	Q	Caudal
+04E05Q97	04E05E1	A	Aportación
+04E05Q05	04E05E1	D	Desagüe
+04E05C01	04E05E1	N	Nivel
+04E05S01	04E05E1	S	Superficie
+04E05B01	04E05E1	V	Volumen
+04E06Q97	04E06E1	A	Aportación
+04A01Q03	04E06E1	D	Desagüe
+04E06C01	04E06E1	N	Nivel
+04E06S01	04E06E1	S	Superficie
+04E06B01	04E06E1	V	Volumen
+04L01L01	04L01C1	N	Nivel
+04L01Q01	04L01C1	Q	Caudal
+04L01D03	04L01M1	G	Presión (mbar)
+04L01D06	04L01M1	H	Humedad Relativa
+04L01D08	04L01M1	R	Punto de rocío (°C)
+04L01D05	04L01M1	T	Temperatura (°C)
+04L01D09	04L01M1	W	Velocidad del viento (m/s)
+04L01D04	04L01M1	Y	Dirección del viento (°)
+04L01P01	04L01P1	P	Pluviómetro
+04M03D03	04M03M1	G	Presión (mbar)
+04M03D01	04M03M1	H	Humedad Relativa
+04M03D02	04M03M1	T	Temperatura (°C)
+04M03D09	04M03M1	W	Velocidad del viento (m/s)
+04M03D04	04M03M1	Y	Dirección del viento (°)
+04M03P01	04M03P1	P	Pluviómetro
+04M04D03	04M04M1	G	Presión (mbar)
+04M04D01	04M04M1	H	Humedad Relativa
+04M04D02	04M04M1	T	Temperatura (°C)
+04M04D09	04M04M1	W	Velocidad del viento (m/s)
+04M04D04	04M04M1	Y	Dirección del viento (°)
+04M04P01	04M04P1	P	Pluviómetro
+04M05D03	04M05M1	G	Presión (mbar)
+04M05D01	04M05M1	H	Humedad Relativa
+04M05D02	04M05M1	T	Temperatura (°C)
+04M05D09	04M05M1	W	Velocidad del viento (m/s)
+04M05D04	04M05M1	Y	Dirección del viento (°)
+04M05P01	04M05P1	P	Pluviómetro
+04N01D03	04N01M1	G	Presión (mbar)
+04N01D06	04N01M1	H	Humedad Relativa
+04N01D08	04N01M1	R	Punto de rocío (°C)
+04N01D05	04N01M1	T	Temperatura (°C)
+04N01D09	04N01M1	W	Velocidad del viento (m/s)
+04N01D04	04N01M1	Y	Dirección del viento (°)
+04N01N01	04N01P1	P	Pluviómetro
+04N02D03	04N02M1	G	Presión (mbar)
+04N02D06	04N02M1	H	Humedad Relativa
+04N02D08	04N02M1	R	Punto de rocío (°C)
+04N02D05	04N02M1	T	Temperatura (°C)
+04N02D09	04N02M1	W	Velocidad del viento (m/s)
+04N02D04	04N02M1	Y	Dirección del viento (°)
+04N02N01	04N02P1	P	Pluviómetro
+04Q01E01	04Q01Q1	1	Temperatura del Agua (°C)
+04Q01E02	04Q01Q1	2	PH (udpH)
+04Q01E03	04Q01Q1	3	Conductividad (µS/cm)
+04Q01E04	04Q01Q1	4	Oxígeno Disuelto (ppm)
+04Q01E05	04Q01Q1	5	Turbidímetro de Alto Rango (U
+04Q01E06	04Q01Q1	6	Amonio (mg/l)
+04Q01E07	04Q01Q1	7	SAC Coeficiente Espectral de
+04Q01E14	04Q01Q1	X	DBO/DQO (mg/l)
+04Q01E15	04Q01Q1	Z	COD/COT (mg/l)
+04S02Q97	04S02E1	A	Aportación
+04A03Q01	04S02E1	D	Desagüe
+04S02C12	04S02E1	N	Nivel
+04S02S01	04S02E1	S	Superficie
+04S02B01	04S02E1	V	Volumen
+04S02D03	04S02M1	G	Presión (mbar)
+04S02D06	04S02M1	H	Humedad Relativa
+04S02D08	04S02M1	R	Punto de rocío (°C)
+04S02D05	04S02M1	T	Temperatura (°C)
+04S02D09	04S02M1	W	Velocidad del viento (m/s)
+04S02D04	04S02M1	Y	Dirección del viento (°)
+04S03U12	04S03A1	N	Nivel
+04S03Q12	04S03A1	Q	Caudal
+04S03Q97	04S03E1	A	Aportación
+04A02Q03	04S03E1	D	Desagüe
+04S03C12	04S03E1	N	Nivel
+04S03S01	04S03E1	S	Superficie
+04S03B01	04S03E1	V	Volumen
+04S03D03	04S03M1	G	Presión (mbar)
+04S03D06	04S03M1	H	Humedad Relativa
+04S03D08	04S03M1	R	Punto de rocío (°C)
+04S03D05	04S03M1	T	Temperatura (°C)
+04S03D09	04S03M1	W	Velocidad del viento (m/s)
+04S03D04	04S03M1	Y	Dirección del viento (°)
+05A01U12	05A01A1	N	Nivel
+05A01Q01	05A01A1	Q	Caudal
+05A01D03	05A01M1	G	Presión (mbar)
+05A01D06	05A01M1	H	Humedad Relativa
+05A01D08	05A01M1	R	Punto de rocío (°C)
+05A01D05	05A01M1	T	Temperatura (°C)
+05A01D09	05A01M1	W	Velocidad del viento (m/s)
+05A01D04	05A01M1	Y	Dirección del viento (°)
+05A02U12	05A02A1	N	Nivel
+05A02Q01	05A02A1	Q	Caudal
+05A02D03	05A02M1	G	Presión (mbar)
+05A02D06	05A02M1	H	Humedad Relativa
+05A02D08	05A02M1	R	Punto de rocío (°C)
+05A02D05	05A02M1	T	Temperatura (°C)
+05A02D09	05A02M1	W	Velocidad del viento (m/s)
+05A02D04	05A02M1	Y	Dirección del viento (°)
+05A02P01	05A02P1	P	Pluviómetro
+05A03U12	05A03A1	N	Nivel
+05A03Q01	05A03A1	Q	Caudal
+05A03D03	05A03M1	G	Presión (mbar)
+05A03D06	05A03M1	H	Humedad Relativa
+05A03D08	05A03M1	R	Punto de rocío (°C)
+05A03D05	05A03M1	T	Temperatura (°C)
+05A03D09	05A03M1	W	Velocidad del viento (m/s)
+05A03D04	05A03M1	Y	Dirección del viento (°)
+05A03P01	05A03P1	P	Pluviómetro
+05A04U12	05A04A1	N	Nivel
+05A04Q01	05A04A1	Q	Caudal
+05A04D03	05A04M1	G	Presión (mbar)
+05A04D06	05A04M1	H	Humedad Relativa
+05A04D08	05A04M1	R	Punto de rocío (°C)
+05A04D05	05A04M1	T	Temperatura (°C)
+05A04D09	05A04M1	W	Velocidad del viento (m/s)
+05A04D04	05A04M1	Y	Dirección del viento (°)
+05A04P01	05A04P1	P	Pluviómetro
+05A05U12	05A05A1	N	Nivel
+05A05Q01	05A05A1	Q	Caudal
+05A05D03	05A05M1	G	Presión (mbar)
+05A05D06	05A05M1	H	Humedad Relativa
+05A05D08	05A05M1	R	Punto de rocío (°C)
+05A05D05	05A05M1	T	Temperatura (°C)
+05A05D09	05A05M1	W	Velocidad del viento (m/s)
+05A05D04	05A05M1	Y	Dirección del viento (°)
+05A05P01	05A05P1	P	Pluviómetro
+05A06U01	05A06A1	N	Nivel
+05A06Q01	05A06A1	Q	Caudal
+05A06D03	05A06M1	G	Presión (mbar)
+05A06D06	05A06M1	H	Humedad Relativa
+05A06D08	05A06M1	R	Punto de rocío (°C)
+05A06D05	05A06M1	T	Temperatura (°C)
+05A06D09	05A06M1	W	Velocidad del viento (m/s)
+05A06D04	05A06M1	Y	Dirección del viento (°)
+05A06P01	05A06P1	P	Pluviómetro
+05A07U12	05A07A1	N	Nivel
+05A07Q01	05A07A1	Q	Caudal
+05A07D03	05A07M1	G	Presión (mbar)
+05A07D06	05A07M1	H	Humedad Relativa
+05A07D08	05A07M1	R	Punto de rocío (°C)
+05A07D05	05A07M1	T	Temperatura (°C)
+05A07D09	05A07M1	W	Velocidad del viento (m/s)
+05A07D04	05A07M1	Y	Dirección del viento (°)
+05A07P01	05A07P1	P	Pluviómetro
+05A08U12	05A08A1	N	Nivel
+05A08Q01	05A08A1	Q	Caudal
+05A08D03	05A08M1	G	Presión (mbar)
+05A08D06	05A08M1	H	Humedad Relativa
+05A08D08	05A08M1	R	Punto de rocío (°C)
+05A08D05	05A08M1	T	Temperatura (°C)
+05A08D09	05A08M1	W	Velocidad del viento (m/s)
+05A08D04	05A08M1	Y	Dirección del viento (°)
+05A08P01	05A08P1	P	Pluviómetro
+05A09U01	05A09A1	N	Nivel
+05A09Q01	05A09A1	Q	Caudal
+05A09D03	05A09M1	G	Presión (mbar)
+05A09D06	05A09M1	H	Humedad Relativa
+05A09D08	05A09M1	R	Punto de rocío (°C)
+05A09D05	05A09M1	T	Temperatura (°C)
+05A09D09	05A09M1	W	Velocidad del viento (m/s)
+05A09D04	05A09M1	Y	Dirección del viento (°)
+05A09P01	05A09P1	P	Pluviómetro
+05A10U12	05A10A1	N	Nivel
+05A10Q01	05A10A1	Q	Caudal
+05A10D03	05A10M1	G	Presión (mbar)
+05A10D06	05A10M1	H	Humedad Relativa
+05A10D08	05A10M1	R	Punto de rocío (°C)
+05A10D05	05A10M1	T	Temperatura (°C)
+05A10D09	05A10M1	W	Velocidad del viento (m/s)
+05A10D04	05A10M1	Y	Dirección del viento (°)
+05A10P01	05A10P1	P	Pluviómetro
+05A11U01	05A11A1	N	Nivel
+05A11Q01	05A11A1	Q	Caudal
+05A11D03	05A11M1	G	Presión (mbar)
+05A11D06	05A11M1	H	Humedad Relativa
+05A11D08	05A11M1	R	Punto de rocío (°C)
+05A11D05	05A11M1	T	Temperatura (°C)
+05A11D09	05A11M1	W	Velocidad del viento (m/s)
+05A11D04	05A11M1	Y	Dirección del viento (°)
+05A11P01	05A11P1	P	Pluviómetro
+05A12U01	05A12A1	N	Nivel
+05A12Q01	05A12A1	Q	Caudal
+05A12D03	05A12M1	G	Presión (mbar)
+05A12D06	05A12M1	H	Humedad Relativa
+05A12D08	05A12M1	R	Punto de rocío (°C)
+05A12D05	05A12M1	T	Temperatura (°C)
+05A12D09	05A12M1	W	Velocidad del viento (m/s)
+05A12D04	05A12M1	Y	Dirección del viento (°)
+05A12P01	05A12P1	P	Pluviómetro
+05C01U12	05C01C1	N	Nivel
+05C01Q01	05C01C1	Q	Caudal
+05C01D03	05C01M1	G	Presión (mbar)
+05C01D06	05C01M1	H	Humedad Relativa
+05C01D08	05C01M1	R	Punto de rocío (°C)
+05C01D05	05C01M1	T	Temperatura (°C)
+05C01D09	05C01M1	W	Velocidad del viento (m/s)
+05C01D04	05C01M1	Y	Dirección del viento (°)
+05C02U12	05C02C1	N	Nivel
+05C02Q01	05C02C1	Q	Caudal
+05C02Q02	05C02C2	Q	Caudal
+05C02D03	05C02M1	G	Presión (mbar)
+05C02D06	05C02M1	H	Humedad Relativa
+05C02D08	05C02M1	R	Punto de rocío (°C)
+05C02D05	05C02M1	T	Temperatura (°C)
+05C02D09	05C02M1	W	Velocidad del viento (m/s)
+05C02D04	05C02M1	Y	Dirección del viento (°)
+05E02Q01	05E02A1	Q	Caudal
+05E02Q97	05E02E1	A	Aportación
+05E02Q01	05E02E1	D	Desagüe
+05E02C01	05E02E1	N	Nivel
+05E02S01	05E02E1	S	Superficie
+05E02B01	05E02E1	V	Volumen
+05E02D03	05E02M1	G	Presión (mbar)
+05E02D06	05E02M1	H	Humedad Relativa
+05E02D08	05E02M1	R	Punto de rocío (°C)
+05E02D05	05E02M1	T	Temperatura (°C)
+05E02D09	05E02M1	W	Velocidad del viento (m/s)
+05E02D04	05E02M1	Y	Dirección del viento (°)
+05E02P01	05E02P1	P	Pluviómetro
+05E03Q13	05E03A1	Q	Caudal
+05E03Q97	05E03E1	A	Aportación
+05E03Q11	05E03E1	D	Desagüe
+05E03C12	05E03E1	N	Nivel
+05E03S01	05E03E1	S	Superficie
+05E03B01	05E03E1	V	Volumen
+05E03D03	05E03M1	G	Presión (mbar)
+05E03D06	05E03M1	H	Humedad Relativa
+05E03D08	05E03M1	R	Punto de rocío (°C)
+05E03D05	05E03M1	T	Temperatura (°C)
+05E03D09	05E03M1	W	Velocidad del viento (m/s)
+05E03D04	05E03M1	Y	Dirección del viento (°)
+05E03L01	05E03X1	N	Nivel
+05E03Q12	05E03X1	Q	Caudal
+05E03Q14	05E03X2	Q	Caudal
+05M01D03	05M01M1	G	Presión (mbar)
+05M01D01	05M01M1	H	Humedad Relativa
+05M01D02	05M01M1	T	Temperatura (°C)
+05M01D09	05M01M1	W	Velocidad del viento (m/s)
+05M01D04	05M01M1	Y	Dirección del viento (°)
+05M01P01	05M01P1	P	Pluviómetro
+05N01D03	05N01M1	G	Presión (mbar)
+05N01D06	05N01M1	H	Humedad Relativa
+05N01D08	05N01M1	R	Punto de rocío (°C)
+05N01D05	05N01M1	T	Temperatura (°C)
+05N01D09	05N01M1	W	Velocidad del viento (m/s)
+05N01D04	05N01M1	Y	Dirección del viento (°)
+05N01N01	05N01P1	P	Pluviómetro
+05O01U12	05O01A1	N	Nivel
+05O01Q01	05O01A1	Q	Caudal
+05O01D03	05O01M1	G	Presión (mbar)
+05O01D06	05O01M1	H	Humedad Relativa
+05O01D08	05O01M1	R	Punto de rocío (°C)
+05O01D05	05O01M1	T	Temperatura (°C)
+05O01D09	05O01M1	W	Velocidad del viento (m/s)
+05O01D04	05O01M1	Y	Dirección del viento (°)
+05O01P01	05O01P1	P	Pluviómetro
+05P01D03	05P01M1	G	Presión (mbar)
+05P01D06	05P01M1	H	Humedad Relativa
+05P01D08	05P01M1	R	Punto de rocío (°C)
+05P01D05	05P01M1	T	Temperatura (°C)
+05P01D09	05P01M1	W	Velocidad del viento (m/s)
+05P01D04	05P01M1	Y	Dirección del viento (°)
+05P01P01	05P01P1	P	Pluviómetro
+05P02D03	05P02M1	G	Presión (mbar)
+05P02D06	05P02M1	H	Humedad Relativa
+05P02D08	05P02M1	R	Punto de rocío (°C)
+05P02D05	05P02M1	T	Temperatura (°C)
+05P02D09	05P02M1	W	Velocidad del viento (m/s)
+05P02D04	05P02M1	Y	Dirección del viento (°)
+05P02P01	05P02P1	P	Pluviómetro
+05P03D03	05P03M1	G	Presión (mbar)
+05P03D06	05P03M1	H	Humedad Relativa
+05P03D08	05P03M1	R	Punto de rocío (°C)
+05P03D05	05P03M1	T	Temperatura (°C)
+05P03D09	05P03M1	W	Velocidad del viento (m/s)
+05P03D04	05P03M1	Y	Dirección del viento (°)
+05P03P01	05P03P1	P	Pluviómetro
+05P04D03	05P04M1	G	Presión (mbar)
+05P04D06	05P04M1	H	Humedad Relativa
+05P04D08	05P04M1	R	Punto de rocío (°C)
+05P04D05	05P04M1	T	Temperatura (°C)
+05P04D09	05P04M1	W	Velocidad del viento (m/s)
+05P04D04	05P04M1	Y	Dirección del viento (°)
+05P04P01	05P04P1	P	Pluviómetro
+05R01U01	05R01A1	N	Nivel
+05R01Q01	05R01A1	Q	Caudal
+05R01U03	05R01A2	N	Nivel
+05R01Q07	05R01A2	Q	Caudal
+05R01D01	05R01M1	H	Humedad Relativa
+05R01D02	05R01M1	T	Temperatura (°C)
+05R01P01	05R01P1	P	Pluviómetro
+06A01U12	06A01A1	N	Nivel
+06A01Q01	06A01A1	Q	Caudal
+06A01D03	06A01M1	G	Presión (mbar)
+06A01D06	06A01M1	H	Humedad Relativa
+06A01D08	06A01M1	R	Punto de rocío (°C)
+06A01D05	06A01M1	T	Temperatura (°C)
+06A01D09	06A01M1	W	Velocidad del viento (m/s)
+06A01D04	06A01M1	Y	Dirección del viento (°)
+06A01P01	06A01P1	P	Pluviómetro
+06A02U12	06A02A1	N	Nivel
+06A02Q01	06A02A1	Q	Caudal
+06A02D03	06A02M1	G	Presión (mbar)
+06A02D06	06A02M1	H	Humedad Relativa
+06A02D08	06A02M1	R	Punto de rocío (°C)
+06A02D05	06A02M1	T	Temperatura (°C)
+06A02D09	06A02M1	W	Velocidad del viento (m/s)
+06A02D04	06A02M1	Y	Dirección del viento (°)
+06A02P01	06A02P1	P	Pluviómetro
+06A03U12	06A03A1	N	Nivel
+06A03Q01	06A03A1	Q	Caudal
+06A03D03	06A03M1	G	Presión (mbar)
+06A03D06	06A03M1	H	Humedad Relativa
+06A03D08	06A03M1	R	Punto de rocío (°C)
+06A03D05	06A03M1	T	Temperatura (°C)
+06A03D09	06A03M1	W	Velocidad del viento (m/s)
+06A03D04	06A03M1	Y	Dirección del viento (°)
+06A03P01	06A03P1	P	Pluviómetro
+06A04U12	06A04A1	N	Nivel
+06A04Q01	06A04A1	Q	Caudal
+06A04D03	06A04M1	G	Presión (mbar)
+06A04D06	06A04M1	H	Humedad Relativa
+06A04D08	06A04M1	R	Punto de rocío (°C)
+06A04D05	06A04M1	T	Temperatura (°C)
+06A04D09	06A04M1	W	Velocidad del viento (m/s)
+06A04D04	06A04M1	Y	Dirección del viento (°)
+06A04P01	06A04P1	P	Pluviómetro
+06A05U12	06A05A1	N	Nivel
+06A05Q01	06A05A1	Q	Caudal
+06A05D03	06A05M1	G	Presión (mbar)
+06A05D06	06A05M1	H	Humedad Relativa
+06A05D08	06A05M1	R	Punto de rocío (°C)
+06A05D05	06A05M1	T	Temperatura (°C)
+06A05D09	06A05M1	W	Velocidad del viento (m/s)
+06A05D04	06A05M1	Y	Dirección del viento (°)
+06A05P01	06A05P1	P	Pluviómetro
+06A06U12	06A06A1	N	Nivel
+06A06Q01	06A06A1	Q	Caudal
+06A06D03	06A06M1	G	Presión (mbar)
+06A06D06	06A06M1	H	Humedad Relativa
+06A06D08	06A06M1	R	Punto de rocío (°C)
+06A06D05	06A06M1	T	Temperatura (°C)
+06A06D09	06A06M1	W	Velocidad del viento (m/s)
+06A06D04	06A06M1	Y	Dirección del viento (°)
+06A06P01	06A06P1	P	Pluviómetro
+06A07U12	06A07A1	N	Nivel
+06A07Q01	06A07A1	Q	Caudal
+06A07D03	06A07M1	G	Presión (mbar)
+06A07D06	06A07M1	H	Humedad Relativa
+06A07D08	06A07M1	R	Punto de rocío (°C)
+06A07D05	06A07M1	T	Temperatura (°C)
+06A07D09	06A07M1	W	Velocidad del viento (m/s)
+06A07D04	06A07M1	Y	Dirección del viento (°)
+06A07P01	06A07P1	P	Pluviómetro
+06A08U12	06A08A1	N	Nivel
+06A08Q01	06A08A1	Q	Caudal
+06A08D03	06A08M1	G	Presión (mbar)
+06A08D06	06A08M1	H	Humedad Relativa
+06A08D08	06A08M1	R	Punto de rocío (°C)
+06A08D05	06A08M1	T	Temperatura (°C)
+06A08D09	06A08M1	W	Velocidad del viento (m/s)
+06A08D04	06A08M1	Y	Dirección del viento (°)
+06A08P01	06A08P1	P	Pluviómetro
+06A09U12	06A09A1	N	Nivel
+06A09Q01	06A09A1	Q	Caudal
+06A09D03	06A09M1	G	Presión (mbar)
+06A09D06	06A09M1	H	Humedad Relativa
+06A09D08	06A09M1	R	Punto de rocío (°C)
+06A09D05	06A09M1	T	Temperatura (°C)
+06A09D09	06A09M1	W	Velocidad del viento (m/s)
+06A09D04	06A09M1	Y	Dirección del viento (°)
+06A09P01	06A09P1	P	Pluviómetro
+06A10U12	06A10A1	N	Nivel
+06A10Q01	06A10A1	Q	Caudal
+06A10D03	06A10M1	G	Presión (mbar)
+06A10D06	06A10M1	H	Humedad Relativa
+06A10D08	06A10M1	R	Punto de rocío (°C)
+06A10D05	06A10M1	T	Temperatura (°C)
+06A10D09	06A10M1	W	Velocidad del viento (m/s)
+06A10D04	06A10M1	Y	Dirección del viento (°)
+06A10P01	06A10P1	P	Pluviómetro
+06A11U12	06A11A1	N	Nivel
+06A11Q01	06A11A1	Q	Caudal
+06A11D03	06A11M1	G	Presión (mbar)
+06A11D06	06A11M1	H	Humedad Relativa
+06A11D08	06A11M1	R	Punto de rocío (°C)
+06A11D05	06A11M1	T	Temperatura (°C)
+06A11D09	06A11M1	W	Velocidad del viento (m/s)
+06A11D04	06A11M1	Y	Dirección del viento (°)
+06A11P01	06A11P1	P	Pluviómetro
+06A12U12	06A12A1	N	Nivel
+06A12Q01	06A12A1	Q	Caudal
+06A12D03	06A12M1	G	Presión (mbar)
+06A12D06	06A12M1	H	Humedad Relativa
+06A12D08	06A12M1	R	Punto de rocío (°C)
+06A12D05	06A12M1	T	Temperatura (°C)
+06A12D09	06A12M1	W	Velocidad del viento (m/s)
+06A12D04	06A12M1	Y	Dirección del viento (°)
+06A12P01	06A12P1	P	Pluviómetro
+06A13U01	06A13A1	N	Nivel
+06A13Q01	06A13A1	Q	Caudal
+06A13D03	06A13M1	G	Presión (mbar)
+06A13D06	06A13M1	H	Humedad Relativa
+06A13D08	06A13M1	R	Punto de rocío (°C)
+06A13D05	06A13M1	T	Temperatura (°C)
+06A13D09	06A13M1	W	Velocidad del viento (m/s)
+06A13D04	06A13M1	Y	Dirección del viento (°)
+06A13P01	06A13P1	P	Pluviómetro
+06A14U12	06A14A1	N	Nivel
+06A14Q01	06A14A1	Q	Caudal
+06A14D03	06A14M1	G	Presión (mbar)
+06A14D06	06A14M1	H	Humedad Relativa
+06A14D08	06A14M1	R	Punto de rocío (°C)
+06A14D05	06A14M1	T	Temperatura (°C)
+06A14D09	06A14M1	W	Velocidad del viento (m/s)
+06A14D04	06A14M1	Y	Dirección del viento (°)
+06A14P01	06A14P1	P	Pluviómetro
+06A15U12	06A15A1	N	Nivel
+06A15Q01	06A15A1	Q	Caudal
+06A15D03	06A15M1	G	Presión (mbar)
+06A15D06	06A15M1	H	Humedad Relativa
+06A15D08	06A15M1	R	Punto de rocío (°C)
+06A15D05	06A15M1	T	Temperatura (°C)
+06A15D09	06A15M1	W	Velocidad del viento (m/s)
+06A15D04	06A15M1	Y	Dirección del viento (°)
+06A15P01	06A15P1	P	Pluviómetro
+06A16U12	06A16A1	N	Nivel
+06A16Q01	06A16A1	Q	Caudal
+06A16D03	06A16M1	G	Presión (mbar)
+06A16D06	06A16M1	H	Humedad Relativa
+06A16D08	06A16M1	R	Punto de rocío (°C)
+06A16D05	06A16M1	T	Temperatura (°C)
+06A16D09	06A16M1	W	Velocidad del viento (m/s)
+06A16D04	06A16M1	Y	Dirección del viento (°)
+06A16P01	06A16P1	P	Pluviómetro
+06A17U12	06A17A1	N	Nivel
+06A17Q01	06A17A1	Q	Caudal
+06A17D03	06A17M1	G	Presión (mbar)
+06A17D06	06A17M1	H	Humedad Relativa
+06A17D08	06A17M1	R	Punto de rocío (°C)
+06A17D05	06A17M1	T	Temperatura (°C)
+06A17D09	06A17M1	W	Velocidad del viento (m/s)
+06A17D04	06A17M1	Y	Dirección del viento (°)
+06A17P01	06A17P1	P	Pluviómetro
+06A18U12	06A18A1	N	Nivel
+06A18Q01	06A18A1	Q	Caudal
+06A18D03	06A18M1	G	Presión (mbar)
+06A18D06	06A18M1	H	Humedad Relativa
+06A18D08	06A18M1	R	Punto de rocío (°C)
+06A18D05	06A18M1	T	Temperatura (°C)
+06A18D09	06A18M1	W	Velocidad del viento (m/s)
+06A18D04	06A18M1	Y	Dirección del viento (°)
+06A18P01	06A18P1	P	Pluviómetro
+06A19U12	06A19A1	N	Nivel
+06A19Q01	06A19A1	Q	Caudal
+06A19D03	06A19M1	G	Presión (mbar)
+06A19D06	06A19M1	H	Humedad Relativa
+06A19D08	06A19M1	R	Punto de rocío (°C)
+06A19D05	06A19M1	T	Temperatura (°C)
+06A19D09	06A19M1	W	Velocidad del viento (m/s)
+06A19D04	06A19M1	Y	Dirección del viento (°)
+06A19P01	06A19P1	P	Pluviómetro
+06B01Q03	06B01I1	Q	Caudal
+06B02Q03	06B02I1	Q	Caudal
+06B03Q03	06B03I1	Q	Caudal
+06L01U12	06L01C1	N	Nivel
+06L01Q01	06L01C1	Q	Caudal
+06L01D01	06L01M1	H	Humedad Relativa
+06L01D02	06L01M1	T	Temperatura (°C)
+06L01P01	06L01P1	P	Pluviómetro
+06M01U12	06M01A1	N	Nivel
+06M01Q01	06M01A1	Q	Caudal
+06M01D01	06M01M1	H	Humedad Relativa
+06M01D02	06M01M1	T	Temperatura (°C)
+06M01P01	06M01P1	P	Pluviómetro
+06P01D01	06P01M1	H	Humedad Relativa
+06P01D02	06P01M1	T	Temperatura (°C)
+06P01P01	06P01P1	P	Pluviómetro
+06P02D01	06P02M1	H	Humedad Relativa
+06P02D02	06P02M1	T	Temperatura (°C)
+06P02P01	06P02P1	P	Pluviómetro
+06P03D01	06P03M1	H	Humedad Relativa
+06P03D02	06P03M1	T	Temperatura (°C)
+06P03P01	06P03P1	P	Pluviómetro
+06P04D01	06P04M1	H	Humedad Relativa
+06P04D02	06P04M1	T	Temperatura (°C)
+06P04P01	06P04P1	P	Pluviómetro
+06P05D03	06P05M1	G	Presión (mbar)
+06P05D06	06P05M1	H	Humedad Relativa
+06P05D08	06P05M1	R	Punto de rocío (°C)
+06P05D05	06P05M1	T	Temperatura (°C)
+06P05D09	06P05M1	W	Velocidad del viento (m/s)
+06P05D04	06P05M1	Y	Dirección del viento (°)
+06P05P01	06P05P1	P	Pluviómetro
+06Z01E01	06Z01S1	1	Temperatura del Agua (°C)
+06Z01E03	06Z01S1	3	Conductividad (µS/cm)
+06Z01E11	06Z01S1	B	Salinidad
+06Z01E12	06Z01S1	C	Total Sólido Disuelto
+06Z01E13	06Z01S1	E	Cobertura Tarjeta SIM
+06Z01E10	06Z01S1	N	Nivel
+06Z02E01	06Z02S1	1	Temperatura del Agua (°C)
+06Z02E03	06Z02S1	3	Conductividad (µS/cm)
+06Z02E11	06Z02S1	B	Salinidad
+06Z02E12	06Z02S1	C	Total Sólido Disuelto
+06Z02E13	06Z02S1	E	Cobertura Tarjeta SIM
+06Z02E10	06Z02S1	N	Nivel
+06Z03E01	06Z03S1	1	Temperatura del Agua (°C)
+06Z03E03	06Z03S1	3	Conductividad (µS/cm)
+06Z03E11	06Z03S1	B	Salinidad
+06Z03E12	06Z03S1	C	Total Sólido Disuelto
+06Z03E13	06Z03S1	E	Cobertura Tarjeta SIM
+06Z03E10	06Z03S1	N	Nivel
+06Z05E01	06Z05S1	1	Temperatura del Agua (°C)
+06Z05E03	06Z05S1	3	Conductividad (µS/cm)
+06Z05E11	06Z05S1	B	Salinidad
+06Z05E12	06Z05S1	C	Total Sólido Disuelto
+06Z05E13	06Z05S1	E	Cobertura Tarjeta SIM
+06Z05E10	06Z05S1	N	Nivel
+06Z06E01	06Z06S1	1	Temperatura del Agua (°C)
+06Z06E03	06Z06S1	3	Conductividad (µS/cm)
+06Z06E11	06Z06S1	B	Salinidad
+06Z06E12	06Z06S1	C	Total Sólido Disuelto
+06Z06E13	06Z06S1	E	Cobertura Tarjeta SIM
+06Z06E10	06Z06S1	N	Nivel
+06Z07E01	06Z07S1	1	Temperatura del Agua (°C)
+06Z07E03	06Z07S1	3	Conductividad (µS/cm)
+06Z07E11	06Z07S1	B	Salinidad
+06Z07E12	06Z07S1	C	Total Sólido Disuelto
+06Z07E13	06Z07S1	E	Cobertura Tarjeta SIM
+06Z07E10	06Z07S1	N	Nivel
+06Z08E01	06Z08S1	1	Temperatura del Agua (°C)
+06Z08E03	06Z08S1	3	Conductividad (µS/cm)
+06Z08E11	06Z08S1	B	Salinidad
+06Z08E12	06Z08S1	C	Total Sólido Disuelto
+06Z08E13	06Z08S1	E	Cobertura Tarjeta SIM
+06Z08E10	06Z08S1	N	Nivel
+06Z09E01	06Z09S1	1	Temperatura del Agua (°C)
+06Z09E03	06Z09S1	3	Conductividad (µS/cm)
+06Z09E11	06Z09S1	B	Salinidad
+06Z09E12	06Z09S1	C	Total Sólido Disuelto
+06Z09E13	06Z09S1	E	Cobertura Tarjeta SIM
+06Z09E10	06Z09S1	N	Nivel
+06Z10E01	06Z10S1	1	Temperatura del Agua (°C)
+06Z10E03	06Z10S1	3	Conductividad (µS/cm)
+06Z10E11	06Z10S1	B	Salinidad
+06Z10E12	06Z10S1	C	Total Sólido Disuelto
+06Z10E13	06Z10S1	E	Cobertura Tarjeta SIM
+06Z10E10	06Z10S1	N	Nivel
+06Z11E01	06Z11S1	1	Temperatura del Agua (°C)
+06Z11E03	06Z11S1	3	Conductividad (µS/cm)
+06Z11E11	06Z11S1	B	Salinidad
+06Z11E12	06Z11S1	C	Total Sólido Disuelto
+06Z11E13	06Z11S1	E	Cobertura Tarjeta SIM
+06Z11E10	06Z11S1	N	Nivel
+06Z12E01	06Z12S1	1	Temperatura del Agua (°C)
+06Z12E03	06Z12S1	3	Conductividad (µS/cm)
+06Z12E11	06Z12S1	B	Salinidad
+06Z12E12	06Z12S1	C	Total Sólido Disuelto
+06Z12E13	06Z12S1	E	Cobertura Tarjeta SIM
+06Z12E10	06Z12S1	N	Nivel
+06Z13E01	06Z13S1	1	Temperatura del Agua (°C)
+06Z13E03	06Z13S1	3	Conductividad (µS/cm)
+06Z13E11	06Z13S1	B	Salinidad
+06Z13E12	06Z13S1	C	Total Sólido Disuelto
+06Z13E13	06Z13S1	E	Cobertura Tarjeta SIM
+06Z13E10	06Z13S1	N	Nivel
+06Z14E01	06Z14S1	1	Temperatura del Agua (°C)
+06Z14E03	06Z14S1	3	Conductividad (µS/cm)
+06Z14E11	06Z14S1	B	Salinidad
+06Z14E12	06Z14S1	C	Total Sólido Disuelto
+06Z14E13	06Z14S1	E	Cobertura Tarjeta SIM
+06Z14E10	06Z14S1	N	Nivel
+06Z15E01	06Z15S1	1	Temperatura del Agua (°C)
+06Z15E03	06Z15S1	3	Conductividad (µS/cm)
+06Z15E11	06Z15S1	B	Salinidad
+06Z15E12	06Z15S1	C	Total Sólido Disuelto
+06Z15E13	06Z15S1	E	Cobertura Tarjeta SIM
+06Z15E10	06Z15S1	N	Nivel
+06Z16E01	06Z16S1	1	Temperatura del Agua (°C)
+06Z16E03	06Z16S1	3	Conductividad (µS/cm)
+06Z16E11	06Z16S1	B	Salinidad
+06Z16E12	06Z16S1	C	Total Sólido Disuelto
+06Z16E13	06Z16S1	E	Cobertura Tarjeta SIM
+06Z16E10	06Z16S1	N	Nivel
+06Z17E01	06Z17S1	1	Temperatura del Agua (°C)
+06Z17E03	06Z17S1	3	Conductividad (µS/cm)
+06Z17E11	06Z17S1	B	Salinidad
+06Z17E12	06Z17S1	C	Total Sólido Disuelto
+06Z17E13	06Z17S1	E	Cobertura Tarjeta SIM
+06Z17E10	06Z17S1	N	Nivel
+06Z18E01	06Z18S1	1	Temperatura del Agua (°C)
+06Z18E03	06Z18S1	3	Conductividad (µS/cm)
+06Z18E11	06Z18S1	B	Salinidad
+06Z18E12	06Z18S1	C	Total Sólido Disuelto
+06Z18E13	06Z18S1	E	Cobertura Tarjeta SIM
+06Z18E10	06Z18S1	N	Nivel
+06Z19E01	06Z19S1	1	Temperatura del Agua (°C)
+06Z19E03	06Z19S1	3	Conductividad (µS/cm)
+06Z19E11	06Z19S1	B	Salinidad
+06Z19E12	06Z19S1	C	Total Sólido Disuelto
+06Z19E13	06Z19S1	E	Cobertura Tarjeta SIM
+06Z19E10	06Z19S1	N	Nivel
+06Z20E01	06Z20S1	1	Temperatura del Agua (°C)
+06Z20E03	06Z20S1	3	Conductividad (µS/cm)
+06Z20E11	06Z20S1	B	Salinidad
+06Z20E12	06Z20S1	C	Total Sólido Disuelto
+06Z20E13	06Z20S1	E	Cobertura Tarjeta SIM
+06Z20E10	06Z20S1	N	Nivel
+07A01U12	07A01A1	N	Nivel
+07A01Q01	07A01A1	Q	Caudal
+07A01Q02	07A01A2	Q	Caudal
+07A01D03	07A01M1	G	Presión (mbar)
+07A01D06	07A01M1	H	Humedad Relativa
+07A01D08	07A01M1	R	Punto de rocío (°C)
+07A01D05	07A01M1	T	Temperatura (°C)
+07A01D09	07A01M1	W	Velocidad del viento (m/s)
+07A01D04	07A01M1	Y	Dirección del viento (°)
+07A01P01	07A01P1	P	Pluviómetro
+07A03U12	07A03A1	N	Nivel
+07A03Q01	07A03A1	Q	Caudal
+07A03L01	07A03C1	N	Nivel
+07A03Q04	07A03C1	Q	Caudal
+07A03D03	07A03M1	G	Presión (mbar)
+07A03D06	07A03M1	H	Humedad Relativa
+07A03D08	07A03M1	R	Punto de rocío (°C)
+07A03D05	07A03M1	T	Temperatura (°C)
+07A03D09	07A03M1	W	Velocidad del viento (m/s)
+07A03D04	07A03M1	Y	Dirección del viento (°)
+07A03P01	07A03P1	P	Pluviómetro
+07A04U12	07A04A1	N	Nivel
+07A04Q01	07A04A1	Q	Caudal
+07A04D03	07A04M1	G	Presión (mbar)
+07A04D06	07A04M1	H	Humedad Relativa
+07A04D08	07A04M1	R	Punto de rocío (°C)
+07A04D05	07A04M1	T	Temperatura (°C)
+07A04D09	07A04M1	W	Velocidad del viento (m/s)
+07A04D04	07A04M1	Y	Dirección del viento (°)
+07A04P01	07A04P1	P	Pluviómetro
+07A05U12	07A05A1	N	Nivel
+07A05Q01	07A05A1	Q	Caudal
+07A06U12	07A06A1	N	Nivel
+07A06Q01	07A06A1	Q	Caudal
+07A06D03	07A06M1	G	Presión (mbar)
+07A06D06	07A06M1	H	Humedad Relativa
+07A06D08	07A06M1	R	Punto de rocío (°C)
+07A06D05	07A06M1	T	Temperatura (°C)
+07A06D09	07A06M1	W	Velocidad del viento (m/s)
+07A06D04	07A06M1	Y	Dirección del viento (°)
+07A06P01	07A06P1	P	Pluviómetro
+07C02U12	07C02A1	N	Nivel
+07C02Q01	07C02A1	Q	Caudal
+07C02D03	07C02M1	G	Presión (mbar)
+07C02D06	07C02M1	H	Humedad Relativa
+07C02D08	07C02M1	R	Punto de rocío (°C)
+07C02D05	07C02M1	T	Temperatura (°C)
+07C02D09	07C02M1	W	Velocidad del viento (m/s)
+07C02D04	07C02M1	Y	Dirección del viento (°)
+07C03U12	07C03A1	N	Nivel
+07C03Q07	07C03A1	Q	Caudal
+07C03Q08	07C03A2	Q	Caudal
+07C03Q05	07C03C0	Q	Caudal
+07C03Q13	07C03C1	Q	Caudal
+07C03Q04	07C03C2	Q	Caudal
+07C03L01	07C03C3	N	Nivel
+07C03Q03	07C03C3	Q	Caudal
+07C03U03	07C03C5	N	Nivel
+07C03Q10	07C03C5	Q	Caudal
+07C03Q01	07C03C6	Q	Caudal
+07C03Q02	07C03C7	Q	Caudal
+07C03Q12	07C03C8	Q	Caudal
+07C03Q11	07C03C9	Q	Caudal
+07C03D03	07C03M1	G	Presión (mbar)
+07C03D06	07C03M1	H	Humedad Relativa
+07C03D08	07C03M1	R	Punto de rocío (°C)
+07C03D05	07C03M1	T	Temperatura (°C)
+07C03D09	07C03M1	W	Velocidad del viento (m/s)
+07C03D04	07C03M1	Y	Dirección del viento (°)
+07C03Q06	07C03X1	Q	Caudal
+07C03Q50	07C03X2	Q	Caudal
+07C03Q15	07C03X3	Q	Caudal
+07C04U12	07C04A1	N	Nivel
+07C04Q01	07C04A1	Q	Caudal
+07C04D03	07C04M1	G	Presión (mbar)
+07C04D06	07C04M1	H	Humedad Relativa
+07C04D08	07C04M1	R	Punto de rocío (°C)
+07C04D05	07C04M1	T	Temperatura (°C)
+07C04D09	07C04M1	W	Velocidad del viento (m/s)
+07C04D04	07C04M1	Y	Dirección del viento (°)
+07C05U12	07C05A1	N	Nivel
+07C05Q01	07C05A1	Q	Caudal
+07C05D03	07C05M1	G	Presión (mbar)
+07C05D06	07C05M1	H	Humedad Relativa
+07C05D08	07C05M1	R	Punto de rocío (°C)
+07C05D05	07C05M1	T	Temperatura (°C)
+07C05D09	07C05M1	W	Velocidad del viento (m/s)
+07C05D04	07C05M1	Y	Dirección del viento (°)
+07C06U12	07C06C1	N	Nivel
+07C06Q01	07C06C1	Q	Caudal
+07C07L01	07C07C1	N	Nivel
+07C07Q01	07C07C1	Q	Caudal
+07C07Q02	07C07C2	Q	Caudal
+07C07D01	07C07M1	H	Humedad Relativa
+07C07D02	07C07M1	T	Temperatura (°C)
+07C08L01	07C08C1	N	Nivel
+07C08Q12	07C08C1	Q	Caudal
+07C08Q13	07C08C2	Q	Caudal
+07C08L03	07C08C3	N	Nivel
+07C08Q04	07C08C3	Q	Caudal
+07C08U12	07C08C4	N	Nivel
+07C08Q16	07C08C4	Q	Caudal
+07C08D01	07C08M1	H	Humedad Relativa
+07C08D02	07C08M1	T	Temperatura (°C)
+07C10L01	07C10C1	N	Nivel
+07C10Q04	07C10C1	Q	Caudal
+07C10Q02	07C10C2	Q	Caudal
+07C10Q05	07C10C3	Q	Caudal
+07C10Q03	07C10C4	Q	Caudal
+07C10Q06	07C10C5	Q	Caudal
+07C10D01	07C10M1	H	Humedad Relativa
+07C10D02	07C10M1	T	Temperatura (°C)
+07C11Q01	07C11C1	Q	Caudal
+07C11B01	07C11C1	V	Volumen
+07C11Q02	07C11C2	Q	Caudal
+07C11B02	07C11C2	V	Volumen
+07C11Q03	07C11C3	Q	Caudal
+07C11B03	07C11C3	V	Volumen
+07C11Q04	07C11C4	Q	Caudal
+07C11B04	07C11C4	V	Volumen
+07C11Q05	07C11C5	Q	Caudal
+07C11B05	07C11C5	V	Volumen
+07C12Q01	07C12C1	Q	Caudal
+07C12B01	07C12C1	V	Volumen
+07E01Q97	07E01E1	A	Aportación
+07C08Q15	07E01E1	D	Desagüe
+07E01C12	07E01E1	N	Nivel
+07E01S01	07E01E1	S	Superficie
+07E01B01	07E01E1	V	Volumen
+07E01D03	07E01M1	G	Presión (mbar)
+07E01D06	07E01M1	H	Humedad Relativa
+07E01D08	07E01M1	R	Punto de rocío (°C)
+07E01D05	07E01M1	T	Temperatura (°C)
+07I01Q01	07I01C2	Q	Caudal
+07I01D01	07I01M1	H	Humedad Relativa
+07I01D02	07I01M1	T	Temperatura (°C)
+07I02Q01	07I02I1	Q	Caudal
+07Q01E01	07Q01Q1	1	Temperatura del Agua (°C)
+07Q01E02	07Q01Q1	2	PH (udpH)
+07Q01E03	07Q01Q1	3	Conductividad (µS/cm)
+07Q01E04	07Q01Q1	4	Oxígeno Disuelto (ppm)
+07Q01E05	07Q01Q1	5	Turbidímetro de Alto Rango (U
+07Q01E06	07Q01Q1	6	Amonio (mg/l)
+07Q01E07	07Q01Q1	7	SAC Coeficiente Espectral de
+07Q01E14	07Q01Q1	X	DBO/DQO (mg/l)
+07Q01E15	07Q01Q1	Z	COD/COT (mg/l)
+07Q02E01	07Q02Q1	1	Temperatura del Agua (°C)
+07Q02E02	07Q02Q1	2	PH (udpH)
+07Q02E03	07Q02Q1	3	Conductividad (µS/cm)
+07Q02E04	07Q02Q1	4	Oxígeno Disuelto (ppm)
+07Q02E05	07Q02Q1	5	Turbidímetro de Alto Rango (U
+07Q03E01	07Q03Q1	1	Temperatura del Agua (°C)
+07Q03E02	07Q03Q1	2	PH (udpH)
+07Q03E03	07Q03Q1	3	Conductividad (µS/cm)
+07Q03E04	07Q03Q1	4	Oxígeno Disuelto (ppm)
+07Q03E05	07Q03Q1	5	Turbidímetro de Alto Rango (U
+07Q03E06	07Q03Q1	6	Amonio (mg/l)
+07Q03E07	07Q03Q1	7	SAC Coeficiente Espectral de
+07Q03E14	07Q03Q1	X	DBO/DQO (mg/l)
+07Q03E15	07Q03Q1	Z	COD/COT (mg/l)
+07R01U12	07R01A1	N	Nivel
+07R01Q01	07R01A1	Q	Caudal
+07R01U21	07R01C1	N	Nivel
+07R01Q02	07R01C1	Q	Caudal
+07R01D03	07R01M1	G	Presión (mbar)
+07R01D06	07R01M1	H	Humedad Relativa
+07R01D08	07R01M1	R	Punto de rocío (°C)
+07R01D05	07R01M1	T	Temperatura (°C)
+07R01D09	07R01M1	W	Velocidad del viento (m/s)
+07R01D04	07R01M1	Y	Dirección del viento (°)
+07R02U12	07R02A1	N	Nivel
+07R02Q01	07R02A1	Q	Caudal
+07R02D01	07R02M1	H	Humedad Relativa
+07R02D02	07R02M1	T	Temperatura (°C)
+07R03U12	07R03A1	N	Nivel
+07R03Q01	07R03A1	Q	Caudal
+07R03D03	07R03M1	G	Presión (mbar)
+07R03D06	07R03M1	H	Humedad Relativa
+07R03D08	07R03M1	R	Punto de rocío (°C)
+07R03D05	07R03M1	T	Temperatura (°C)
+07R03D04	07R03M1	Y	Dirección del viento (°)
+07R04U12	07R04A1	N	Nivel
+07R04Q01	07R04A1	Q	Caudal
+07R04D03	07R04M1	G	Presión (mbar)
+07R04D06	07R04M1	H	Humedad Relativa
+07R04D08	07R04M1	R	Punto de rocío (°C)
+07R04D05	07R04M1	T	Temperatura (°C)
+07R04D09	07R04M1	W	Velocidad del viento (m/s)
+07R04D04	07R04M1	Y	Dirección del viento (°)
+07R05U12	07R05A1	N	Nivel
+07R05Q01	07R05A1	Q	Caudal
+07R05D03	07R05M1	G	Presión (mbar)
+07R05D06	07R05M1	H	Humedad Relativa
+07R05D08	07R05M1	R	Punto de rocío (°C)
+07R05D05	07R05M1	T	Temperatura (°C)
+07R05D09	07R05M1	W	Velocidad del viento (m/s)
+07R05D04	07R05M1	Y	Dirección del viento (°)
+07R06U12	07R06A1	N	Nivel
+07R06Q01	07R06A1	Q	Caudal
+07R06D01	07R06M1	H	Humedad Relativa
+07R06D02	07R06M1	T	Temperatura (°C)
+07U01L01	07U01C1	N	Nivel
+07U01Q02	07U01C1	Q	Caudal
+07U01Q12	07U01C2	Q	Caudal
+07U01Q01	07U01C3	Q	Caudal
+07U01Q03	07U01C4	Q	Caudal
+07U01Q04	07U01C5	Q	Caudal
+07U01Q05	07U01C6	Q	Caudal
+07U01Q06	07U01C7	Q	Caudal
+07U01Q07	07U01C8	Q	Caudal
+07U01Q11	07U01C9	Q	Caudal
+07U01D03	07U01M1	G	Presión (mbar)
+07U01D06	07U01M1	H	Humedad Relativa
+07U01D08	07U01M1	R	Punto de rocío (°C)
+07U01D05	07U01M1	T	Temperatura (°C)
+07U01D09	07U01M1	W	Velocidad del viento (m/s)
+07U01D04	07U01M1	Y	Dirección del viento (°)
+07U01P01	07U01P1	P	Pluviómetro
+07U02Q03	07U02I1	Q	Caudal
+07U03Q03	07U03I1	Q	Caudal
+07X01L01	07X01X1	N	Nivel
+07E01D09	07E01M1	W	Velocidad del viento (m/s)
+07E01D04	07E01M1	Y	Dirección del viento (°)
+07E01P01	07E01P1	P	Pluviómetro
+07E02Q07	07E02A1	Q	Caudal
+07E02Q97	07E02E1	A	Aportación
+07E02Q08	07E02E1	D	Desagüe
+07E02C12	07E02E1	N	Nivel
+07E02S01	07E02E1	S	Superficie
+07E02B01	07E02E1	V	Volumen
+07E02D03	07E02M1	G	Presión (mbar)
+07E02D06	07E02M1	H	Humedad Relativa
+07E02D08	07E02M1	R	Punto de rocío (°C)
+07E02D05	07E02M1	T	Temperatura (°C)
+07E02D09	07E02M1	W	Velocidad del viento (m/s)
+07E02D04	07E02M1	Y	Dirección del viento (°)
+07E02P01	07E02P1	P	Pluviómetro
+07I01U01	07I01C2	N	Nivel
+07X01Q01	07X01X1	Q	Caudal
+07X02L01	07X02X1	N	Nivel
+07X02Q01	07X02X1	Q	Caudal
+07X05L01	07X05X1	N	Nivel
+07X05Q01	07X05X1	Q	Caudal
+07X09L01	07X09X1	N	Nivel
+07X09Q01	07X09X1	Q	Caudal
+07X14L01	07X14X1	N	Nivel
+07X14Q01	07X14X1	Q	Caudal
+07X18L01	07X18X1	N	Nivel
+07X18Q01	07X18X1	Q	Caudal
+07X19L01	07X19X1	N	Nivel
+07X19Q01	07X19X1	Q	Caudal
+07X20Q01	07X20X1	Q	Caudal
+07X21Q01	07X21X1	Q	Caudal
+07X22Q01	07X22X1	Q	Caudal
+07X23Q01	07X23X1	Q	Caudal
+07X24Q01	07X24X1	Q	Caudal
+07X25Q01	07X25X1	Q	Caudal
+07X26Q01	07X26X1	Q	Caudal
+07X27Q01	07X27X1	Q	Caudal
+07X27Q02	07X27X2	Q	Caudal
+07X28Q01	07X28X1	Q	Caudal
+07X29Q01	07X29X1	Q	Caudal
+07X30Q01	07X30X1	Q	Caudal
+07X31Q01	07X31X1	Q	Caudal
+07X33L01	07X33X1	N	Nivel
+07X33Q01	07X33X1	Q	Caudal
+07X34L01	07X34X1	N	Nivel
+07X34Q01	07X34X1	Q	Caudal
+\.
+
+
