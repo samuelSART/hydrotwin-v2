@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  api:
+    image: ghcr.io/elsamexidi/hydrotwin-v2-backend:dev
+    env_file: .env
+    ports: ["5001:5000"]
+    restart: unless-stopped
+  interfaz:
+    image: ghcr.io/elsamexidi/hydrotwin-v2-interfaz:dev
+    env_file: .env
+    ports: ["8081:80"]
+    restart: unless-stopped
