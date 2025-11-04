@@ -29,12 +29,13 @@ jobs:
              ${{ secrets.USER }}@${{ secrets.HOST }}:${{ secrets.REMOTE_DIR }}/docker-compose.yml
 
       - name: Write .env (from secret)
-        run: ssh -i id_rsa -p "${{ secrets.SSH_PORT }}" -o StrictHostKeyChecking=no \
-             ${{ secrets.USER }}@${{ secrets.HOST }} "cat > ${{ secrets.REMOTE_DIR }}/.env << 'EOF'
-${{ secrets.DOTENV }}
-EOF"
+        run: |
+          printf "%s" "${{ secrets.DOTENV }}" | ssh -i id_rsa -p "${{ secrets.SSH_PORT }}" -o StrictHostKeyChecking=no \
+            "${{ secrets.USER }}@${{ secrets.HOST }}" \
+            "cat > '${{ secrets.REMOTE_DIR }}'/.env"
 
       - name: Deploy
-        run: ssh -i id_rsa -p "${{ secrets.SSH_PORT }}" -o StrictHostKeyChecking=no \
-             ${{ secrets.USER }}@${{ secrets.HOST }} \
-             "cd ${{ secrets.REMOTE_DIR }} && export COMPOSE_PROJECT_NAME='${{ secrets.PROJECT_NAME }}' && docker compose pull && docker compose up -d --remove-orphans"
+        run: |
+          ssh -i id_rsa -p "${{ secrets.SSH_PORT }}" -o StrictHostKeyChecking=no \
+            "${{ secrets.USER }}@${{ secrets.HOST }}" \
+            "cd '${{ secrets.REMOTE_DIR }}' && export COMPOSE_PROJECT_NAME='${{ secrets.PROJECT_NAME }}' && docker compose pull && docker compose up -d --remove-orphans"
