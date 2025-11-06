@@ -4,3 +4,7 @@
 
 # Windows MOTW
 *.Zone.Identifier
+
+# Windows MOTW (Mark-of-the-Web)
+*.Zone.Identifier
+*:Zone.Identifier
